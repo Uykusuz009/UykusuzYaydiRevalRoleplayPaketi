@@ -1,0 +1,92 @@
+<meta>
+	<download_priority_group>-30</download_priority_group>
+
+	<script type="server" src="sourceS.lua" />
+	<script type="client" src="sourceC.lua" cache="false"/>
+
+
+	<min_mta_version client="1.5.7" server="1.5.7" />
+
+	<file src="files/Rubik.ttf" />
+
+	<file src="files/close.png" />
+	<file src="files/arrow.png" />
+	<file src="files/star.png" />
+	<file src="files/starfull.png" />
+	<file src="files/circle.png" />
+	<file src="files/stop.png" />
+	<file src="files/tri.png" />
+
+	<file src="files/category.mp3" />
+	<file src="files/select.mp3" />
+	<file src="files/hover.mp3" />
+
+	<file src="files/custom/bather.ifp" />
+	<file src="files/custom/clap1_tran_gtup.ifp" />
+	<file src="files/custom/clap2_tran_hng.ifp" />
+	<file src="files/custom/cSitnWait_loop_W.ifp" />
+	<file src="files/custom/Dbd_clap.ifp" />
+	<file src="files/custom/Dbd_clap1.ifp" />
+	<file src="files/custom/DDAN_Down_A.ifp" />
+	<file src="files/custom/DDAN_Left_A.ifp" />
+	<file src="files/custom/DDAN_Loop_A.ifp" />
+	<file src="files/custom/DDAN_Right_A.ifp" />
+	<file src="files/custom/DDAN_Up_A.ifp" />
+	<file src="files/custom/Ddance_loop.ifp" />
+	<file src="files/custom/Ddnce_M_a.ifp" />
+	<file src="files/custom/Ddnce_M_b.ifp" />
+	<file src="files/custom/Ddnce_M_e.ifp" />
+	<file src="files/custom/FARM2BARman_idle.ifp" />
+	<file src="files/custom/FARM2SitnWait_loop_W.ifp" />
+	<file src="files/custom/FARMBARman_idle.ifp" />
+	<file src="files/custom/FARMSitnWait_loop_W.ifp" />
+	<file src="files/custom/fekves.ifp" />
+	<file src="files/custom/FP2bather.ifp" />
+	<file src="files/custom/FP2ParkSit_M_loop.ifp" />
+	<file src="files/custom/FP3bather.ifp" />
+	<file src="files/custom/FP4bather.ifp" />
+	<file src="files/custom/FP5bather.ifp" />
+	<file src="files/custom/FPbather.ifp" />
+	<file src="files/custom/FPCoplook_in.ifp" />
+	<file src="files/custom/FPCoplook_loop.ifp" />
+	<file src="files/custom/FPGun_stand.ifp" />
+	<file src="files/custom/FPParkSit_M_loop.ifp" />
+	<file src="files/custom/fSitnWait_loop_W.ifp" />
+	<file src="files/custom/gum_eat.ifp" />
+	<file src="files/custom/Gun_stand.ifp" />
+	<file src="files/custom/Gun_stand_2.ifp" />
+	<file src="files/custom/Gun_stand_3.ifp" />
+	<file src="files/custom/Gun_stand_4.ifp" />
+	<file src="files/custom/Hcrckidle4.ifp" />
+	<file src="files/custom/HCS_Dead_Guy.ifp" />
+	<file src="files/custom/jobb_2.ifp" />
+	<file src="files/custom/jobb_3.ifp" />
+	<file src="files/custom/Lay_Bac_Loop.ifp" />
+	<file src="files/custom/Lcamcrch_cmon.ifp" />
+	<file src="files/custom/leanIDLE.ifp" />
+	<file src="files/custom/LOU.ifp" />
+	<file src="files/custom/noifekv.ifp" />
+	<file src="files/custom/ParkSit_M_loop.ifp" />
+	<file src="files/custom/ParkSit_W_loop.ifp" />
+	<file src="files/custom/Rcolt45_fire_2hands.ifp" />
+	<file src="files/custom/Rfallfront_csplay.ifp" />
+	<file src="files/custom/Rfallfrontloop_cs9mm-1.ifp" />
+	<file src="files/custom/Rhandsup.ifp" />
+	<file src="files/custom/rSitnWait_loop_W.ifp" />
+	<file src="files/custom/Rtarkonhandsup_cower.ifp" />
+	<file src="files/custom/Rtisztelges_gsign5LH.ifp" />
+	<file src="files/custom/S2SitnWait_loop_W.ifp" />
+	<file src="files/custom/S3SitnWait_loop_W.ifp" />
+	<file src="files/custom/Scrckdeth2.ifp" />
+	<file src="files/custom/SEcrckidle1.ifp" />
+	<file src="files/custom/SEcrckidle2.ifp" />
+	<file src="files/custom/SEcrckidle3.ifp" />
+	<file src="files/custom/SEcrckidle4.ifp" />
+	<file src="files/custom/SitnWait_loop_W.ifp" />
+	<file src="files/custom/SSitnWait_loop_W.ifp" />
+	<file src="files/custom/tricking.ifp" />
+	<file src="files/custom/bal_hatso_1.ifp" />
+	<file src="files/custom/bal_hatso_2.ifp" />
+	<file src="files/custom/bal_elso_2.ifp" />
+	<file src="files/custom/bal_elso_3.ifp" />		
+</meta>

@@ -1,0 +1,19 @@
+<meta>
+	<info author="Kakashi Spoiler Pack" version="0.1" type="script" />
+
+<script src="replace.lua" type="client" cache="false" />
+
+<file src="1.dff" />
+<file src="2.dff" />
+<file src="3.dff" />
+<file src="4.dff" />
+<file src="5.dff" />
+<file src="6.dff" />
+<file src="7.dff" />
+<file src="8.dff" />
+<file src="9.dff" />
+<file src="10.dff" />
+<file src="spoilers.txd" />
+
+
+</meta>

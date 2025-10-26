@@ -1,0 +1,110 @@
+<meta>
+    <oop>true</oop>
+
+    <script src = "sourceC_v4.lua" type = "client" cache = "false" />
+    <script src = "backgroundC.lua" type = "client" cache = "false" />
+    <script src = "buttonC.lua" type = "client" cache = "false" />
+    <script src = "checkboxC.lua" type = "client" cache = "false" />
+    <script src = "errorG.lua" type = "client" cache = "false" />
+    <script src = "fontawesomeC.lua" type = "client" cache = "false" />
+    <script src = "fontC.lua" type = "client" cache = "false" />
+    <script src = "inputC.lua" type = "client" cache = "false" />
+    <script src = "labelC.lua" type = "client" cache = "false" />
+    <script src = "logoC_v4.lua" type = "client" cache = "false" />
+    <script src = "sliderC.lua" type = "client" cache = "false" />
+    <script src = "toggleC.lua" type = "client" cache = "false" />
+    <script src = "windowC.lua" type = "client" cache = "false" />
+	
+	<file src = "cursor/link.dds" />
+	<file src = "cursor/minus.dds" />
+	<file src = "cursor/move.dds" />
+	<file src = "cursor/normal.dds" />
+	<file src = "cursor/plus.dds" />
+	<file src = "cursor/resize1.dds" />
+	<file src = "cursor/resize2.dds" />
+	<file src = "cursor/resize3.dds" />
+	<file src = "cursor/resize4.dds" />
+	<file src = "cursor/wrench.dds" />
+	
+	<file src = "fa/icons.json" />
+	<file src = "fa/brands.otf" /> <file src = "fa/duotone.otf" />
+	<file src = "fa/light.otf" /> <file src = "fa/regular.otf" /> <file src = "fa/solid.otf" />	
+
+	<file src = "files/duty.dds" /> 
+	<file src = "files/e.dds" /> 
+	<file src = "files/glow.dds" /> 
+	<file src = "files/glowside.dds" /> 
+	<file src = "files/i.dds" /> 
+	<file src = "files/infocircle.dds" /> 
+	<file src = "files/s.dds" /> 
+	<file src = "files/vignette.dds" /> 
+	<file src = "files/w.dds" /> 
+	<file src = "files/paper.jpg" /> <file src = "files/paste.html" />
+	
+	<file src = "fonts/BebasNeueBold.otf" />
+	<file src = "fonts/BebasNeueLight.otf" />
+	<file src = "fonts/BebasNeueRegular.otf" />
+	<file src = "fonts/IckyticketMono-nKpJ.ttf" />
+	<file src = "fonts/Impact.ttf" />
+	<file src = "fonts/Pixellari.ttf" />
+	<file src = "fonts/Roboto.ttf" />
+	<file src = "fonts/SweetSixteen.ttf" />
+	<file src = "fonts/Ubuntu-B.ttf" />
+	<file src = "fonts/Ubuntu-L.ttf" />
+	<file src = "fonts/Ubuntu-LI.ttf" />
+	<file src = "fonts/Ubuntu-R.ttf" />
+	<file src = "fonts/W95FA.otf" />
+	
+	<file src = "sounds/asay.wav" />
+	<file src = "sounds/click1.wav" />
+	<file src = "sounds/click2.wav" />
+	<file src = "sounds/click3.wav" />
+	<file src = "sounds/duty.wav" />
+	<file src = "sounds/error.wav" />
+	<file src = "sounds/h1.wav" />
+	<file src = "sounds/h2.wav" />
+	<file src = "sounds/h3.wav" />
+	<file src = "sounds/h4.wav" />
+	<file src = "sounds/hover.wav" />
+	<file src = "sounds/noti.wav" />
+	<file src = "sounds/offduty.wav" />
+	<file src = "sounds/selectdone.wav" />
+	<file src = "sounds/success.wav" />
+	<file src = "sounds/warning.wav" />
+	
+	<file src = "logo/v4/0.dds" />
+	<file src = "logo/v4/1.dds" />
+	<file src = "logo/v4/2.dds" />
+	<file src = "logo/v4/3.dds" />
+	<file src = "logo/v4/4.dds" />
+	
+	<export function = "getColorCode" type = "client" />
+	<export function = "getFaTicks" type = "client" />
+	<export function = "getColorCodeToColor" type = "client" />
+	<export function = "getFaIconFilename" type = "client" />
+	<export function = "getFont" type = "client" />
+	<export function = "getFontScale" type = "client" />
+	<export function = "getFontHeight" type = "client" />
+	<export function = "getTextWidthFont" type = "client" />	
+	<export function = "getGradientFilename" type = "client" />	
+	<export function = "cacheGradient" type = "client" />	
+	<export function = "fadeOut" type = "client" />	
+	<export function = "fadeIn" type = "client" />	
+	<export function = "lockHover" type = "client" />	
+	<export function = "setLabelText" type = "client" />	
+	<export function = "setGuiHoverable" type = "client" />	
+	<export function = "guiToFront" type = "client" />	
+	<export function = "setGuiPositionAnimated" type = "client" />	
+	<export function = "setGuiSizeAnimated" type = "client" />	
+	<export function = "setGuiHover" type = "client" />	
+	<export function = "setGuiBackground" type = "client" />	
+	<export function = "createGuiElement" type = "client" />	
+	<export function = "setImageFile" type = "client" />	
+	<export function = "deleteGuiElement" type = "client" />	
+	<export function = "getGuiPosition" type = "client" />	
+	<export function = "getGuiSize" type = "client" />	
+	<export function = "showTooltip" type = "client" />	
+	<export function = "setCursorType" type = "client" />	
+		
+	<min_mta_version client="1.3.0-9.04431" />
+</meta>

@@ -1,0 +1,12 @@
+<meta>
+	<script src='escortC.lua' type='client' cache='false'/>
+	<script src='escorts.lua' type='server'/>
+	
+	<file src='background.png'/>
+
+	<file src='blowjob.mp3'/>
+	<file src='sex1.mp3'/>
+	<file src='sex2.wav'/>
+
+	<oop>true</oop>
+</meta>

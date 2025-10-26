@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+
+	
+
+	<script src="server.lua" type="server" />
+    <script src="client1.lua" type="client" cache="false" />
+
+	<export function="havaDurumuKontrolEt" type="server" />
+</meta>

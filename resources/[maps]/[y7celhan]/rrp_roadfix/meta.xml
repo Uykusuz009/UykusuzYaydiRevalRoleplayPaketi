@@ -1,0 +1,43 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+
+    <script src="replace.lua" type="client" cache="false" />
+	<script src="fixroad-lod.lua" type="server" />
+	
+	<file src="6118.dff" />
+	<file src="6118.col" />
+	<file src="6116.dff" />
+	<file src="6116.col" />
+	<file src="6309.dff" />
+	<file src="6309.col" />
+	<file src="6310.dff" />
+	<file src="6310.col" />
+	<file src="6127.dff" />
+	<file src="6127.col" />
+	<file src="6122.dff" />
+	<file src="6122.col" />
+	<file src="13752.dff" />
+	<file src="13752.col" />
+	<file src="5124.dff" />
+	<file src="5124.col" />
+	<file src="4846.dff" />
+	<file src="4846.col" />
+	<file src="4831.dff" />
+	<file src="4831.col" />
+	<file src="5036.dff" />
+	<file src="5036.col" />
+	<file src="5489.dff" />
+	<file src="5750.dff" />
+	<file src="6508.dff" />
+	<file src="4108.col" />
+	<file src="4108.dff" />
+	<file src="5021.col" />
+    <file src="9529.col" />
+	
+    <map src="fixroad-map.map" dimension="0"></map>
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+</meta>

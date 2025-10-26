@@ -1,0 +1,10 @@
+<meta>
+	<info author="Pavlov" description="Maden Sistemi" version="1" type="script" />
+	 <script src="altin.lua" type="server" />
+	 <script src="bakir.lua" type="server" />
+	 <script src="kuyumcu.lua" type="server" />
+	 <script src="demir.lua" type="server" />
+	 <script src="komur.lua" type="server" />
+	 <script src="elmas.lua" type="server" />
+
+</meta>

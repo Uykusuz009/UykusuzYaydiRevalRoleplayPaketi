@@ -1,0 +1,7 @@
+<meta>
+	<info author='PandaBey'/>
+	<script src='client.lua' type='client' cache='false' />
+	<script src='server.lua' type='server' />
+	<script src='shared.lua' type='shared' cache='false' />
+	<oop>true</oop>
+</meta>

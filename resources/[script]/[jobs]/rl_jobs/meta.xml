@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+
+	<oop>true</oop>
+	
+	<script src="shared.lua" type="shared" />
+	<script src="create.lua" type="server" />
+
+	<script src="cargo/client1.lua" type="client" cache="false" />
+	<script src="cargo/server.lua" type="server" />
+
+	<script src="cleaner/client1.lua" type="client" cache="false" />
+	<script src="cleaner/server.lua" type="server" />
+	<file src="cleaner/components/broom.txd" />
+	<file src="cleaner/components/broom.dff" />
+	
+	<map src="fishing/balik-system-map/balik-system-map.map" dimension="0" />
+    <script src="fishing/balik-system-map/mapEditorScriptingExtension_s.lua" type="server" />
+    <script src="fishing/balik-system-map/mapEditorScriptingExtension_c.lua" type="client" validate="false" />
+	<script src="fishing/s_fishing_job.lua" type="server" />
+
+	<script src="mechanic/s_mechanic_job.lua" type="server" />
+	<script src="mechanic/s_mechanic_previews.lua" type="server" />
+	<script src="mechanic/c_mechanic_job.lua" type="client" />
+
+	<script src="taximeter/g_taximeter.lua" type="server" />
+	<script src="taximeter/g_taximeter.lua" type="client" cache="false" />
+	<script src="taximeter/s_taximeter.lua" type="server" />
+	<script src="taximeter/c_taximeter.lua" type="client" cache="false" />	
+	<file src="taximeter/images/base_driver.png" />
+	<file src="taximeter/images/base_pax.png" />
+	<file src="taximeter/images/btn.png" />
+	<file src="taximeter/images/btn_on.png" />
+	<file src="taximeter/images/btn_active.png" />
+
+	<script src="tree/client1.lua" type="client" cache="false" />
+	<script src="tree/shared.lua" type="shared" />
+	<script src="tree/server.lua" type="server" />
+	<file src="tree/components/axe.txd" />
+	<file src="tree/components/axe.dff" />
+	
+	<script src="tup_dagitim/tupcuC.lua" type="client" protected="true" />
+	<script src="tup_dagitim/tupcuS.lua" type="server" protected="true" />
+
+	<script src="yumurta_dagitim/yumurtaC.lua" type="client" protected="true" />
+	<script src="yumurta_dagitim/yumurtaS.lua" type="server" protected="true" />
+	
+	<script src="koli_tasimaci/koliC.lua" type="client" protected="true" />
+	<script src="koli_tasimaci/koliS.lua" type="server" protected="true" />
+
+	<script src="pizza_dagitim/pizzaC.lua" type="client" protected="true" />
+	<script src="pizza_dagitim/pizzaS.lua" type="server" protected="true" />
+
+	<script src="sarap_kacakci/sarapC.lua" type="client" protected="true" />
+	<script src="sarap_kacakci/sarapS.lua" type="server" protected="true" />
+	
+	<script src="dolmus/dolmusC.lua" type="client" protected="true" />
+	<script src="dolmus/dolmusS.lua" type="server" protected="true" />
+
+	<script src="tavuk_dagitim/tavukC.lua" type="client" protected="true" />
+	<script src="tavuk_dagitim/tavukS.lua" type="server" protected="true" />
+	
+	<script src="copcu/copcuC.lua" type="client" protected="true" />
+	<script src="copcu/copcuS.lua" type="server" protected="true" />
+	
+	<script src="job_vehs/tree.lua" type="server" protected="true" />
+	<script src="job_vehs/yumurta.lua" type="server" protected="true" />
+	<script src="job_vehs/sarap.lua" type="server" protected="true" />
+	<script src="job_vehs/copcu.lua" type="server" protected="true" />
+	<script src="job_vehs/dolmus.lua" type="server" protected="true" />
+	
+	<export function="getJobTitleFromID" type="server" />
+	<export function="getJobTitleFromID" type="client" />
+	
+</meta>

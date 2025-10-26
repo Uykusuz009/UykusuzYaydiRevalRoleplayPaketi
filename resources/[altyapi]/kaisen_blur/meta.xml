@@ -1,0 +1,10 @@
+<meta>
+	<oop>true</oop>
+	<file src = "files/blurH.fx"/>
+	<file src = "files/blurV.fx"/>
+	<file src = "files/mta-helper.fx"/>
+
+    <script src = "functions/bluredRectangle.lua" type = "client" cache = "false" />
+    <export function = "bluredRectangle" type = "client" />
+
+</meta>

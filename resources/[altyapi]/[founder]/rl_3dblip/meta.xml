@@ -1,0 +1,20 @@
+<meta>
+    <!--
+	
+		@author:ventura
+		@description:3dblipsystem
+		
+	-->
+
+	
+    <script src="client.lua" type="client" cache="false" />
+	<file src="Blips/01.png"/>
+	<file src="Blips/06.png"/>
+	<file src="Blips/07.png"/>
+	<export function="createBlip3D" type="client" />
+	<export function="destroyBlip3D" type="client" />
+	
+  
+    <oop>true</oop>
+    <min_mta_version server="1.3.4-0.00000" client="1.3.4-0.00000"></min_mta_version>
+</meta>

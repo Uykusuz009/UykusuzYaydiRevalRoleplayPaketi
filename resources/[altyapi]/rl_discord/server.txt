@@ -1,0 +1,491 @@
+Webhooks = {
+	--> Staff Webhooks
+	["joinquit-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1411409489512370359/fS8sBv1k4JGyeiHqYkKls4u9HvMeOkASyCCNs3YrulR0447RTPOQnYBeWLM2y3PNPnbX",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["uchat-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1411409722401230889/Hzvzmce7et_0pkzvMAO1obkHvgW2jpmbzFtSpZwTe6VHTuqmriNsDRQv-rBiQGfae8j4",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["achat-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404948138753527818/D-Q2jzKPPaGyM6V5K4dvF-pIWIaJQw00TmKNeIskqZPUQf1BRgBZ1hHu1NnrZr0QyPna",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["gchat-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404948260463972446/rwkalzZfPZ2kA_hwyRguABdxEU0mSFXsqSWHAMCrDGX0CcFCSe8_kDLr8gm6llX1U_6m",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["goto-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404948391137382441/TAWdxlWvRHsA5NQQ6b8H841zdIiRW0puKOnA92eM4MCKIHOngHzBQThM740PAsfFG5nQ",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["gethere-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404950608464842812/N_MvEEFnk6R3hFqCiMcmhA6rYSNe9ZB8aeLlAVEikIMbM-Xb7VP_rwqCSqvS00SVciem",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["aheal-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404953398079656046/BfoeNM0ie2n8LSmIvC8EPAIglXS0S_sNR793D-Gv2eFyNEQt7Ph24f1tnt5A-8oVL670",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["sethp-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404953566577168468/3ceiRx4koVv4hNtz6nBDfSKpeipKmS_fwgpBfsWL5tf-Gjrf01JTQaTHwe1axiErweWW",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["setarmor-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404953617336897567/CWHEGMpCN2Jhca9bQlebbbHcqeVYFvFfIAj3XasmIvrczZg_--2C52sT0YN20YEbhfsz",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["makegun-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404953702518755542/p8ifjuz0xH8cTaILUFf6q7oLXJhDwn22zgSxYGaQSoP_EEEkHf3AxUk4bxW4R_HrFCeL",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["makeammo-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404953751139123423/e9-0osdE95aC9_8_AI3szPD7UglNkh0-e5CqhHonlLitykZlS-WmZ2Lxg8SNQ3Jj6vWK",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["disarm-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404953810757095445/eN5twAt5mcxpDQa0Cs3XA65LnJO6hEQeeCGx1mUEQxuPJhBWsHzmC53kR9gr8JbM1BEA",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["disappear-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404953869057921034/IuO5vVm5ZlOLj8wmtr1Uu9eOED500Dy3fZBiBTqMLRFRFm7k3XW0Q3xomJIX75ayA7bu",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["paraver-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404953946807861348/pb5aPvrFZjpqKFAKB7ehceO3ANf0aZT1Kjme2XSL1flXOLLzFRr8ExQ5SKilgOadGee4",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["kick-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954015816745153/-j4iV0TxRwENIJL8o7PDDO6KCo1x8c8kfLAiLpijscp2BYHT9dbc6meEkegleveu-a5w",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["freconnect-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954067762942013/9ok-H99c6UazCKC2jYsI7hKEkcPxTKS9eMqCvAH_ni00RHbabfwJ2G5MgDO9tflZUkya",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["revive-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954122758914088/ZAIADKNMaFDwTBKxpQfWoXmyyGnRmHzsggJ1gzcem__vzo0m32GZQaXsJb7QaM1-eqzr",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["delveh-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954179906174996/HuYiheSzGLxOtbHjwHz5hnopJPsPNJc8DnkbNquLgRDUxLDWEYc06dEwBuZtgyhlC66B",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["fixveh-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954255487668377/whAaWmJo-a-utKlvMhELX0MQqQHPjFKtT4Yvwu978ZQHA--VeIVQCR7-OtgMyw9w79yS",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["getcar-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954325209583667/S47lBlBX5m05yVn1G9WfnE3jWNF_OTaw6bJgObk5AshrucjByapN2LBlOMwwl8dPbm2m",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["makeveh-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954388627456162/tXdW3Oc6sp2hWui0N1DaC1DvJgblX0TExCPdtsM20ck9aOmd7R1InSK-LXjy6i_jaQRd",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["restoreveh-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954459330580652/iyPlETYR5r_mjgEOMDSgdUiGyrjqRNG8f86foL2RFF8pYR2IEETfYSCeDgurKeF8KOLZ",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["slap-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954506856497285/SBKrinDO_Rh_dqC3PMYPut_EBZazrjvV2SCXSm6LqbJWEvjlVBJiIGs5V8srFZMTiUFh",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["ban-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954565232562217/odtBRACVM_eSlulDpohv4TNPnxw4hYNAMslo95v97pNo6Qto6zEWVK97cUtzii7gsINW",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["jail-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954629266997328/Wh-6Yh3CMJQJG9BAfymxFN5e3VrYu3aELubcThySs7Z0gdF4_exS3nFIVsL_UoXInKRw",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["recon-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954702264795290/UD_HwxXFV3y2w-_gDFsMrHbyTa5HYnbScSIZzbLek8iloyhLNGTVoURuAL4zTRoJOmS_",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["givemoney-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954764080451727/TXDrhC8aLmmlcMZosVPGC0KfNKOMrKbJP-yZ90EGUDlkxqoGZJTtuMw7sxVBUS9ENt7a",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["loginto-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954811622887566/uhkDa8uEycZEA0oEallqJTnPN8-95Q-ec3-GkzvDs75O_UM1qVr-P_h6gyx8UcctYQ8q",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["gotoplace-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954882733117551/czMBwq5AWavqnLuFBz2E910WdLhtFFoqL4or7F1zozr2f2D2akaxDvEm4tupU_naSBZb",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["changename-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954933291258011/ji_ekMrGAfLGbrkBVDygUJzDa9m1QWHtCfB5PKg3pgWBiCBhTQtRPuSPxkBsDv7InbWX",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["oocchat-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404954986324168734/HxitvPGyNRY3MLgCBI4z6wSxv4wiKlN1hp4n14bLufR6DCDUX37QXtI1FpRCEVYs7jgK",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["item-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955056004137011/oxh3ZmI3lJAUtEUfjXcQj11w7iwSI4GQs7ysU2KGfgwuT7YKoNlzJDOVQs5x7LRewXTH",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["giveitem-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955124320698388/hrwUTo9qAG0zrm2ie9liCyyI0WAnTpV2aICH2bktgyn8aWjN0gQAU9P5NP0Vq6AcUDLh",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["sac-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955181719879750/tgDzfg0SsL4tVQP9fvP6b6RNrpcWW0-jiHcTg86tBUwwjqCoYuA59j1rVziyu168Wm1A",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["shop-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955266247688245/GHNPblL3HCifQCq39hK8eKr49X7Nkqy7lgQsSmX_tBzIg6kpgScOQdaqPwIHlfqcvS5i",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["me-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955318987001938/h8w_qtdG6TjqCZKPjGrC3IM-kd2leNAXhcuqLrPPzds1AcES0xZcsyPF8cpHTmX1TYnI",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["temizle-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955383159722125/DCERlOXeq68DIEL-VkjGHZD32uJydlhjIy7Msb_HGzpHwFp-KNYmqJmqKhhvyiK_TPbl",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["etiket-log"] = {
+		link = "https://discord.com/api/webhooks/1400872915637113013/sjMGMPHw85t_tokauLFkpGF8pLPBrgyCiKIkAtkmU_cvS6YUczWrLazm6WaiMI0GV8KE",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["kutudagit-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955447919771678/ywKImsRkQ0B4E-ygVQ1xqoJm14rytLt5JnK42gE4YT_4SOg_F7bXZqOwQt19yfl7bKlJ",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["getkey-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955513703235664/JZH4EeYRGbT5SOYSAiWZizxXn2zFxERXdHAw8prMaMr33pTrkEv5sCE5s_8K-v_3Oy4G",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["paradagit-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955566073319518/_tHdBgSMJv_GEr-GzoYvVBiBRDxeAAWFfNtloWS72fnR6uN2ynty7rhFNqBZ_JeZJ8bn",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["market-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955624625799220/DnmPgK9ubNXNSorfgxLXA3twksYsAw3KjA04VfnzwaKLkgzPb-vvmB6EWgZ-undpEvj8",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["kumar-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955678874796122/odkrqawDGKpFfbYLLRNExdSG4Wk1DQJgqVndLbutAoGHrNpPhAjhHSPoI6AN4kdqd_9z",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["epin-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955750786400266/Zm9ZyN8E8n9U1CJ6YtMPe4hmjsfd1hQkR4Ye0SKOpPEz7kvM-933M-3nkDtElJm6G5AS",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["kill-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955810290733248/IT9mgo-O1cMN8TZHu6CMn0ou4Q2PDy7Psarys4fHnAy4_9XDON16Ug9SOquTI75YNs-E",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["vip-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955866012057600/BqjxiRjFw0fkmSBhBDUqVJlCo7vuZdQDpUTqBLlAxoERfhnLeSMWPgZSpRRJfKM-itNz",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["sehre-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955920890335252/WyUuYK0QNk7zoA1oHE3mB3c8qTfMbj3Jl-29Loui6CLFtNcKytsFr2ufP5aqp2KGut_e",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["silahsat-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404955987588415558/BvTfq-cNCD6puQ08OP_I7lXPpr5L_C1X57VfCsR7L4ojtmRMxZ-OOTrUYgT5A9tMJ1f_",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["editveh-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404956096715821267/Os7I10gjOY2Il1lekwaAGE2901x2ht_ZfFMaSf-9uYma9Y5i1pydSwkpiTaqYHFtyNyi",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["debug"] = {
+		link = "https://canary.discord.com/api/webhooks/1406268417790447677/13JwGdUu0j9sNzfP5l64HkmbK-zwjvlCTPCZE5-6f7KHHjyutreB6sAH9a0Jk6wEXkzd",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["yetki-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404956144824488037/e-Pn6mb-71CZavdY7PdZmvN2zDHRxMrZqkogQk4LNH7fV_c7VYLzutATDXrMn-IC4bBY",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["pass-log"] = {
+		link = "https://discord.com/api/webhooks/1400871817098559488/kM0k_QLZc8UVljZZjSYnnGL9ML-XTukjWnybk2CUa5I1Th2Dxtn736AWd2klC7f-Gi79",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["changeusername-log"] = {
+		link = "https://discord.com/api/webhooks/1260225442191773840/9O8i-FbveEQLBlvaw4vRHAeT6a79k7tFnCfRPTibwphDG6wj4Rkiwvq8s5UkVhCQctLA",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["changepassword-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404956203985014824/UMaTSKiYzuI8sz7u6LcqnVPnMVrj0aQHnTZ_GDGD9wIOdo1ycCROJwNwzNx-LkOcNr-o",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["changeserial-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404956318686642257/BAK8yh1xAmQnd4KMFcQq5FASDi_vNVfhaXn7O62_M2Ic5UVOOt63GNHvm84b1HAAwjyD",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["lotto"] = {
+		link = "https://discord.com/api/webhooks/1389381925105438811/717RklmaiiDyS04fzq1VFVWEXdTWW6PparJKwGuqq5dgN3iRSSRguhrAkPtzf5Y4LPBr",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["twitter-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404956370880565329/weIx66Kw-h1q0mAkfC2tbshzgKHErMd5OB7VmegS_cqlfh81hkwnW8ghsdqxMwJVZlwj",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	["dupontver-log"] = {
+		link = "https://canary.discord.com/api/webhooks/1404956432478240818/mGFnGTvZ5tyt35yxTsECwVlX2cjHizLG3zIyUMND5ibMRA_bs2nyIz4JjPAi5kV0JhRx",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay"
+	},
+	
+	--> Public Webhooks
+	["turf"] = {
+		link = "https://discord.com/api/webhooks/1389365910728343746/dxg9GyUap4GHXqFcQ-J6oJVHK3oUx7VfwdrIYYa4xFxCWR4QcSaS0Id9pBbWski3l-vp",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay",
+		public = true
+	},	
+	["gac"] = {
+		link = "https://canary.discord.com/api/webhooks/1411056398514782300/0O1w4wQu47TQ3zIVoqH2RAkKrZApaEootQmA4cBwgUVfVrpYxhidOFZDKhw5MyvVEBtA",
+		avatar = "https://imgur.com/a/Igxp2NA",
+		username = "Reval Roleplay",
+		public = true
+	},
+}
+
+WebhookList = {}
+WebhookDebug = false
+
+WebhookClass = setmetatable({
+    constructor = function(self, args)
+        self.username = Webhooks[args].username
+        self.link = Webhooks[args].link
+        self.avatar = Webhooks[args].avatar
+
+        if WebhookDebug then
+            outputConsole("[Webhook] Created channel '" .. args .. "'")
+        end
+
+        return self
+    end,
+
+    send = function(self, message)
+		local time = getRealTime()
+		local year = time.year + 1900
+		local month = time.month + 1
+		local day = time.monthday
+		local hour = time.hour
+		local minute = time.minute
+		local second = time.second
+		local currentDatetime = string.format("%04d-%02d-%02d %02d:%02d:%02d", year, month, day, hour, minute, second)
+	
+        local sendOptions = {
+            connectionAttempts = 3,
+            connectTimeout = 5000,
+            formFields = {
+                content = ((self.public or false) and "" or "[" .. currentDatetime .. "] ") .. message:gsub("@everyone", ""):gsub("@here", ""),
+                username = self.username,
+                avatar_url = self.avatar,
+            }
+        }
+
+        fetchRemote(self.link, sendOptions, function(responseData)
+            if WebhookDebug then
+                outputConsole("[Webhook] " .. responseData)
+            end
+        end)
+    end
+}, {
+    __call = function(cls, ...)
+        local self = {}
+        setmetatable(self, { __index = cls })
+        self:constructor(...)
+        return self
+    end
+})
+
+addEventHandler("onResourceStart", resourceRoot, function()
+    for name, data in pairs(Webhooks) do
+        WebhookList[name] = WebhookClass(name)
+    end
+end)
+
+function sendMessage(channel, message)
+    if WebhookList[channel] then
+        WebhookList[channel]:send(message)
+        if WebhookDebug then
+            outputConsole("[Webhook] Send message '" .. message .. "' from '" .. channel .. "' channel.")
+        end
+    else
+        outputConsole("[Webhook] Couldn't find the Discord Webhook Channel. (" .. channel .. ")")
+    end
+end
+
+WebhookList = {}
+WebhookDebug = false
+
+WebhookClass = setmetatable({
+    constructor = function(self, args)
+        self.username = Webhooks[args].username
+        self.link = Webhooks[args].link
+        self.avatar = Webhooks[args].avatar
+
+        if WebhookDebug then
+            outputConsole("[Webhook] Created channel '" .. args .. "'")
+        end
+
+        return self
+    end,
+
+    send = function(self, message)
+        local sendOptions = {
+            connectionAttempts = 3,
+            connectTimeout = 5000,
+            formFields = {
+                content = message:gsub("#%x%x%x%x%x%x", ""),
+                username = self.username,
+                avatar_url = self.avatar,
+            }
+        }
+
+        fetchRemote(self.link, sendOptions, function(responseData)
+            if WebhookDebug then
+                outputConsole("[Webhook] " .. responseData)
+            end
+        end)
+    end
+}, {
+    __call = function(cls, ...)
+        local self = {}
+        setmetatable(self, { __index = cls })
+        self:constructor(...)
+        return self
+    end
+})
+
+addEventHandler("onResourceStart", resourceRoot, function()
+    for name, data in pairs(Webhooks) do
+        WebhookList[name] = WebhookClass(name)
+    end
+end)
+
+function sendMessage(channel, message)
+    if WebhookList[channel] then
+        WebhookList[channel]:send(message)
+        if WebhookDebug then
+            outputConsole("[Webhook] Send message '" .. message .. "' from '" .. channel .. "' channel.")
+        end
+    else
+        outputConsole("[Webhook] Couldn't find the Discord Webhook Channel.")
+    end
+end

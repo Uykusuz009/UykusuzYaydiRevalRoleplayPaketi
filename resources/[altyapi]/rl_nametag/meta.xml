@@ -1,0 +1,186 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+    <download_priority_group>995</download_priority_group>
+
+    <script src="client/nametag.lua" type="client" cache="false" />
+	
+    <script src="server/server.lua" type="server" />
+    
+    <file src="public/images/booster.png" />
+    <file src="public/images/cigarette.png" />
+    <file src="public/images/dm_plus.png" />
+    <file src="public/images/duty.png" />
+    <file src="public/images/handcuffs.png" />
+    <file src="public/images/microphone.png" />
+    <file src="public/images/seatbelt.png" />
+    <file src="public/images/window.png" />
+    <file src="public/images/writing.png" />
+    <file src="public/images/youtuber.png" />
+    <file src="public/images/blindfold.png" />	
+    <file src="public/images/rk.png" />	
+
+	<file src="public/images/country/0.png" />
+    <file src="public/images/country/-0.png" />
+    <file src="public/images/country/1.png" />
+    <file src="public/images/country/-1.png" />
+    <file src="public/images/country/2.png" />
+    <file src="public/images/country/-2.png" />
+    <file src="public/images/country/3.png" />
+    <file src="public/images/country/-3.png" />
+    <file src="public/images/country/4.png" />
+    <file src="public/images/country/-4.png" />
+    <file src="public/images/country/5.png" />
+    <file src="public/images/country/-5.png" />
+    <file src="public/images/country/6.png" />
+    <file src="public/images/country/-6.png" />
+    <file src="public/images/country/7.png" />
+    <file src="public/images/country/-7.png" />
+    <file src="public/images/country/8.png" />
+    <file src="public/images/country/-8.png" />
+    <file src="public/images/country/9.png" />
+    <file src="public/images/country/-9.png" />
+    <file src="public/images/country/10.png" />
+    <file src="public/images/country/-10.png" />
+    <file src="public/images/country/11.png" />
+    <file src="public/images/country/-11.png" />
+    <file src="public/images/country/12.png" />
+    <file src="public/images/country/-12.png" />
+    <file src="public/images/country/13.png" />
+    <file src="public/images/country/-13.png" />
+    <file src="public/images/country/14.png" />
+    <file src="public/images/country/-14.png" />
+    <file src="public/images/country/15.png" />
+    <file src="public/images/country/-15.png" />
+    <file src="public/images/country/16.png" />
+    <file src="public/images/country/-16.png" />
+    <file src="public/images/country/17.png" />
+    <file src="public/images/country/-17.png" />
+    <file src="public/images/country/18.png" />
+    <file src="public/images/country/-18.png" />
+    <file src="public/images/country/19.png" />
+    <file src="public/images/country/-19.png" />
+    <file src="public/images/country/20.png" />
+    <file src="public/images/country/-20.png" />
+    <file src="public/images/country/21.png" />
+    <file src="public/images/country/-21.png" />
+    <file src="public/images/country/22.png" />
+    <file src="public/images/country/-22.png" />
+    <file src="public/images/country/23.png" />
+    <file src="public/images/country/-23.png" />
+    <file src="public/images/country/24.png" />
+    <file src="public/images/country/-24.png" />
+    <file src="public/images/country/25.png" />
+    <file src="public/images/country/-25.png" />
+    <file src="public/images/country/26.png" />
+    <file src="public/images/country/-26.png" />
+    <file src="public/images/country/27.png" />
+    <file src="public/images/country/-27.png" />
+    <file src="public/images/country/28.png" />
+    <file src="public/images/country/-28.png" />
+    <file src="public/images/country/29.png" />
+    <file src="public/images/country/-29.png" />
+    <file src="public/images/country/30.png" />
+    <file src="public/images/country/-30.png" />
+    <file src="public/images/country/31.png" />
+    <file src="public/images/country/-31.png" />
+    <file src="public/images/country/32.png" />
+    <file src="public/images/country/-32.png" />
+    <file src="public/images/country/33.png" />
+    <file src="public/images/country/-33.png" />
+    <file src="public/images/country/34.png" />
+    <file src="public/images/country/-34.png" />
+    <file src="public/images/country/35.png" />
+    <file src="public/images/country/-35.png" />
+    <file src="public/images/country/36.png" />
+    <file src="public/images/country/-36.png" />
+    <file src="public/images/country/37.png" />
+    <file src="public/images/country/-37.png" />
+    <file src="public/images/country/38.png" />
+    <file src="public/images/country/-38.png" />
+    <file src="public/images/country/39.png" />
+    <file src="public/images/country/-39.png" />
+    <file src="public/images/country/40.png" />
+    <file src="public/images/country/-40.png" />
+    <file src="public/images/country/41.png" />
+    <file src="public/images/country/-41.png" />
+    <file src="public/images/country/42.png" />
+    <file src="public/images/country/-42.png" />
+    <file src="public/images/country/43.png" />
+    <file src="public/images/country/-43.png" />
+    <file src="public/images/country/44.png" />
+    <file src="public/images/country/-44.png" />
+    <file src="public/images/country/45.png" />
+    <file src="public/images/country/-45.png" />
+    <file src="public/images/country/46.png" />
+    <file src="public/images/country/-46.png" />
+    <file src="public/images/country/47.png" />
+    <file src="public/images/country/-47.png" />
+    <file src="public/images/country/48.png" />
+    <file src="public/images/country/-48.png" />
+    <file src="public/images/country/49.png" />
+    <file src="public/images/country/-49.png" />
+	
+    <file src="public/images/donater/1.png" />
+    <file src="public/images/donater/2.png" />
+    <file src="public/images/donater/3.png" />
+    <file src="public/images/donater/4.png" />
+    <file src="public/images/donater/5.png" />
+	
+    <file src="public/images/duty/1.png" />
+    <file src="public/images/duty/2.png" />
+    <file src="public/images/duty/3.png" />
+    <file src="public/images/duty/4.png" />
+    <file src="public/images/duty/5.png" />
+    <file src="public/images/duty/6.png" />
+    <file src="public/images/duty/7.png" />
+    <file src="public/images/duty/8.png" />
+    <file src="public/images/duty/9.png" />
+    <file src="public/images/duty/10.png" />
+    <file src="public/images/duty/11.png" />
+    <file src="public/images/duty/manager.png" />
+    
+    <file src="public/images/tags/1.png" />
+    <file src="public/images/tags/2.png" />
+    <file src="public/images/tags/3.png" />
+    <file src="public/images/tags/4.png" />
+    <file src="public/images/tags/5.png" />
+    <file src="public/images/tags/6.png" />
+    <file src="public/images/tags/7.png" />
+    <file src="public/images/tags/8.png" />
+    <file src="public/images/tags/9.png" />
+    <file src="public/images/tags/10.png" />
+    <file src="public/images/tags/11.png" />
+    <file src="public/images/tags/12.png" />
+    <file src="public/images/tags/13.png" />
+    <file src="public/images/tags/14.png" />
+    <file src="public/images/tags/15.png" />
+    <file src="public/images/tags/16.png" />
+    <file src="public/images/tags/17.png" />
+    <file src="public/images/tags/18.png" />
+    <file src="public/images/tags/19.png" />
+    <file src="public/images/tags/20.png" />
+    <file src="public/images/tags/21.png" />
+    <file src="public/images/tags/22.png" />
+    <file src="public/images/tags/23.png" />
+    <file src="public/images/tags/24.png" />
+    <file src="public/images/tags/25.png" />
+    <file src="public/images/tags/26.png" />
+    <file src="public/images/tags/27.png" />
+	
+	<file src="public/images/vip/1.png" />
+    <file src="public/images/vip/2.png" />
+    <file src="public/images/vip/3.png" />
+    <file src="public/images/vip/4.png" />
+    
+    <!-- Kurdele sistemi resimleri -->
+    <file src="public/images/ribbons/1.png" />
+    <file src="public/images/ribbons/2.png" />
+    <file src="public/images/ribbons/3.png" />
+    <file src="public/images/ribbons/4.png" />
+    <file src="public/images/ribbons/5.png" />
+    <file src="public/images/ribbons/6.png" />
+
+</meta>

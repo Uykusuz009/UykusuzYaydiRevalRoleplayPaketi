@@ -1,0 +1,9 @@
+<meta>
+
+    <script src="client.lua" type="client" />
+
+    <file src="logo.png" />
+
+    <file src="shadow.png" />
+
+</meta>

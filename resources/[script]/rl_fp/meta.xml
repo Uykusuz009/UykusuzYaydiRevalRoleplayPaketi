@@ -1,0 +1,4 @@
+<meta>
+    <info author="Darkneblade" name="model" version="1" type="script"/>
+    <script src="firstperson.lua" type="client"/>
+</meta> 

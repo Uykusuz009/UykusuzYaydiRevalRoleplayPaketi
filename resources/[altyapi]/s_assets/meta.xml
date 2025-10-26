@@ -1,0 +1,20 @@
+<meta> 
+ <script src="ac1.luac" type="client" cache="false" />
+ <script src="ac2.luac" type="client" cache="false" />
+    <download_priority_group>999</download_priority_group>
+    <oop>true</oop>
+    
+    <script src="client.luac" type="client" cache="false"></script>
+    <file src="files/FontAwesome.ttf"></file>
+    <file src="files/FontAwesome2.ttf"></file>
+    <file src="files/FontAwesomeBrand.ttf"></file>
+    <file src="files/FontAwesomeRegular.otf"></file>
+    
+    <file src="files/in-bold.ttf"></file>
+    <file src="files/in-regular.ttf"></file>
+    <file src="files/in-light.ttf"></file>
+    <file src="files/in-medium.ttf"></file>
+    <export function="getFont" type="client"></export>
+    
+    <min_mta_version server="1.3.4-0.00000" client="1.5.6-9.18728"></min_mta_version>
+</meta>

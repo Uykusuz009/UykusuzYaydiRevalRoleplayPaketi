@@ -1,0 +1,13 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" cache="false" />
+	
+	<file src="public/shaders/tinted_windows.fx" />
+	<file src="public/shaders/mta-helper.fx" />
+	<file src="public/shaders/texreplace.fx" />
+</meta>

@@ -1,0 +1,403 @@
+<meta>
+	<script src="___generated___/checker.lua" type="client" cache="false"/>
+	<script src="___generated___/bundle.lua" type="client" cache="false"/>
+	
+    <script src="client.lua" type="client" cache="false"/>
+    <script src="server.lua" type="server"/>
+	
+    <!-- ZENCİ ERKEK SKİNLER -->
+    <file src="files/16.txd" model="16"/>
+    <file src="files/16.dff" model="16"/>
+    <file src="files/17.txd" model="17"/>
+    <file src="files/17.dff" model="17"/>
+    <file src="files/18.txd" model="18"/>
+    <file src="files/18.dff" model="18"/>
+    <file src="files/19.txd" model="19"/>
+    <file src="files/19.dff" model="19"/>
+    <file src="files/20.txd" model="20"/>
+    <file src="files/20.dff" model="20"/>
+	<file src="files/24.txd" model="24"/>
+    <file src="files/24.dff" model="24"/>
+	<file src="files/25.txd" model="25"/>
+	<file src="files/25.dff" model="25"/>
+	<file src="files/26.txd" model="26"/>
+    <file src="files/26.dff" model="26"/>
+	<file src="files/29.txd" model="29"/>
+	<file src="files/29.dff" model="29"/>
+    <file src="files/31.txd" model="31"/>
+    <file src="files/31.dff" model="31"/>
+    <file src="files/32.txd" model="32"/>
+    <file src="files/32.dff" model="32"/>
+    <file src="files/34.txd" model="34"/>
+    <file src="files/34.dff" model="34"/>
+    <file src="files/44.txd" model="44"/>
+    <file src="files/44.dff" model="44"/>
+    <file src="files/45.txd" model="45"/>
+    <file src="files/45.dff" model="45"/>
+    <file src="files/49.txd" model="49"/>
+    <file src="files/49.dff" model="49"/>
+    <file src="files/51.txd" model="51"/>
+    <file src="files/51.dff" model="51"/>
+    <file src="files/52.txd" model="52"/>
+    <file src="files/52.dff" model="52"/>
+	<file src="files/57.txd" model="57"/>
+	<file src="files/57.dff" model="57"/>
+	<file src="files/61.txd" model="61"/>
+	<file src="files/61.dff" model="61"/>
+	<file src="files/67.txd" model="67"/>
+	<file src="files/67.dff" model="67"/>
+	<file src="files/69.txd" model="69"/>
+	<file src="files/69.dff" model="69"/>
+	<file src="files/70.txd" model="70"/>
+    <file src="files/70.dff" model="70"/>
+	<file src="files/80.txd" model="80"/>
+    <file src="files/80.dff" model="80"/>
+	<file src="files/112.txd" model="112"/>
+    <file src="files/112.dff" model="112"/>
+	<file src="files/113.txd" model="113"/>
+    <file src="files/113.dff" model="113"/>
+	<file src="files/206.txd" model="206"/>
+    <file src="files/206.dff" model="206"/>
+	<!-- <file src="files/240.txd" model="240"/>
+    <file src="files/240.dff" model="240"/> -->
+	
+    <!-- BEYAZ ERKEK SKİNLER -->
+    <file src="files/15.txd" model="15"/>
+    <file src="files/15.dff" model="15"/>
+	<file src="files/63.txd" model="63"/>
+    <file src="files/63.dff" model="63"/>
+    <file src="files/66.txd" model="66"/>
+    <file src="files/66.dff" model="66"/>
+	<file src="files/72.txd" model="72"/>
+    <file src="files/72.dff" model="72"/>
+    <file src="files/78.txd" model="78"/>
+    <file src="files/78.dff" model="78"/>
+    <file src="files/79.txd" model="79"/>
+    <file src="files/79.dff" model="79"/>
+    <file src="files/94.txd" model="94"/>
+    <file src="files/94.dff" model="94"/>
+    <file src="files/95.txd" model="95"/>
+    <file src="files/95.dff" model="95"/>
+    <file src="files/96.txd" model="96"/>warning
+    <file src="files/96.dff" model="96"/>
+    <file src="files/97.txd" model="97"/>
+    <file src="files/97.dff" model="97"/>
+    <file src="files/99.txd" model="99"/>
+    <file src="files/99.dff" model="99"/>
+	<file src="files/117.txd" model="117"/>
+    <file src="files/117.dff" model="117"/>
+	<file src="files/118.txd" model="118"/>
+    <file src="files/118.dff" model="118"/>
+    <file src="files/120.txd" model="120"/>
+    <file src="files/120.dff" model="120"/>
+    <file src="files/127.txd" model="127"/>
+    <file src="files/127.dff" model="127"/>
+    <file src="files/132.txd" model="132"/>
+    <file src="files/132.dff" model="132"/>
+	<file src="files/133.txd" model="133"/>
+    <file src="files/133.dff" model="133"/>
+    <file src="files/135.txd" model="135"/>
+    <file src="files/135.dff" model="135"/>
+    <file src="files/137.txd" model="137"/>
+    <file src="files/137.dff" model="137"/>
+	<file src="files/142.txd" model="142"/>
+    <file src="files/142.dff" model="142"/>
+    <file src="files/156.txd" model="156"/>
+    <file src="files/156.dff" model="156"/>
+    <file src="files/158.txd" model="158"/>
+    <file src="files/158.dff" model="158"/>
+    <file src="files/161.txd" model="161"/>
+    <file src="files/161.dff" model="161"/>
+    <file src="files/162.txd" model="162"/>
+    <file src="files/162.dff" model="162"/>
+    <file src="files/168.txd" model="168"/>
+    <file src="files/168.dff" model="168"/>
+	<file src="files/174.txd" model="174"/>
+    <file src="files/174.dff" model="174"/>
+	<file src="files/179.txd" model="179"/>
+    <file src="files/179.dff" model="179"/>
+    <file src="files/200.txd" model="200"/>
+    <file src="files/200.dff" model="200"/>
+    <file src="files/202.txd" model="202"/>
+    <file src="files/202.dff" model="202"/>
+    <file src="files/209.txd" model="209"/>
+    <file src="files/209.dff" model="209"/>
+    <file src="files/210.txd" model="210"/>
+    <file src="files/210.dff" model="210"/>
+    <file src="files/212.txd" model="212"/>
+    <file src="files/212.dff" model="212"/>
+    <file src="files/213.txd" model="213"/>
+    <file src="files/213.dff" model="213"/>
+    <file src="files/220.txd" model="220"/>
+    <file src="files/220.dff" model="220"/>
+
+    <!-- ZENCİ KADIN SKİN -->
+	<file src="files/64.txd" model="64"/>
+    <file src="files/64.dff" model="64"/>
+	<file src="files/82.txd" model="82"/>
+    <file src="files/82.dff" model="82"/>
+    <file src="files/224.txd" model="224"/>
+    <file src="files/224.dff" model="224"/>
+    <file src="files/225.txd" model="225"/>
+    <file src="files/225.dff" model="225"/>
+    <file src="files/226.txd" model="226"/>
+    <file src="files/226.dff" model="226"/>
+    <file src="files/231.txd" model="231"/>
+    <file src="files/231.dff" model="231"/>
+    <file src="files/232.txd" model="232"/>
+    <file src="files/232.dff" model="232"/>
+    <file src="files/233.txd" model="233"/>
+    <file src="files/233.dff" model="233"/>
+    <file src="files/237.txd" model="237"/>
+    <file src="files/237.dff" model="237"/>
+    <file src="files/238.txd" model="238"/>
+    <file src="files/238.dff" model="238"/>
+
+    <!-- BEYAZ KADIN SKİN -->
+	<file src="files/1.txd" model="1"/>
+    <file src="files/1.dff" model="1"/>
+	<file src="files/2.txd" model="2"/>
+    <file src="files/2.dff" model="2"/>
+	<file src="files/3.txd" model="3"/>
+    <file src="files/3.dff" model="3"/>
+	<file src="files/4.txd" model="4"/>
+    <file src="files/4.dff" model="4"/>
+	<file src="files/5.txd" model="5"/>
+    <file src="files/5.dff" model="5"/>
+	<file src="files/7.txd" model="7"/>
+    <file src="files/7.dff" model="7"/>
+	<file src="files/8.txd" model="8"/>
+	<file src="files/8.dff" model="8"/>
+    <file src="files/10.txd" model="10"/>
+    <file src="files/10.dff" model="10"/>
+    <file src="files/11.txd" model="11"/>
+    <file src="files/11.dff" model="11"/>
+    <file src="files/14.txd" model="14"/>
+    <file src="files/14.dff" model="14"/> 
+	<file src="files/23.txd" model="23"/>
+    <file src="files/23.dff" model="23"/> 
+    <file src="files/27.txd" model="27"/>
+    <file src="files/27.dff" model="27"/>
+	<file src="files/30.txd" model="30"/>
+    <file src="files/30.dff" model="30"/>
+	<file src="files/36.txd" model="36"/>
+    <file src="files/36.dff" model="36"/>
+	<file src="files/37.txd" model="37"/>
+    <file src="files/37.dff" model="37"/>
+	<file src="files/39.txd" model="39"/>
+    <file src="files/39.dff" model="39"/>
+	<file src="files/41.txd" model="41"/>
+    <file src="files/41.dff" model="41"/>
+	<file src="files/73.txd" model="73"/>
+    <file src="files/73.dff" model="73"/>
+	<file src="files/75.txd" model="75"/>
+    <file src="files/75.dff" model="75"/>
+	<file src="files/77.txd" model="77"/>
+    <file src="files/77.dff" model="77"/>
+    <file src="files/87.txd" model="87"/>
+    <file src="files/87.dff" model="87"/>
+    <file src="files/88.txd" model="88"/>
+    <file src="files/88.dff" model="88"/>
+    <file src="files/89.txd" model="89"/>
+    <file src="files/89.dff" model="89"/>
+    <file src="files/90.txd" model="90"/>
+    <file src="files/90.dff" model="90"/>
+    <file src="files/92.txd" model="92"/>
+    <file src="files/92.dff" model="92"/>
+	<file src="files/101.txd" model="101"/>
+    <file src="files/101.dff" model="101"/>
+    <file src="files/150.txd" model="150"/>
+    <file src="files/150.dff" model="150"/>
+	<file src="files/173.txd" model="173"/>
+    <file src="files/173.dff" model="173"/>
+    <file src="files/219.txd" model="219"/>
+    <file src="files/219.dff" model="219"/>
+    <file src="files/218.txd" model="218"/>
+    <file src="files/218.dff" model="218"/>
+    <file src="files/214.txd" model="214"/>
+    <file src="files/214.dff" model="214"/>
+    <file src="files/215.txd" model="215"/>
+    <file src="files/215.dff" model="215"/>
+	<file src="files/243.txd" model="243"/>
+    <file src="files/243.dff" model="243"/>
+    <file src="files/244.txd" model="244"/>
+    <file src="files/244.dff" model="244"/>
+    <file src="files/246.txd" model="246"/>
+    <file src="files/246.dff" model="246"/>
+    <file src="files/251.txd" model="251"/>
+    <file src="files/251.dff" model="251"/>
+    <file src="files/256.txd" model="256"/>
+    <file src="files/256.dff" model="256"/>
+	
+	<!-- ERP SKİNLER -->
+    <file src="files/40.txd" model="40"/>
+    <file src="files/40.dff" model="40"/>
+	<file src="files/91.txd" model="91"/>
+    <file src="files/91.dff" model="91"/>
+	<file src="files/140.txd" model="140"/>
+    <file src="files/140.dff" model="140"/>
+    
+    <!-- YENİ SKİN -->
+    <file src="files/53.txd" model="53"/>
+    <file src="files/53.dff" model="53"/>
+    <file src="files/54.txd" model="54"/>
+    <file src="files/54.dff" model="54"/>
+    <file src="files/55.txd" model="55"/>
+    <file src="files/55.dff" model="55"/>
+    <file src="files/56.txd" model="56"/>
+    <file src="files/56.dff" model="56"/>
+    <file src="files/65.txd" model="65"/>
+    <file src="files/65.dff" model="65"/>
+    <file src="files/76.txd" model="76"/>
+    <file src="files/76.dff" model="76"/>
+    <file src="files/93.txd" model="93"/>
+    <file src="files/93.dff" model="93"/>
+    <file src="files/9.txd" model="9"/>
+    <file src="files/9.dff" model="9"/>
+    <file src="files/12.txd" model="12"/>
+    <file src="files/12.dff" model="12"/>
+    <file src="files/13.txd" model="13"/>
+    <file src="files/13.dff" model="13"/>
+    <file src="files/21.txd" model="21"/>
+    <file src="files/21.dff" model="21"/>
+    <file src="files/28.txd" model="28"/>
+    <file src="files/28.dff" model="28"/>
+
+
+    <file src="files/35.txd" model="35"/>
+    <file src="files/35.dff" model="35"/>
+    <file src="files/42.txd" model="42"/>
+    <file src="files/42.dff" model="42"/>
+    <file src="files/43.txd" model="43"/>
+    <file src="files/43.dff" model="43"/>
+    <file src="files/46.txd" model="46"/>
+    <file src="files/46.dff" model="46"/>
+    <file src="files/47.txd" model="47"/>
+    <file src="files/47.dff" model="47"/>
+    <file src="files/48.txd" model="48"/>
+    <file src="files/48.dff" model="48"/>
+    <file src="files/60.txd" model="60"/>
+    <file src="files/60.dff" model="60"/>
+    <file src="files/81.txd" model="81"/>
+    <file src="files/81.dff" model="81"/>
+    <file src="files/86.txd" model="86"/>
+    <file src="files/86.dff" model="86"/>
+    <file src="files/98.txd" model="98"/>
+    <file src="files/98.dff" model="98"/>
+
+    
+    <file src="files/278.txd" model="278"/>
+    <file src="files/278.dff" model="278"/>
+    <file src="files/279.txd" model="279"/>
+    <file src="files/279.dff" model="279"/>
+    <file src="files/280.txd" model="280"/>
+    <file src="files/280.dff" model="280"/>
+    <file src="files/281.txd" model="281"/>
+    <file src="files/281.dff" model="281"/>
+    <file src="files/282.txd" model="282"/>
+    <file src="files/282.dff" model="282"/>
+    <file src="files/283.txd" model="283"/>
+    <file src="files/283.dff" model="283"/>
+    <file src="files/287.txd" model="287"/>
+    <file src="files/287.dff" model="287"/>
+    <file src="files/288.txd" model="288"/>
+    <file src="files/288.dff" model="288"/>
+    <file src="files/290.txd" model="290"/>
+    <file src="files/290.dff" model="290"/>
+    <file src="files/291.txd" model="291"/>
+    <file src="files/291.dff" model="291"/>
+    <file src="files/297.txd" model="297"/>
+    <file src="files/297.dff" model="297"/>
+    <file src="files/266.txd" model="266"/>
+    <file src="files/266.dff" model="266"/>
+    <file src="files/265.txd" model="265"/>
+    <file src="files/265.dff" model="265"/>
+    <file src="files/307.txd" model="307"/>
+    <file src="files/307.dff" model="307"/>
+    <file src="files/284.txd" model="284"/>
+    <file src="files/284.dff" model="284"/>
+	<file src="files/296.txd" model="296"/>
+    <file src="files/296.dff" model="296"/> -->
+    
+    <!-- AKADEMİ SKİN -->
+    <file src="files/302.txd" model="302"/>
+    <file src="files/302.dff" model="302"/>
+    <file src="files/303.txd" model="303"/>
+    <file src="files/303.dff" model="303"/>
+    <file src="files/304.txd" model="304"/>
+    <file src="files/304.dff" model="304"/>
+
+    <!-- Mason SKİN -->
+    <file src="files/306.txd" model="306"/>
+    <file src="files/306.dff" model="306"/>
+    <file src="files/308.txd" model="308"/>
+    <file src="files/308.dff" model="308"/>
+
+	<!-- YETKİLİ TAKIMI DUPONT -->
+	<file src="files/68.txd" model="68"/>
+    <file src="files/68.dff" model="68"/>
+    <file src="files/293.txd" model="293"/>
+    <file src="files/293.dff" model="293"/>
+    <file src="files/300.txd" model="300"/>
+    <file src="files/300.dff" model="300"/>
+    <file src="files/289.txd" model="289"/>
+    <file src="files/289.dff" model="289"/>
+    <file src="files/305.txd" model="305"/>
+    <file src="files/305.dff" model="305"/>
+    <file src="files/310.txd" model="310"/>
+    <file src="files/310.dff" model="310"/>
+    <file src="files/311.txd" model="311"/>
+    <file src="files/311.dff" model="311"/>
+	<file src="files/312.txd" model="312"/>
+    <file src="files/312.dff" model="312"/>
+
+    <!--Fleeisa Dupont-->
+    <file src="files/309.txd" model="309"/>
+    <file src="files/309.dff" model="309"/>
+	<file src="files/157.txd" model="157"/>
+    <file src="files/157.dff" model="157"/>
+	<file src="files/257.txd" model="257"/>
+    <file src="files/257.dff" model="257"/>
+
+	<!--SON GUNCEL-->
+	<file src="files/6.txd" model="6"/>
+    <file src="files/6.dff" model="6"/>
+	
+	<!-- DONATE SKINLER -->
+	<file src="files/169.txd" model="169"/>
+    <file src="files/169.dff" model="169"/>
+
+	<!-- Sheriff Skins
+	<file src="files/270.txd" model="270"/>
+    <file src="files/270.dff" model="270"/>
+	<file src="files/271.txd" model="271"/>
+    <file src="files/271.dff" model="271"/>
+	<file src="files/272.txd" model="272"/>
+    <file src="files/272.dff" model="272"/>
+	<file src="files/273.txd" model="273"/>
+    <file src="files/273.dff" model="273"/>
+	<file src="files/292.txd" model="292"/>
+    <file src="files/292.dff" model="292"/>
+	<file src="files/294.txd" model="294"/>
+    <file src="files/294.dff" model="294"/>
+	
+	YENI Swat Erkek Skins
+	<file src="files/301.txd" model="301"/>
+    <file src="files/301.dff" model="301"/>
+	<file src="files/269.txd" model="269"/>
+    <file src="files/269.dff" model="269"/>
+	<file src="files/268.txd" model="268"/>
+    <file src="files/268.dff" model="268"/>
+	
+	YENI Swat Kadın Skins
+	<file src="files/295.txd" model="295"/>
+    <file src="files/295.dff" model="295"/>
+	<file src="files/285.txd" model="285"/>
+    <file src="files/285.dff" model="285"/>
+	<file src="files/274.txd" model="274"/>
+    <file src="files/274.dff" model="274"/>
+	<file src="files/298.txd" model="298"/>
+    <file src="files/298.dff" model="298"/> -->
+    
+	<oop>true</oop>
+</meta>

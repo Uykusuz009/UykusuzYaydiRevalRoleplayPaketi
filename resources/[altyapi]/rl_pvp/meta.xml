@@ -1,0 +1,17 @@
+<meta>
+
+    <!-- 
+
+        Katredit © Copyright 
+
+        PVP sistem 
+
+    -->
+
+    <script type="server" src="server.lua" />
+    <script type="client" src="client.lua" />
+    <file type="client" src="roboto.ttf" />
+
+    <oop>true</oop>
+
+</meta>

@@ -1,0 +1,9 @@
+<meta>
+    <oop>true</oop>
+    <script src="libs/class.lua" type="client" cache="false" />
+    <script src="ui/index.lua" type="client" cache="false" />
+    <file src="assets/logo.png"></file>
+    <file src="bg.png"></file>
+    <file src="assets/latency.png"></file>
+	<file src="assets/sfbold.ttf"></file>
+</meta>

@@ -1,0 +1,108 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <script src="___generated___/client.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+
+    <script src="client/main.lua" type="client" cache="false" />
+    <script src="client/editor.luac" type="client" cache="false" />
+    
+    <script src="client/hud/hud_1.lua" type="client" cache="false" />
+    <script src="client/hud/hud_2.lua" type="client" cache="false" />
+    <script src="client/hud/hud_3.lua" type="client" cache="false" />
+    <script src="client/hud/hud_4.lua" type="client" cache="false" />
+    
+    <script src="client/speedo/speedo_1.lua" type="client" cache="false" />
+    <script src="client/speedo/speedo_2.lua" type="client" cache="false" />
+    <script src="client/speedo/speedo_3.lua" type="client" cache="false" />
+    <script src="client/speedo/speedo_4.lua" type="client" cache="false" />
+	
+    <script src="server/server.lua" type="server" />
+	
+    <script src="client/views/bottom_hud.lua" type="client" cache="false" />
+	<script src="client/views/top_right.lua" type="client" cache="false" />
+    <script src="client/views/finance_update.lua" type="client" cache="false" />
+    
+	<script src="server/admins.lua" type="server" />
+    <script src="server/stats.lua" type="server" />
+    
+	
+	<file src="public/bg.png" />
+	<file src="public/images/speedo_line.png" />
+	<file src="public/images/thirst.png" />
+	<file src="public/images/stamina.png" />
+    <file src="public/images/bg.png" />
+	
+	<file src="public/images/_white-speedo/bg.png" />
+    <file src="public/images/_white-speedo/fuel.png" />
+    <file src="public/images/_white-speedo/fuel_low.png" />
+    <file src="public/images/_white-speedo/fuel-bg.png" />
+    <file src="public/images/_white-speedo/fuel-icon.png" />
+    <file src="public/images/_white-speedo/icon-brake.png" />
+    <file src="public/images/_white-speedo/icon-brake-on.png" />
+    <file src="public/images/_white-speedo/icon-engine.png" />
+    <file src="public/images/_white-speedo/icon-engine-on.png" />
+    <file src="public/images/_white-speedo/icon-lights.png" />
+    <file src="public/images/_white-speedo/icon-lights-on.png" />
+    <file src="public/images/_white-speedo/icon-off.png" />
+    <file src="public/images/_white-speedo/mask.png" />
+    <file src="public/images/_white-speedo/mileage.png" />
+    <file src="public/images/_white-speedo/nitro.png" />
+    <file src="public/images/_white-speedo/nitro-bg.png" />
+    <file src="public/images/_white-speedo/nitro-icon.png" />
+    <file src="public/images/_white-speedo/overlay.png" />
+    <file src="public/images/_white-speedo/pointer.png" />
+	
+    <file src="public/images/weapons/0.png" />
+    <file src="public/images/weapons/1.png" />
+    <file src="public/images/weapons/2.png" />
+    <file src="public/images/weapons/3.png" />
+    <file src="public/images/weapons/4.png" />
+    <file src="public/images/weapons/5.png" />
+    <file src="public/images/weapons/6.png" />
+    <file src="public/images/weapons/7.png" />
+    <file src="public/images/weapons/8.png" />
+    <file src="public/images/weapons/9.png" />
+    <file src="public/images/weapons/10.png" />
+    <file src="public/images/weapons/11.png" />
+    <file src="public/images/weapons/12.png" />
+    <file src="public/images/weapons/14.png" />
+    <file src="public/images/weapons/15.png" />
+    <file src="public/images/weapons/16.png" />
+    <file src="public/images/weapons/17.png" />
+    <file src="public/images/weapons/18.png" />
+    <file src="public/images/weapons/22.png" />
+    <file src="public/images/weapons/23.png" />
+    <file src="public/images/weapons/24.png" />
+    <file src="public/images/weapons/25.png" />
+    <file src="public/images/weapons/26.png" />
+    <file src="public/images/weapons/27.png" />
+    <file src="public/images/weapons/28.png" />
+    <file src="public/images/weapons/29.png" />
+    <file src="public/images/weapons/30.png" />
+    <file src="public/images/weapons/31.png" />
+    <file src="public/images/weapons/32.png" />
+    <file src="public/images/weapons/33.png" />
+    <file src="public/images/weapons/34.png" />
+    <file src="public/images/weapons/35.png" />
+    <file src="public/images/weapons/36.png" />
+    <file src="public/images/weapons/37.png" />
+    <file src="public/images/weapons/38.png" />
+    <file src="public/images/weapons/39.png" />
+    <file src="public/images/weapons/40.png" />
+    <file src="public/images/weapons/41.png" />
+    <file src="public/images/weapons/42.png" />
+    <file src="public/images/weapons/43.png" />
+    <file src="public/images/weapons/44.png" />
+    <file src="public/images/weapons/45.png" />
+    <file src="public/images/weapons/46.png" />
+	
+    <file src="public/sounds/collect_money.ogg" />
+    <file src="public/sounds/pay_money.mp3" />
+    
+    <export function="sendTopRightNotification" type="client" />
+    <export function="sendTopRightNotification" type="server" />
+    
+    <export function="isOverlayRender" type="client" />
+</meta>

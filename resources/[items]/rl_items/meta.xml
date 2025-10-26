@@ -1,0 +1,823 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+
+    <script src="server/item_management.lua" type="server" />
+    <export function="deleteAllItemsWithinInt" type="server" />
+    <export function="loadItems" type="server" />
+    <export function="clearItems" type="server" />
+    <export function="sendItems" type="server" />
+    <export function="giveItem" type="server" />
+    <export function="takeItem" type="server" />
+    <export function="takeItemFromSlot" type="server" />
+    <export function="updateItemValue" type="server" />
+    <export function="moveItem" type="server" />
+    <export function="hasItem" type="server" />
+    <export function="hasSpaceForItem" type="server" />
+    <export function="countItems" type="server" />
+    <export function="getItems" type="server" />
+    <export function="deleteAll" type="server" />
+	
+    <script src="client/item_management.lua" type="client" cache="false" />
+    <export function="hasItem" type="client" />
+    <export function="hasSpaceForItem" type="client" />
+    <export function="getItems" type="client" />
+    <export function="countItems" type="client" />
+    
+    <script src="shared/items.lua" type="client" cache="false" />
+    <script src="shared/items.lua" type="server" />
+    <script src="shared/item_functions.lua" type="server" />
+    <script src="shared/item_functions.lua" type="client" cache="false" />
+	
+    <export function="getItemName" type="client" />
+    <export function="getItemName" type="server" />
+    
+    <export function="getItemValue" type="client" />
+    <export function="getItemValue" type="server" />
+    
+    <export function="getItemRotInfo" type="server" />
+    <export function="getItemRotInfo" type="client" />
+    <export function="getItemModel" type="server" />
+    <export function="getBadges" type="server" />
+    <export function="getBadges" type="client" />
+    <export function="getMasks" type="server" />
+    <export function="getMasks" type="client" />
+    <export function="getItemDescription" type="server" />
+    <export function="getItemDescription" type="client" />
+    <export function="getItemWeight" type="server" />
+    <export function="getCarriedWeight" type="server" />
+    <export function="getMaxWeight" type="server" />
+    <export function="getItemScale" type="server" />
+    <export function="getItemScale" type="client" />
+    <export function="getItemTexture" type="server" />
+    <export function="getItemTexture" type="client" />
+    <export function="getItemPreventSpawn" type="server" />
+    <export function="getItemPreventSpawn" type="client" />
+    <export function="getItemDoubleSided" type="server" />
+    <export function="getItemDoubleSided" type="client" />
+    <export function="getItemUseNewPickupMethod" type="server" />
+    <export function="getItemUseNewPickupMethod" type="client" />
+    <export function="getItemHideItemValue" type="server" />
+    <export function="getItemHideItemValue" type="client" />
+    
+    <script src="server/items.lua" type="server" />
+    <export function="isBadge" type="server" />
+    <export function="isWearingBadge" type="server" />
+    <export function="npcUseItem" type="server" />
+    
+    <script src="server/world_items.lua" type="server" />
+    <script src="server/commands.lua" type="server" />
+    <script src="client/items.lua" type="client" cache="false" />
+	
+    <script src="client/inventory.lua" type="client" cache="false" />
+	<export function="isInventoryRender" type="client" />
+    
+    <script src="client/item_creator.lua" type="client" cache="false" />
+    <script src="server/item_creator.lua" type="server" />
+    
+    <script src="client/drug.lua" type="client" cache="false" />
+    <script src="server/drug.lua" type="server" />
+    
+    <script src="server/split_item.lua" type="server" />
+    <script src="server/rename_weapon.lua" type="server" />
+    
+    <script src="client/book.lua" type="client" cache="false" />
+    <script src="server/book.lua" type="server" />
+    
+    <script src="client/safe.lua" type="client" cache="false" />
+    <export function="updateSafeItems" type="server" />
+    
+    <script src="server/item_admin.lua" type="server" />
+    
+    <script src="client/ghettoblaster.lua" type="client" cache="false" />
+    <script src="server/ghettoblaster.lua" type="server" />
+    
+    <script src="client/combine_weapons.lua" type="client" cache="false" />
+    <script src="server/combine_weapons.lua" type="server" />
+    <export function="updateLocalGuns" type="server" />
+    
+    <script src="server/move_items.lua" type="server" />
+    <script src="client/move_items.lua" type="client" cache="false" />
+    
+    <script src="server/vehicle_upgrades.lua" type="server" />
+    
+    <export function="doItemGiveawayChecks" type="server" />
+    
+    <export function="playSoundInvOpen" type="client" />
+    <export function="playSoundInvClose" type="client" />
+    
+    <export function="isItem" type="shared" />
+    
+    <file src="public/images/category/delete.png" />
+    <file src="public/images/category/drop.png" />
+    <file src="public/images/category/items.png" />
+    <file src="public/images/category/keys.png" />
+    <file src="public/images/category/show.png" />
+    <file src="public/images/category/wallet.png" />
+    <file src="public/images/category/weapons.png" />
+	
+    <file src="public/images/items/empty.png" />
+    
+    <file src="public/images/items/-0.png" />
+    <file src="public/images/items/-1.png" />
+    <file src="public/images/items/-2.png" />
+    <file src="public/images/items/-3.png" />
+    <file src="public/images/items/-4.png" />
+    <file src="public/images/items/-5.png" />
+    <file src="public/images/items/-6.png" />
+    <file src="public/images/items/-7.png" />
+    <file src="public/images/items/-8.png" />
+    <file src="public/images/items/-9.png" />
+    <file src="public/images/items/-10.png" />
+    <file src="public/images/items/-11.png" />
+    <file src="public/images/items/-12.png" />
+    <file src="public/images/items/-14.png" />
+    <file src="public/images/items/-15.png" />
+    <file src="public/images/items/-16.png" />
+    <file src="public/images/items/-17.png" />
+    <file src="public/images/items/-18.png" />
+    <file src="public/images/items/-22.png" />
+    <file src="public/images/items/-23.png" />
+    <file src="public/images/items/-24.png" />
+    <file src="public/images/items/-25.png" />
+    <file src="public/images/items/-26.png" />
+    <file src="public/images/items/-27.png" />
+    <file src="public/images/items/-28.png" />
+    <file src="public/images/items/-29.png" />
+    <file src="public/images/items/-30.png" />
+    <file src="public/images/items/-31.png" />
+    <file src="public/images/items/-32.png" />
+    <file src="public/images/items/-33.png" />
+    <file src="public/images/items/-34.png" />
+    <file src="public/images/items/-35.png" />
+    <file src="public/images/items/-36.png" />
+    <file src="public/images/items/-37.png" />
+    <file src="public/images/items/-38.png" />
+    <file src="public/images/items/-39.png" />
+    <file src="public/images/items/-40.png" />
+    <file src="public/images/items/-41.png" />
+    <file src="public/images/items/-42.png" />
+    <file src="public/images/items/-43.png" />
+    <file src="public/images/items/-44.png" />
+    <file src="public/images/items/-45.png" />
+    <file src="public/images/items/-46.png" />
+    <file src="public/images/items/-48.png" />
+    <file src="public/images/items/-101.png" />
+    <file src="public/images/items/-100.png" />
+	<file src="public/images/items/-200.png" />
+    <file src="public/images/items/-201.png" />
+    <file src="public/images/items/-202.png" />
+    <file src="public/images/items/-203.png" />
+    <file src="public/images/items/-204.png" />
+	 <file src="public/images/items/368.png" />
+	
+    <file src="public/images/items/1.png" />
+    <file src="public/images/items/2.png" />
+    <file src="public/images/items/3.png" />
+    <file src="public/images/items/4.png" />
+    <file src="public/images/items/5.png" />
+    <file src="public/images/items/6.png" />
+    <file src="public/images/items/7.png" />
+    <file src="public/images/items/8.png" />
+    <file src="public/images/items/9.png" />
+    <file src="public/images/items/10.png" />
+    <file src="public/images/items/11.png" />
+    <file src="public/images/items/12.png" />
+    <file src="public/images/items/13.png" />
+    <file src="public/images/items/14.png" />
+    <file src="public/images/items/15.png" />
+    <file src="public/images/items/16.png" />
+    <file src="public/images/items/17.png" />
+    <file src="public/images/items/18.png" />
+    <file src="public/images/items/19.png" />
+    <file src="public/images/items/20.png" />
+    <file src="public/images/items/21.png" />
+    <file src="public/images/items/22.png" />
+    <file src="public/images/items/23.png" />
+    <file src="public/images/items/24.png" />
+    <file src="public/images/items/25.png" />
+    <file src="public/images/items/26.png" />
+    <file src="public/images/items/27.png" />
+    <file src="public/images/items/28.png" />
+    <file src="public/images/items/29.png" />
+    <file src="public/images/items/30.png" />
+    <file src="public/images/items/31.png" />
+    <file src="public/images/items/32.png" />
+    <file src="public/images/items/33.png" />
+    <file src="public/images/items/34.png" />
+    <file src="public/images/items/35.png" />
+    <file src="public/images/items/36.png" />
+    <file src="public/images/items/37.png" />
+    <file src="public/images/items/38.png" />
+    <file src="public/images/items/39.png" />
+    <file src="public/images/items/40.png" />
+    <file src="public/images/items/41.png" />
+    <file src="public/images/items/42.png" />
+    <file src="public/images/items/43.png" />
+    <file src="public/images/items/44.png" />
+    <file src="public/images/items/45.png" />
+    <file src="public/images/items/46.png" />
+    <file src="public/images/items/47.png" />
+    <file src="public/images/items/48.png" />
+    <file src="public/images/items/49.png" />
+    <file src="public/images/items/50.png" />
+    <file src="public/images/items/51.png" />
+    <file src="public/images/items/52.png" />
+    <file src="public/images/items/53.png" />
+    <file src="public/images/items/54.png" />
+    <file src="public/images/items/55.png" />
+    <file src="public/images/items/56.png" />
+    <file src="public/images/items/57.png" />
+    <file src="public/images/items/58.png" />
+    <file src="public/images/items/59.png" />
+    <file src="public/images/items/60.png" />
+    <file src="public/images/items/61.png" />
+    <file src="public/images/items/62.png" />
+    <file src="public/images/items/63.png" />
+    <file src="public/images/items/64.png" />
+    <file src="public/images/items/65.png" />
+    <file src="public/images/items/66.png" />
+    <file src="public/images/items/67.png" />
+    <file src="public/images/items/68.png" />
+    <file src="public/images/items/69.png" />
+    <file src="public/images/items/70.png" />
+    <file src="public/images/items/71.png" />
+    <file src="public/images/items/72.png" />
+    <file src="public/images/items/73.png" />
+    <file src="public/images/items/74.png" />
+    <file src="public/images/items/75.png" />
+    <file src="public/images/items/76.png" />
+    <file src="public/images/items/77.png" />
+    <file src="public/images/items/78.png" />
+    <file src="public/images/items/79.png" />
+    <file src="public/images/items/80.png" />
+    <file src="public/images/items/81.png" />
+    <file src="public/images/items/82.png" />
+    <file src="public/images/items/83.png" />
+    <file src="public/images/items/84.png" />
+    <file src="public/images/items/85.png" />
+    <file src="public/images/items/86.png" />
+    <file src="public/images/items/87.png" />
+    <file src="public/images/items/88.png" />
+    <file src="public/images/items/89.png" />
+    <file src="public/images/items/90.png" />
+    <file src="public/images/items/91.png" />
+    <file src="public/images/items/92.png" />
+    <file src="public/images/items/93.png" />
+    <file src="public/images/items/94.png" />
+    <file src="public/images/items/95.png" />
+    <file src="public/images/items/96.png" />
+    <file src="public/images/items/97.png" />
+    <file src="public/images/items/98.png" />
+    <file src="public/images/items/99.png" />
+    <file src="public/images/items/100.png" />
+    <file src="public/images/items/101.png" />
+    <file src="public/images/items/102.png" />
+    <file src="public/images/items/103.png" />
+    <file src="public/images/items/104.png" />
+    <file src="public/images/items/105.png" />
+    <file src="public/images/items/106.png" />
+    <file src="public/images/items/107.png" />
+    <file src="public/images/items/108.png" />
+    <file src="public/images/items/111.png" />
+    <file src="public/images/items/112.png" />
+    <file src="public/images/items/113.png" />
+    <file src="public/images/items/114.png" />
+    <file src="public/images/items/116.png" />
+    <file src="public/images/items/117.png" />
+    <file src="public/images/items/118.png" />
+    <file src="public/images/items/119.png" />
+    <file src="public/images/items/120.png" />
+    <file src="public/images/items/121.png" />
+    <file src="public/images/items/122.png" />
+    <file src="public/images/items/123.png" />
+    <file src="public/images/items/124.png" />
+    <file src="public/images/items/125.png" />
+    <file src="public/images/items/126.png" />
+    <file src="public/images/items/127.png" />
+    <file src="public/images/items/128.png" />
+    <file src="public/images/items/129.png" />
+    <file src="public/images/items/130.png" />
+    <file src="public/images/items/131.png" />
+    <file src="public/images/items/133.png" />
+    <file src="public/images/items/134.png" />
+    <file src="public/images/items/135.png" />
+    <file src="public/images/items/136.png" />
+    <file src="public/images/items/137.png" />
+    <file src="public/images/items/138.png" />
+    <file src="public/images/items/139.png" />
+    <file src="public/images/items/140.png" />
+    <file src="public/images/items/141.png" />
+    <file src="public/images/items/143.png" />
+    <file src="public/images/items/144.png" />
+    <file src="public/images/items/145.png" />
+    <file src="public/images/items/147.png" />
+    <file src="public/images/items/147b.png" />
+    <file src="public/images/items/148.png" />
+    <file src="public/images/items/149.png" />
+    <file src="public/images/items/150.png" />
+    <file src="public/images/items/151.png" />
+    <file src="public/images/items/152.png" />
+    <file src="public/images/items/156.png" />
+    <file src="public/images/items/157.png" />
+    <file src="public/images/items/158.png" />
+    <file src="public/images/items/159.png" />
+    <file src="public/images/items/160.png" />
+    <file src="public/images/items/161.png" />
+    <file src="public/images/items/162.png" />
+    <file src="public/images/items/163.png" />
+    <file src="public/images/items/164.png" />
+    <file src="public/images/items/165.png" />
+    <file src="public/images/items/165b.png" />
+    <file src="public/images/items/166.png" />
+    <file src="public/images/items/167.png" />
+    <file src="public/images/items/168.png" />
+    <file src="public/images/items/169.png" />
+    <file src="public/images/items/170.png" />
+    <file src="public/images/items/171.png" />
+    <file src="public/images/items/172.png" />
+    <file src="public/images/items/173.png" />
+    <file src="public/images/items/174.png" />
+    <file src="public/images/items/175.png" />
+    <file src="public/images/items/176.png" />
+    <file src="public/images/items/177.png" />
+    <file src="public/images/items/178.png" />
+    <file src="public/images/items/179.png" />
+    <file src="public/images/items/180.png" />
+    <file src="public/images/items/181.png" />
+    <file src="public/images/items/182.png" />
+    <file src="public/images/items/183.png" />
+    <file src="public/images/items/184.png" />
+    <file src="public/images/items/185.png" />
+    <file src="public/images/items/186.png" />
+    <file src="public/images/items/187.png" />
+    <file src="public/images/items/188.png" />
+    <file src="public/images/items/189.png" />
+    <file src="public/images/items/190.png" />
+    <file src="public/images/items/191.png" />
+    <file src="public/images/items/192.png" />
+    <file src="public/images/items/193.png" />
+    <file src="public/images/items/194.png" />
+    <file src="public/images/items/195.png" />
+    <file src="public/images/items/196.png" />
+    <file src="public/images/items/197.png" />
+    <file src="public/images/items/198.png" />
+    <file src="public/images/items/199.png" />
+    <file src="public/images/items/200.png" />
+    <file src="public/images/items/201.png" />
+    <file src="public/images/items/202.png" />
+    <file src="public/images/items/203.png" />
+    <file src="public/images/items/204.png" />
+    <file src="public/images/items/205.png" />
+    <file src="public/images/items/206.png" />
+    <file src="public/images/items/207.png" />
+    <file src="public/images/items/208.png" />
+    <file src="public/images/items/209.png" />
+    <file src="public/images/items/210.png" />
+    <file src="public/images/items/211.png" />
+    <file src="public/images/items/212.png" />
+    <file src="public/images/items/213.png" />
+    <file src="public/images/items/214.png" />
+	<file src="public/images/items/215.png" />
+	<file src="public/images/items/216.png" />
+	<file src="public/images/items/217.png" />
+	<file src="public/images/items/220.png" />
+	<file src="public/images/items/221.png" />
+	<file src="public/images/items/222.png" />
+	<file src="public/images/items/223.png" />
+	<file src="public/images/items/225.png" />
+	<file src="public/images/items/226.png" />
+	<file src="public/images/items/227.png" />
+	<file src="public/images/items/228.png" />
+	<file src="public/images/items/232.png" />
+	<file src="public/images/items/233.png" />
+	<file src="public/images/items/236.png" />
+	<file src="public/images/items/237.png" />
+    <file src="public/images/items/238.png" />
+	<file src="public/images/items/239.png" />
+	<file src="public/images/items/240.png" />
+	<file src="public/images/items/241.png" />
+	<file src="public/images/items/242.png" />
+	<file src="public/images/items/243.png" />
+	<file src="public/images/items/244.png" />
+	<file src="public/images/items/245.png" />
+	<file src="public/images/items/246.png" />
+	<file src="public/images/items/247.png" />
+	<file src="public/images/items/248.png" />
+	<file src="public/images/items/249.png" />
+	<file src="public/images/items/250.png" />
+	<file src="public/images/items/251.png" />
+	<file src="public/images/items/252.png" />
+	<file src="public/images/items/254.png" />
+	<file src="public/images/items/255.png" />
+	<file src="public/images/items/256.png" />
+	<file src="public/images/items/257.png" />
+	<file src="public/images/items/258.png" />
+	<file src="public/images/items/259.png" />
+	<file src="public/images/items/260.png" />
+	<file src="public/images/items/261.png" />
+	<file src="public/images/items/262.png" />
+	<file src="public/images/items/263.png" />
+	<file src="public/images/items/264.png" />
+	<file src="public/images/items/265.png" />
+	<file src="public/images/items/266.png" />
+	<file src="public/images/items/267.png" />
+	<file src="public/images/items/268.png" />
+	<file src="public/images/items/269.png" />
+	<file src="public/images/items/270.png" />
+	<file src="public/images/items/271.png" />
+	<file src="public/images/items/272.png" />
+	<file src="public/images/items/273.png" />
+	<file src="public/images/items/274.png" />
+	<file src="public/images/items/275.png" />
+	<file src="public/images/items/276.png" />
+	<file src="public/images/items/277.png" />
+	<file src="public/images/items/278.png" />
+	<file src="public/images/items/279.png" />
+	<file src="public/images/items/280.png" />
+	<file src="public/images/items/281.png" />
+	<file src="public/images/items/282.png" />
+	<file src="public/images/items/283.png" />
+	<file src="public/images/items/284.png" />
+	<file src="public/images/items/285.png" />
+	<file src="public/images/items/286.png" />
+	<file src="public/images/items/287.png" />
+	<file src="public/images/items/288.png" />
+	<file src="public/images/items/289.png" />
+	<file src="public/images/items/290.png" />
+	<file src="public/images/items/291.png" />
+	<file src="public/images/items/292.png" />
+	<file src="public/images/items/293.png" />
+	<file src="public/images/items/294.png" />
+	<file src="public/images/items/295.png" />
+	<file src="public/images/items/296.png" />
+	<file src="public/images/items/297.png" />
+	<file src="public/images/items/298.png" />
+	<file src="public/images/items/299.png" />
+	<file src="public/images/items/300.png" />
+	<file src="public/images/items/301.png" />
+	<file src="public/images/items/302.png" />
+	<file src="public/images/items/303.png" />
+	<file src="public/images/items/305.png" />
+	<file src="public/images/items/306.png" />
+	<file src="public/images/items/307.png" />
+	<file src="public/images/items/308.png" />
+	<file src="public/images/items/309.png" />
+	<file src="public/images/items/310.png" />
+	<file src="public/images/items/311.png" />
+	<file src="public/images/items/312.png" />
+	<file src="public/images/items/313.png" />
+	<file src="public/images/items/314.png" />
+	<file src="public/images/items/315.png" />
+	<file src="public/images/items/316.png" />
+	<file src="public/images/items/317.png" />
+	<file src="public/images/items/318.png" />
+	<file src="public/images/items/319.png" />
+	<file src="public/images/items/320.png" />
+	<file src="public/images/items/321.png" />
+	<file src="public/images/items/322.png" />
+	<file src="public/images/items/323.png" />
+	<file src="public/images/items/324.png" />
+	<file src="public/images/items/325.png" />
+	<file src="public/images/items/326.png" />
+	<file src="public/images/items/327.png" />
+	<file src="public/images/items/328.png" />
+	<file src="public/images/items/329.png" />
+	<file src="public/images/items/330.png" />
+	<file src="public/images/items/331.png" />
+	<file src="public/images/items/332.png" />
+	<file src="public/images/items/333.png" />
+	<file src="public/images/items/334.png" />
+	<file src="public/images/items/335.png" />
+	<file src="public/images/items/336.png" />
+	<file src="public/images/items/337.png" />
+	<file src="public/images/items/338.png" />
+	<file src="public/images/items/339.png" />
+	<file src="public/images/items/340.png" />
+	<file src="public/images/items/341.png" />
+	<file src="public/images/items/342.png" />
+	<file src="public/images/items/343.png" />
+	<file src="public/images/items/344.png" />
+	<file src="public/images/items/345.png" />
+	<file src="public/images/items/346.png" />
+	<file src="public/images/items/347.png" />
+	<file src="public/images/items/348.png" />
+	<file src="public/images/items/349.png" />
+	<file src="public/images/items/350.png" />
+	<file src="public/images/items/351.png" />
+	<file src="public/images/items/352.png" />
+	<file src="public/images/items/353.png" />
+	<file src="public/images/items/354.png" />
+	<file src="public/images/items/355.png" />
+	<file src="public/images/items/367.png" />
+	<file src="public/images/items/369.png" />
+	
+	<file src="public/images/skins/000.png" />
+	<file src="public/images/skins/001.png" />
+    <file src="public/images/skins/002.png" />
+    <file src="public/images/skins/007.png" />
+    <file src="public/images/skins/009.png" />
+    <file src="public/images/skins/010.png" />
+    <file src="public/images/skins/011.png" />
+    <file src="public/images/skins/012.png" />
+    <file src="public/images/skins/013.png" />
+    <file src="public/images/skins/014.png" />
+    <file src="public/images/skins/015.png" />
+    <file src="public/images/skins/016.png" />
+    <file src="public/images/skins/017.png" />
+    <file src="public/images/skins/018.png" />
+    <file src="public/images/skins/019.png" />
+    <file src="public/images/skins/020.png" />
+    <file src="public/images/skins/021.png" />
+    <file src="public/images/skins/022.png" />
+    <file src="public/images/skins/023.png" />
+    <file src="public/images/skins/024.png" />
+    <file src="public/images/skins/025.png" />
+    <file src="public/images/skins/026.png" />
+    <file src="public/images/skins/027.png" />
+    <file src="public/images/skins/028.png" />
+    <file src="public/images/skins/029.png" />
+    <file src="public/images/skins/030.png" />
+    <file src="public/images/skins/031.png" />
+    <file src="public/images/skins/032.png" />
+    <file src="public/images/skins/033.png" />
+    <file src="public/images/skins/034.png" />
+    <file src="public/images/skins/035.png" />
+    <file src="public/images/skins/036.png" />
+    <file src="public/images/skins/037.png" />
+    <file src="public/images/skins/038.png" />
+    <file src="public/images/skins/039.png" />
+    <file src="public/images/skins/040.png" />
+    <file src="public/images/skins/041.png" />
+    <file src="public/images/skins/043.png" />
+    <file src="public/images/skins/044.png" />
+    <file src="public/images/skins/045.png" />
+    <file src="public/images/skins/046.png" />
+    <file src="public/images/skins/047.png" />
+    <file src="public/images/skins/048.png" />
+    <file src="public/images/skins/049.png" />
+    <file src="public/images/skins/050.png" />
+    <file src="public/images/skins/051.png" />
+    <file src="public/images/skins/052.png" />
+    <file src="public/images/skins/053.png" />
+    <file src="public/images/skins/054.png" />
+    <file src="public/images/skins/055.png" />
+    <file src="public/images/skins/056.png" />
+    <file src="public/images/skins/057.png" />
+    <file src="public/images/skins/058.png" />
+    <file src="public/images/skins/059.png" />
+    <file src="public/images/skins/060.png" />
+    <file src="public/images/skins/061.png" />
+    <file src="public/images/skins/062.png" />
+    <file src="public/images/skins/063.png" />
+    <file src="public/images/skins/064.png" />
+    <file src="public/images/skins/066.png" />
+    <file src="public/images/skins/067.png" />
+    <file src="public/images/skins/068.png" />
+    <file src="public/images/skins/069.png" />
+    <file src="public/images/skins/070.png" />
+    <file src="public/images/skins/071.png" />
+    <file src="public/images/skins/072.png" />
+    <file src="public/images/skins/073.png" />
+    <file src="public/images/skins/075.png" />
+    <file src="public/images/skins/076.png" />
+    <file src="public/images/skins/077.png" />
+    <file src="public/images/skins/078.png" />
+    <file src="public/images/skins/079.png" />
+    <file src="public/images/skins/080.png" />
+    <file src="public/images/skins/081.png" />
+    <file src="public/images/skins/082.png" />
+    <file src="public/images/skins/083.png" />
+    <file src="public/images/skins/084.png" />
+    <file src="public/images/skins/085.png" />
+    <file src="public/images/skins/087.png" />
+    <file src="public/images/skins/088.png" />
+    <file src="public/images/skins/089.png" />
+    <file src="public/images/skins/090.png" />
+    <file src="public/images/skins/091.png" />
+    <file src="public/images/skins/092.png" />
+    <file src="public/images/skins/093.png" />
+    <file src="public/images/skins/094.png" />
+    <file src="public/images/skins/095.png" />
+    <file src="public/images/skins/096.png" />
+    <file src="public/images/skins/097.png" />
+    <file src="public/images/skins/098.png" />
+    <file src="public/images/skins/099.png" />
+    <file src="public/images/skins/100.png" />
+    <file src="public/images/skins/101.png" />
+    <file src="public/images/skins/102.png" />
+    <file src="public/images/skins/103.png" />
+    <file src="public/images/skins/104.png" />
+    <file src="public/images/skins/105.png" />
+    <file src="public/images/skins/106.png" />
+    <file src="public/images/skins/107.png" />
+    <file src="public/images/skins/108.png" />
+    <file src="public/images/skins/109.png" />
+    <file src="public/images/skins/110.png" />
+    <file src="public/images/skins/111.png" />
+    <file src="public/images/skins/112.png" />
+    <file src="public/images/skins/113.png" />
+    <file src="public/images/skins/114.png" />
+    <file src="public/images/skins/115.png" />
+    <file src="public/images/skins/116.png" />
+    <file src="public/images/skins/117.png" />
+    <file src="public/images/skins/118.png" />
+    <file src="public/images/skins/120.png" />
+    <file src="public/images/skins/121.png" />
+    <file src="public/images/skins/122.png" />
+    <file src="public/images/skins/123.png" />
+    <file src="public/images/skins/124.png" />
+    <file src="public/images/skins/125.png" />
+    <file src="public/images/skins/126.png" />
+    <file src="public/images/skins/127.png" />
+    <file src="public/images/skins/128.png" />
+    <file src="public/images/skins/129.png" />
+    <file src="public/images/skins/130.png" />
+    <file src="public/images/skins/131.png" />
+    <file src="public/images/skins/132.png" />
+    <file src="public/images/skins/133.png" />
+    <file src="public/images/skins/134.png" />
+    <file src="public/images/skins/135.png" />
+    <file src="public/images/skins/136.png" />
+    <file src="public/images/skins/137.png" />
+    <file src="public/images/skins/138.png" />
+    <file src="public/images/skins/139.png" />
+    <file src="public/images/skins/140.png" />
+    <file src="public/images/skins/141.png" />
+    <file src="public/images/skins/142.png" />
+    <file src="public/images/skins/143.png" />
+    <file src="public/images/skins/144.png" />
+    <file src="public/images/skins/145.png" />
+    <file src="public/images/skins/146.png" />
+    <file src="public/images/skins/147.png" />
+    <file src="public/images/skins/148.png" />
+    <file src="public/images/skins/150.png" />
+    <file src="public/images/skins/151.png" />
+    <file src="public/images/skins/152.png" />
+    <file src="public/images/skins/153.png" />
+    <file src="public/images/skins/154.png" />
+    <file src="public/images/skins/155.png" />
+    <file src="public/images/skins/156.png" />
+    <file src="public/images/skins/157.png" />
+    <file src="public/images/skins/158.png" />
+    <file src="public/images/skins/159.png" />
+    <file src="public/images/skins/160.png" />
+    <file src="public/images/skins/161.png" />
+    <file src="public/images/skins/162.png" />
+    <file src="public/images/skins/163.png" />
+    <file src="public/images/skins/164.png" />
+    <file src="public/images/skins/165.png" />
+    <file src="public/images/skins/166.png" />
+    <file src="public/images/skins/167.png" />
+    <file src="public/images/skins/168.png" />
+    <file src="public/images/skins/169.png" />
+    <file src="public/images/skins/170.png" />
+    <file src="public/images/skins/171.png" />
+    <file src="public/images/skins/172.png" />
+    <file src="public/images/skins/173.png" />
+    <file src="public/images/skins/174.png" />
+    <file src="public/images/skins/175.png" />
+    <file src="public/images/skins/176.png" />
+    <file src="public/images/skins/177.png" />
+    <file src="public/images/skins/178.png" />
+    <file src="public/images/skins/179.png" />
+    <file src="public/images/skins/180.png" />
+    <file src="public/images/skins/181.png" />
+    <file src="public/images/skins/182.png" />
+    <file src="public/images/skins/183.png" />
+    <file src="public/images/skins/184.png" />
+    <file src="public/images/skins/185.png" />
+    <file src="public/images/skins/186.png" />
+    <file src="public/images/skins/187.png" />
+    <file src="public/images/skins/188.png" />
+    <file src="public/images/skins/189.png" />
+    <file src="public/images/skins/190.png" />
+    <file src="public/images/skins/191.png" />
+    <file src="public/images/skins/192.png" />
+    <file src="public/images/skins/193.png" />
+    <file src="public/images/skins/194.png" />
+    <file src="public/images/skins/195.png" />
+    <file src="public/images/skins/196.png" />
+    <file src="public/images/skins/197.png" />
+    <file src="public/images/skins/198.png" />
+    <file src="public/images/skins/199.png" />
+    <file src="public/images/skins/200.png" />
+    <file src="public/images/skins/201.png" />
+    <file src="public/images/skins/202.png" />
+    <file src="public/images/skins/203.png" />
+    <file src="public/images/skins/204.png" />
+    <file src="public/images/skins/205.png" />
+    <file src="public/images/skins/206.png" />
+    <file src="public/images/skins/207.png" />
+    <file src="public/images/skins/209.png" />
+    <file src="public/images/skins/210.png" />
+    <file src="public/images/skins/211.png" />
+    <file src="public/images/skins/212.png" />
+    <file src="public/images/skins/213.png" />
+    <file src="public/images/skins/214.png" />
+    <file src="public/images/skins/215.png" />
+    <file src="public/images/skins/216.png" />
+    <file src="public/images/skins/217.png" />
+    <file src="public/images/skins/218.png" />
+    <file src="public/images/skins/219.png" />
+    <file src="public/images/skins/220.png" />
+    <file src="public/images/skins/221.png" />
+    <file src="public/images/skins/222.png" />
+    <file src="public/images/skins/223.png" />
+    <file src="public/images/skins/224.png" />
+    <file src="public/images/skins/225.png" />
+    <file src="public/images/skins/226.png" />
+    <file src="public/images/skins/227.png" />
+    <file src="public/images/skins/228.png" />
+    <file src="public/images/skins/229.png" />
+    <file src="public/images/skins/230.png" />
+    <file src="public/images/skins/231.png" />
+    <file src="public/images/skins/232.png" />
+    <file src="public/images/skins/233.png" />
+    <file src="public/images/skins/234.png" />
+    <file src="public/images/skins/235.png" />
+    <file src="public/images/skins/236.png" />
+    <file src="public/images/skins/237.png" />
+    <file src="public/images/skins/238.png" />
+    <file src="public/images/skins/239.png" />
+    <file src="public/images/skins/240.png" />
+    <file src="public/images/skins/241.png" />
+    <file src="public/images/skins/242.png" />
+    <file src="public/images/skins/243.png" />
+    <file src="public/images/skins/244.png" />
+    <file src="public/images/skins/245.png" />
+    <file src="public/images/skins/246.png" />
+    <file src="public/images/skins/247.png" />
+    <file src="public/images/skins/248.png" />
+    <file src="public/images/skins/249.png" />
+    <file src="public/images/skins/250.png" />
+    <file src="public/images/skins/251.png" />
+    <file src="public/images/skins/252.png" />
+    <file src="public/images/skins/253.png" />
+    <file src="public/images/skins/254.png" />
+    <file src="public/images/skins/255.png" />
+    <file src="public/images/skins/256.png" />
+    <file src="public/images/skins/257.png" />
+    <file src="public/images/skins/258.png" />
+    <file src="public/images/skins/259.png" />
+    <file src="public/images/skins/260.png" />
+    <file src="public/images/skins/261.png" />
+    <file src="public/images/skins/262.png" />
+    <file src="public/images/skins/263.png" />
+    <file src="public/images/skins/264.png" />
+    <file src="public/images/skins/274.png" />
+    <file src="public/images/skins/275.png" />
+    <file src="public/images/skins/276.png" />
+    <file src="public/images/skins/277.png" />
+    <file src="public/images/skins/278.png" />
+    <file src="public/images/skins/279.png" />
+    <file src="public/images/skins/280.png" />
+    <file src="public/images/skins/281.png" />
+    <file src="public/images/skins/282.png" />
+    <file src="public/images/skins/283.png" />
+    <file src="public/images/skins/284.png" />
+    <file src="public/images/skins/285.png" />
+    <file src="public/images/skins/286.png" />
+    <file src="public/images/skins/287.png" />
+    <file src="public/images/skins/288.png" />
+    <file src="public/images/skins/265.png" />
+    <file src="public/images/skins/266.png" />
+    <file src="public/images/skins/267.png" />
+    <file src="public/images/skins/268.png" />
+    <file src="public/images/skins/269.png" />
+    <file src="public/images/skins/270.png" />
+    <file src="public/images/skins/271.png" />
+    <file src="public/images/skins/272.png" />
+    <file src="public/images/skins/290.png" />
+    <file src="public/images/skins/291.png" />
+    <file src="public/images/skins/292.png" />
+    <file src="public/images/skins/293.png" />
+    <file src="public/images/skins/294.png" />
+    <file src="public/images/skins/295.png" />
+    <file src="public/images/skins/296.png" />
+    <file src="public/images/skins/297.png" />
+    <file src="public/images/skins/298.png" />
+    <file src="public/images/skins/299.png" />
+    <file src="public/images/skins/300.png" />
+    <file src="public/images/skins/301.png" />
+    <file src="public/images/skins/302.png" />
+    <file src="public/images/skins/303.png" />
+    <file src="public/images/skins/304.png" />
+    <file src="public/images/skins/305.png" />
+    <file src="public/images/skins/306.png" />
+    <file src="public/images/skins/307.png" />
+    <file src="public/images/skins/308.png" />
+    <file src="public/images/skins/309.png" />
+    <file src="public/images/skins/310.png" />
+    <file src="public/images/skins/311.png" />
+    <file src="public/images/skins/312.png" />
+	<file src="public\images\items/356.png" />
+	<file src="public\images\items/357.png" />,
+	<file src="public\images\items/358.png" />
+	<file src="public\images\items/359.png" />
+    <file src="public\images\items/360.png" />
+	 <file src="public\images\items/361.png" />
+}
+</meta>

@@ -1,0 +1,32 @@
+<meta>
+    <info author="EditBox Library" version="2.0" name="EditBox System" description="Gelişmiş MTA Lua EditBox Kütüphanesi" />
+    
+    <!-- Client-side dosyalar -->
+    <script src="editbox.lua" type="client" />
+    
+    <!-- Export edilecek fonksiyonlar -->
+    <export function="createEditBox" type="client" />
+    <export function="destroyEditBox" type="client" />
+    <export function="setEditBoxActive" type="client" />
+    <export function="isEditBoxActive" type="client" />
+    <export function="getEditBoxText" type="client" />
+    <export function="setEditBoxText" type="client" />
+    <export function="setEditBoxMaxLength" type="client" />
+    <export function="setEditBoxNumbersOnly" type="client" />
+    <export function="setEditBoxTextOnly" type="client" />
+    <export function="setEditBoxPasteEnabled" type="client" />
+    <export function="clearEditBox" type="client" />
+    <export function="debugEditBox" type="client" />
+    <export function="listEditBoxes" type="client" />
+    
+    <!-- Eski fonksiyon isimleri (backward compatibility) -->
+    <export function="editEkle" type="client" />
+    <export function="editRemove" type="client" />
+    <export function="editActive" type="client" />
+    <export function="getText" type="client" />
+    <export function="isEditActive" type="client" />
+    <export function="onlyNumber" type="client" />
+    <export function="onlyText" type="client" />
+    <export function="pasteActive" type="client" />
+    <export function="maxLenght" type="client" />
+</meta>

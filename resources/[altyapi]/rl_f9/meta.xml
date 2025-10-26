@@ -1,0 +1,4 @@
+<meta>
+    <info author="YourName" type="script" name="Notification System" description="Custom Notification System for MTA:SA" />
+    <script src="client.lua" type="client" />
+</meta>

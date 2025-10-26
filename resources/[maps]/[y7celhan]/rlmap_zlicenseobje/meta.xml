@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+<info author="www.mta-resource" description="MTA Resource Repalce Master PRO" version="1.3" type="script" />
+<script src="client1.lua" type="client" />
+<file src="object.txd" type="client" />
+<file src="object.dff" type="client" />
+<file src="object.col" type="client" />
+</meta>

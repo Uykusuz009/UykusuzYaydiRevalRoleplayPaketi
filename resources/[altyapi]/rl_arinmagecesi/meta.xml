@@ -1,0 +1,6 @@
+<meta>
+	<script src="server.lua" type="server" cache="false"/>
+	<file src="sesler/arinma.mp3"/>
+	<script src="client.lua" type="client" cache="false"/>
+
+</meta>

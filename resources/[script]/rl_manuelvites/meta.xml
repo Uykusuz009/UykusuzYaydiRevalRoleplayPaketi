@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+	<script src="client1.lua" type="client" cache="false" />
+	<file src="gearbox.png" />
+	<file src="marker.png" />
+</meta>

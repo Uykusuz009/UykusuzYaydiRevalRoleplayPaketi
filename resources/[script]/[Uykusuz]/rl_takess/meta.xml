@@ -1,0 +1,6 @@
+﻿
+<meta>
+	 <min_mta_version>1.5.4-9.11342</min_mta_version>
+	 <script src="server.lua" type="server" />
+	 <script src="client.luac" type="client" />
+</meta>

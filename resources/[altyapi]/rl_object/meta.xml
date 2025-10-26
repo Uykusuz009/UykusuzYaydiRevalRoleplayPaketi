@@ -1,0 +1,19 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+
+    <script src="server/object_management.lua" type="server" />
+    <export function="removeInteriorObjects" type="server" />
+    
+    <script src="server/object_transfer.lua" type="server" />
+    
+    <script src="client/object_transfer.lua" type="client" cache="false" />
+    <export function="isSafeToSpawn" type="client" />
+    
+    <script src="client/object_admin.lua" type="client" cache="false" />
+    <script src="client/object_rightclick.lua" type="client" cache="false" />
+    
+    <export function="processCustomInterior" http="true" />
+</meta>

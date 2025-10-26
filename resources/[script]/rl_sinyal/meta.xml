@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+  <info author="Kylagin" type="misc" version="1.0" />
+  <min_mta_version client="1.5.0" server="1.5.0" />
+ 
+  <script src="shared.lua" type="shared" cache="false" />
+  <script src="client1.lua" type="client" cache="false" />
+  <script src="server.lua" type="server" cache="false" />
+
+  <file src="files/mta-helper.fx" />
+  <file src="files/shader.fx" />
+  <file src="files/shader2.fx" />
+  <file src="files/shader3.fx" />
+</meta>

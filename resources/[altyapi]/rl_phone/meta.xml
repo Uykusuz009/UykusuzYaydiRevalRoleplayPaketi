@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+    <script src="config.lua" type="shared" cache="false" />
+    
+    <script src="script/resolution.lua" type="client" cache="false" />
+    <script src="assets/lib/editbox.lua" type="client" cache="false" />
+    <script src="assets/lib/scroll.lua" type="client" cache="false" />
+    <script src="assets/lib/check.lua" type="client" cache="false" />
+    <script src="assets/lib/selfie.lua" type="client" cache="false" />
+    <script src="script/client1.lua" type="client" cache="false" />
+   
+    <script src="script/server.lua" type="server" />
+    
+    
+    
+    <file cache="false" src="model/phone.txd" />
+
+<file cache="false" src="model/phone.dff" />
+    <file src="assets/avatars/1.png" />
+    <file src="assets/call.png" />
+    <file src="assets/callEnd.png" />
+    <file src="assets/sound.mp3" />
+    <file src="assets/img/wallpapers/2.png" />
+    
+    <file src="assets/img/overlay.png" />
+    <file src="assets/img/load.png" />
+    <file src="assets/img/info.png" />
+    <file src="assets/img/widget.png" />
+    <file src="assets/img/ds.png" />
+    <file src="assets/img/widget2.png" />
+    <file src="assets/img/bildirimbg.png" />
+    <file src="assets/img/Spotify.png" />
+    <file src="assets/img/wallpapers/lockbg.png" />
+    <file src="assets/img/inicio/statusbar.png" />
+    <file src="assets/img/inicio/avbgc.png" />
+    <file src="assets/img/inicio/avbgd.png" />
+    
+    <file src="assets/img/apps/banco.png" />
+    <file src="assets/img/apps/infos.png" />
+    <file src="assets/img/apps/camera.png" />
+    <file src="assets/img/apps/config.png" />
+    <file src="assets/img/apps/contatos.png" />
+    <file src="assets/img/apps/darkweb.png" />
+    <file src="assets/img/apps/harita.png" />
+    <file src="assets/img/apps/twitter.png" />
+    <file src="assets/img/apps/instagram.png" />
+    <file src="assets/img/apps/whatsapp.png" />
+    <file src="assets/img/apps/telefone.png" />
+    <file src="assets/img/apps/spotify.png" />
+    <file src="assets/img/apps/default.png" />
+    <file src="assets/img/apps/galeri.png" />
+	
+    <file src="assets/img/app-png/airplane.png" />
+    <file src="assets/img/app-png/wifi.png" />
+    <file src="assets/img/app-png/bluetooth.png" />
+    <file src="assets/img/app-png/sound.png" />
+    <file src="assets/img/app-png/parlaklik.png" />
+    <file src="assets/img/app-png/fener.png" />
+    <file src="assets/img/app-png/camera.png" />
+    
+    <file src="assets/img/app-banco/fundo.png" />
+    <file src="assets/img/app-banco/card.png" />
+    <file src="assets/img/app-banco/buttontransfer.png" />
+    <file src="assets/img/app-banco/editbox.png" />
+    <file src="assets/img/app-banco/icon.png" />
+    
+    <file src="assets/img/app-whatsapp/icon.png" />
+    <file src="assets/img/app-whatsapp/editbox.png" />
+    <file src="assets/img/app-whatsapp/circle.png" />
+    <file src="assets/img/app-whatsapp/msg.png" />
+    <file src="assets/img/app-whatsapp/loc.png" />
+	
+    <file src="assets/img/app-darkweb/bg.png" />
+    <file src="assets/img/app-darkweb/auth.png" />
+    <file src="assets/img/app-darkweb/sett.png" />
+    
+    <file src="assets/img/app-whatsapp-conversa/fundo.png" />
+    <file src="assets/img/app-whatsapp-conversa/editbox.png" />
+    <file src="assets/img/app-whatsapp-conversa/conversa.png" />
+    <file src="assets/img/app-whatsapp-conversa/descer.png" />
+    <file src="assets/img/app-whatsapp-conversa/bar.png" />
+    
+    <file src="assets/img/app-contatos/fundo.png" />
+    <file src="assets/img/app-contatos/editbox.png" />
+    <file src="assets/img/app-contatos/add.png" />
+    <file src="assets/img/app-contatos/circle.png" />
+    <file src="assets/img/app-contatos/ligar.png" />
+    <file src="assets/img/app-contatos/msg.png" />
+    <file src="assets/img/app-contatos/excluir.png" />
+    
+    <file src="assets/img/app-config/fundo.png" />
+    <file src="assets/img/app-config/papel.png" />
+    <file src="assets/img/app-config/avatar.png" />
+    <file src="assets/img/app-config/notify.png" />
+    <file src="assets/img/app-config/phone2.png" />
+    <file src="assets/img/app-config/msg1.png" />
+	
+    <file src="assets/img/wallpapers/1.png" />
+    <file src="assets/img/wallpapers/2.png" />
+    <file src="assets/img/wallpapers/3.png" />
+    <file src="assets/img/wallpapers/4.png" />
+    <file src="assets/img/wallpapers/5.png" />
+    <file src="assets/img/wallpapers/6.png" />
+    <file src="assets/img/wallpapers/7.png" />
+    <file src="assets/img/wallpapers/8.png" />
+    <file src="assets/img/wallpapers/9.png" />
+    <file src="assets/img/wallpapers/10.png" />
+    <file src="assets/img/wallpapers/11.png" />
+    <file src="assets/img/wallpapers/12.png" />
+    <file src="assets/img/wallpapers/13.png" />
+    <file src="assets/img/wallpapers/14.png" />
+    <file src="assets/img/wallpapers/15.png" />
+    <file src="assets/img/wallpapers/16.png" />
+    <file src="assets/img/wallpapers/17.png" />
+    <file src="assets/img/wallpapers/18.png" />
+    <file src="assets/img/wallpapers/19.png" />
+    <file src="assets/img/wallpapers/20.png" />
+    <file src="assets/img/wallpapers/21.png" />
+    <file src="assets/img/wallpapers/22.png" />
+    <file src="assets/img/wallpapers/23.png" />
+    <file src="assets/img/wallpapers/24.png" />
+    <file src="assets/img/wallpapers/25.png" />
+    <file src="assets/img/wallpapers/26.png" />
+    <file src="assets/img/wallpapers/27.png" />
+    <file src="assets/img/wallpapers/28.png" />
+    <file src="assets/img/wallpapers/29.png" />
+    <file src="assets/img/wallpapers/30.png" />
+    <file src="assets/img/wallpapers/31.png" />
+    <file src="assets/img/wallpapers/32.png" />
+    <file src="assets/img/wallpapers/33.png" />
+    <file src="assets/img/wallpapers/34.png" />
+    <file src="assets/img/wallpapers/35.png" />
+    <file src="assets/img/wallpapers/36.png" />
+    <file src="assets/img/wallpapers/37.png" />
+    <file src="assets/img/wallpapers/33.png" />
+    <file src="assets/img/wallpapers/38.png" />
+    <file src="assets/img/wallpapers/39.png" />
+    <file src="assets/img/wallpapers/40.png" />
+    <file src="assets/img/wallpapers/41.png" />
+    <file src="assets/img/wallpapers/42.png" />
+    <file src="assets/img/wallpapers/43.png" />
+    <file src="assets/img/wallpapers/44.png" />
+    <file src="assets/img/wallpapers/45.png" />
+    <file src="assets/img/wallpapers/46.png" />
+    <file src="assets/img/wallpapers/47.png" />
+    <file src="assets/img/wallpapers/48.png" />
+    
+    <file src="assets/img/app-telefone/numeros.png" />
+    <file src="assets/img/app-telefone/barra.png" />
+    <file src="assets/img/app-telefone/back.png" />
+    <file src="assets/img/app-telefone/icon.png" />
+    <file src="assets/img/app-telefone/circle.png" />
+    <file src="assets/img/app-telefone/fundo.png" />
+    <file src="assets/img/app-telefone/desligar.png" />
+    <file src="assets/img/app-telefone/ligar.png" />
+    
+    <file src="assets/img/app-notify/fundo.png" />
+    <file src="assets/img/app-instagram/bg.png" />
+    <file src="assets/img/app-spotify/bg.png" />
+	
+    <file src="assets/img/app-galeri/bg.png" />
+    <file src="assets/img/app-galeri/bgg.png" />
+	
+    <file src="assets/img/app-harita/bg.png" />
+	
+    <file src="assets/img/app-tweet/bg.png" />
+    <file src="assets/img/app-tweet/tweet.png" />
+	
+    <file src="assets/img/app-kamera/bg.png" />
+    <file src="assets/img/app-kamera/deklansor.png" />
+    <file src="assets/img/app-kamera/mod.png" />
+    
+    
+    
+    <file src="assets/font/PoppinsMedium.ttf" />
+    <file src="assets/font/PoppinsSemiBold.ttf" />
+    <file src="assets/font/PoppinsBold.ttf" />
+    <file src="assets/font/PoppinsRegular.ttf" />
+    <file src="assets/font/SFUIDisplayRegular.otf" />
+    
+    
+    
+    <file src="assets/sound/click.mp3" />
+    <file src="assets/sound/calling.mp3" />
+    <file src="assets/sound/receiving.mp3" />
+    <file src="assets/sound/ulasilamadi.mp3" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728" />
+</meta>

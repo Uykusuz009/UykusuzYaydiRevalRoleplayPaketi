@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+    <info description="Yere yatırma" version="1.0" author="Pavlov" type="script" />
+	
+    <script src="server.lua" type="server" />
+    <script src="client1.lua" type="client" cache="false" />
+</meta>

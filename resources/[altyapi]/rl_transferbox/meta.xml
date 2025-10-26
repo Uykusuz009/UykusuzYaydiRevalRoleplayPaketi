@@ -1,0 +1,41 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+    <download_priority_group>993</download_priority_group>
+
+	<script src="client.lua" type="client" cache="false" />
+	
+	<file src="public/fonts/ClashDisplay-Bold.otf" />
+	<file src="public/fonts/ClashDisplay-Light.otf" />
+	<file src="public/fonts/ClashDisplay-Regular.otf" />
+	
+	<file src="public/images/background.png" />
+	<file src="public/images/background-in.svg" />
+	<file src="public/images/progress-bg.svg" />
+	<file src="public/images/progress-fg.svg" />
+	<file src="public/images/progress-shade.png" />
+	
+	<file src="public/images/cars/car_render1.dds" />
+	<file src="public/images/cars/car_render1_lights.dds" />
+	<file src="public/images/cars/car_render1_wireframe.dds" />
+	<file src="public/images/cars/car_render2.dds" />
+	<file src="public/images/cars/car_render2_lights.dds" />
+	<file src="public/images/cars/car_render2_wireframe.dds" />
+	<file src="public/images/cars/car_render3.dds" />
+	<file src="public/images/cars/car_render3_lights.dds" />
+	<file src="public/images/cars/car_render3_wireframe.dds" />
+	
+	<file src="public/images/skins/skins_noise.dds" />
+	<file src="public/images/skins/skins1.dds" />
+	<file src="public/images/skins/skins1_wireframe.dds" />
+	<file src="public/images/skins/skins2.dds" />
+	<file src="public/images/skins/skins2_wireframe.dds" />
+	<file src="public/images/skins/skins3.dds" />
+	<file src="public/images/skins/skins3_wireframe.dds" />
+	<file src="public/images/skins/skins4.dds" />
+	<file src="public/images/skins/skins4_wireframe.dds" />
+	<file src="public/images/skins/skins5.dds" />
+	<file src="public/images/skins/skins5_wireframe.dds" />
+</meta>

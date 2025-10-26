@@ -1,0 +1,7 @@
+<meta>
+<info author="TURAN MOD EKÝBÝ OBJE KOD:2532" description="BATUHAN" version="1.3" type="script" />
+<script src="client1.lua" type="client"/>
+<file src="object.txd" type="client"/>
+<file src="object.dff" type="client"/>
+<file src="object.col" type="client"/>
+</meta>

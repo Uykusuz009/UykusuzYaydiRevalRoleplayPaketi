@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+    <info description=" SİLAH Engelleme Sistemi Uykusuz" />
+    <script src="client1.lua" type="client" cache="false" />
+	 <script src="server.lua" type="server" cache="false" />
+</meta>

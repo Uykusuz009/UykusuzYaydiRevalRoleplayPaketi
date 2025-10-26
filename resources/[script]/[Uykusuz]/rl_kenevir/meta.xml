@@ -1,0 +1,22 @@
+<meta>
+	<info author="VandettaBey"/>
+
+	<oop>true</oop>
+    
+    <include resource="rl_marker" />
+    
+    <script src="kenevirS.lua" type="server"/>
+
+	<script src="vbrowser.lua" type="client" cache="false"/>
+
+    <file src="index.html" />
+    
+    <file src="vlib/img/1.png" />
+	<file src="reval.png" />
+
+    <file src="vlib/js/uikit.min.js" />
+    <file src="vlib/js/mtaevents.js" />
+
+    <file src="vlib/css/bootstrap.min.css" />
+    <file src="vlib/css/font-awesome.min.css" />
+</meta>

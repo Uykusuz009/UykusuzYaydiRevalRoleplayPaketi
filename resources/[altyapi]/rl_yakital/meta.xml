@@ -1,0 +1,6 @@
+<meta>
+  <script src="yazitipleri/client.lua" type="client" cache="false"/>
+  <file src="yazitipleri/Font.ttf"/>
+  <script src="server.lua" type="server" />
+  <script src="client.lua" type="client" />
+</meta>

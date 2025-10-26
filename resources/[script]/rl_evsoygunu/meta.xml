@@ -1,0 +1,4 @@
+﻿<meta>
+	<script src="soygunS.lua" type="server"/>
+	<script src="soygunC.lua" type="client" cache="false"/>
+</meta>

@@ -1,0 +1,4 @@
+<meta>
+    <info author="Wherry" version="17-12-04" name="Car moving parts" type="script"/>
+    <script type="server" cache="false" src="server.lua"/>
+</meta>

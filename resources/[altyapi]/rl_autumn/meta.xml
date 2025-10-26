@@ -1,0 +1,48 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+
+    <script src="client.lua" type="client" cache="false" />
+    
+    <file src="public/textures/badlands.txd" />
+    <file src="public/textures/bistro_plants.txd" />
+    <file src="public/textures/des_trees.txd" />
+    <file src="public/textures/gta_deserttrees.txd" />
+    <file src="public/textures/gta_potplants.txd" />
+    <file src="public/textures/gta_potplants2.txd" />
+    <file src="public/textures/gta_potplantsaa.txd" />
+    <file src="public/textures/gta_proc_bigbush.txd" />
+    <file src="public/textures/gta_proc_bush.txd" />
+    <file src="public/textures/gta_proc_bushland.txd" />
+    <file src="public/textures/gta_proc_ferns.txd" />
+    <file src="public/textures/gta_proc_grassland.txd" />
+    <file src="public/textures/gta_proc_grasslanda.txd" />
+    <file src="public/textures/gta_proc_rushes.txd" />
+    <file src="public/textures/gta_procdesert.txd" />
+    <file src="public/textures/gta_procflowers.txd" />
+    <file src="public/textures/gta_tree_bevhills.txd" />
+    <file src="public/textures/gta_tree_boak.txd" />
+    <file src="public/textures/gta_tree_oldpine.txd" />
+    <file src="public/textures/gta_tree_palm.txd" />
+    <file src="public/textures/gta_tree_pine.txd" />
+    <file src="public/textures/gta_tree_pineprc.txd" />
+    <file src="public/textures/gtarock_deserts.txd" />
+    <file src="public/textures/gtatreesh.txd" />
+    <file src="public/textures/gtatreesh04.txd" />
+    <file src="public/textures/gtatreeshi.txd" />
+    <file src="public/textures/gtatreeshi7.txd" />
+    <file src="public/textures/gtatreeshi9.txd" />
+    <file src="public/textures/gtatreeshifir.txd" />
+    <file src="public/textures/tree1.txd" />
+    <file src="public/textures/tree1prc.txd" />
+    <file src="public/textures/tree2.txd" />
+    <file src="public/textures/tree2prc.txd" />
+    <file src="public/textures/tree3.txd" />
+    <file src="public/textures/tree3prc.txd" />
+    <file src="public/textures/veg_fuzzyplant.txd" />
+    <file src="public/textures/veg_leaves.txd" />
+    <file src="public/textures/vegtresshi9b.txd" />
+    <file src="public/textures/vgsn_nitree.txd" />
+</meta>

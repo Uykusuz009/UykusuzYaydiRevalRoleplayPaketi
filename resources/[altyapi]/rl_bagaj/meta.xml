@@ -1,0 +1,4 @@
+<meta>
+	<info name="Bagajat Sistemi" author="Kaisen" type="script" version="1.1"/>
+	<script src="server.lua" type="server" />
+</meta>

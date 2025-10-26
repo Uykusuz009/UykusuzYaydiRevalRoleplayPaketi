@@ -1,0 +1,6 @@
+<meta>
+	<script src="hit_c.lua" type="client" cache="false" />
+	
+	<file src="hitmarker.png" />
+	<file src="hitmarker-sound.wav" />
+</meta>

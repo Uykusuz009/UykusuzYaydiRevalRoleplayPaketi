@@ -1,0 +1,5 @@
+<meta>
+<script src="main/main.lua" type="client" cache="false" />
+    <script src="server/event.lua" type="server" cache="false" />
+    <script src="server/editbox.lua" type="client" cache="false" />
+</meta>

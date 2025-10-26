@@ -1,0 +1,37 @@
+<meta>
+    <oop>true</oop>
+	
+	<script src = "client.lua" type = "client" cache = "false" />
+	<script src = "icons.lua" type = "client" cache = "false" />
+    
+	<file src = "files/BebasNeue-Regular.otf" />
+	<file src = "files/BebasNeue-Regular.ttf" />
+	<file src = "files/Familiar Pro-Bold.otf" />
+	<file src = "files/FontAwesome.ttf" />
+	<file src = "files/FontAwesome2.ttf" />
+	<file src = "files/FontAwesomeBrand.ttf" />
+	<file src = "files/FontAwesomeLight.ttf" />
+	<file src = "files/FontAwesomeRegular.ttf" />
+	<file src = "files/FontAwesomeRegular6.ttf" />
+	<file src = "files/FontAwesomeSolid.ttf" />
+	<file src = "files/franklin-gothic-atf-bold.otf" />
+	<file src = "files/LinikSans-Medium.ttf" />
+	<file src = "files/Montserrat-Bold.otf" />
+	<file src = "files/Montserrat-Medium.otf" />
+	<file src = "files/Montserrat-Regular.otf" />
+	<file src = "files/Montserrat-SemiBold.otf" />
+	<file src = "files/Panton-BlackCaps.otf" />
+	<file src = "files/Panton-LightCaps.otf" />
+	<file src = "files/Poppins.ttf" />
+	<file src = "files/qozpurna.otf" />
+	<file src = "files/regularFont.ttf" />
+	<file src = "files/Roboto.ttf" />
+	<file src = "files/RobotoB.ttf" />
+	<file src = "files/RobotoL.ttf" />
+	<file src = "files/sf-bold.ttf" />
+	<file src = "files/sf-medium.ttf" />
+	<file src = "files/SweetSixteen.ttf" />
+	<file src = "files/URW DIN Arabic Bold.ttf" />
+	
+	<export function = "getFont" type = "client" />
+</meta>

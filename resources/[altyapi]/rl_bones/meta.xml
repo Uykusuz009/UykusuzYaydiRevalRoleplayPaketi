@@ -1,0 +1,26 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+	
+    <script src="bone_attach.lua" />
+    <script src="bone_attach_c.lua" type="client" />
+    <script src="attach_func.lua" />
+    <script src="attach_func.lua" type="client" />
+    <script src="bone_pos_rot.lua" type="client" />
+    
+    <export function="attachElementToBone" type="server" />
+    <export function="attachElementToBone" type="client" />
+    <export function="detachElementFromBone" type="server" />
+    <export function="detachElementFromBone" type="client" />
+    <export function="isElementAttachedToBone" type="server" />
+    <export function="isElementAttachedToBone" type="client" />
+    <export function="getElementBoneAttachmentDetails" type="server" />
+    <export function="getElementBoneAttachmentDetails" type="client" />
+    <export function="setElementBonePositionOffset" type="server" />
+    <export function="setElementBonePositionOffset" type="client" />
+    <export function="setElementBoneRotationOffset" type="server" />
+    <export function="setElementBoneRotationOffset" type="client" />
+    <export function="getBonePositionAndRotation" type="client" />
+</meta>

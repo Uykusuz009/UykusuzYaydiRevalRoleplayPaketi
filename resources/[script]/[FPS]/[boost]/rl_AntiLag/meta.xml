@@ -1,0 +1,4 @@
+﻿<meta>
+	<info author="KaMiKaZe" version="1.0" name="Anti-Lag Panel" description="Panel Anti-Lag" type="script" />
+	<script src="client.lua" type="client" />
+</meta>

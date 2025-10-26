@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RL Ekstazi Mesleği</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vlib/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vlib/css/slick.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #1a1a1a, #363636);
+            color: #fff;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+        }
+        
+        .mu-book-overview-area {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3),
+                        inset 0 0 2px rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            animation: fadeInScale 0.8s ease-out;
+        }
+        
+        .mu-heading-area {
+            text-align: center;
+            margin-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .mu-logo {
+            width: 120px;
+            height: 120px;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .mu-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 50%;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(5px);
+            border: 2px solid rgba(147, 112, 219, 0.3);
+            box-shadow: 0 0 20px rgba(147, 112, 219, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .mu-logo:hover img {
+            transform: scale(1.05);
+            border-color: rgba(147, 112, 219, 0.6);
+            box-shadow: 0 0 30px rgba(147, 112, 219, 0.4);
+        }
+        
+        .mu-book-overview-single {
+            background: linear-gradient(45deg, rgba(89, 46, 131, 0.6), rgba(123, 67, 186, 0.6));
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+            transition: all 0.4s ease;
+            border: 1px solid rgba(147, 112, 219, 0.1);
+            box-shadow: 0 4px 15px rgba(89, 46, 131, 0.2),
+                        inset 0 0 20px rgba(147, 112, 219, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .mu-book-overview-single:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 8px 25px rgba(89, 46, 131, 0.3),
+                        inset 0 0 30px rgba(147, 112, 219, 0.2);
+            background: linear-gradient(45deg, rgba(89, 46, 131, 0.8), rgba(123, 67, 186, 0.8));
+            border: 1px solid rgba(147, 112, 219, 0.2);
+        }
+
+        .mu-heading-title {
+            background: linear-gradient(45deg, #9370DB, #4B0082, #9370DB);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% auto;
+            animation: gradientText 3s linear infinite;
+            font-size: 2.5em;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+        }
+
+        .mu-header-dot {
+            background: linear-gradient(90deg, #9370DB, #4B0082);
+            height: 4px;
+            width: 120px;
+            display: block;
+            margin: 25px auto;
+            border-radius: 2px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .mu-book-overview-single h4 {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            color: #fff;
+            font-weight: 600;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            position: relative;
+            padding-left: 15px;
+        }
+
+        .mu-book-overview-single h4:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 4px;
+            height: 0;
+            background: linear-gradient(to bottom, #9370DB, #4B0082);
+            animation: lineGrow 0.5s ease forwards;
+        }
+
+        .mu-book-overview-single p {
+            font-size: 1.1em;
+            line-height: 1.7;
+            color: rgba(255, 255, 255, 0.9);
+            padding-left: 15px;
+        }
+
+        @keyframes lineGrow {
+            to { height: 20px; }
+        }
+
+        @keyframes gradientText {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        @keyframes fadeInScale {
+            0% { transform: scale(0.95); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        .mu-footer-area {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 30px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: center;
+        }
+
+        .mu-footer-area a {
+            color: #e0e0e0;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            padding: 8px 20px;
+            border-radius: 8px;
+            background: rgba(147, 112, 219, 0.1);
+            border: 1px solid rgba(147, 112, 219, 0.2);
+        }
+
+        .mu-footer-area a:hover {
+            color: #fff;
+            background: rgba(147, 112, 219, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(147, 112, 219, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .mu-book-overview-area {
+                padding: 20px;
+            }
+            
+            .mu-heading-title {
+                font-size: 1.8em;
+            }
+            
+            .mu-book-overview-single {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+  </head>
+
+  <body>    
+    <main role="main">
+        <section id="mu-book-overview">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mu-book-overview-area">
+                            <div class="mu-heading-area">
+                                <div class="mu-logo">
+                                    <img src="reval.png" alt="Reval Roleplay Logo">
+                                </div>
+                                <h2 class="mu-heading-title">Reval Roleplay Ekstazi Mesleği</h2>
+                                <span class="mu-header-dot"></span>
+                            </div>
+
+                            <div class="mu-book-overview-content">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="mu-book-overview-single">
+                                            <h4>İlk olarak</h4>
+                                            <p>Gerekli alana gidip '/ekstazimalzeme' komutunu kullanarak ekstazi toplamak için gerekli olan kimyasal siyah eldivenleri almalısınız. (15.000₺)</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="mu-book-overview-single">
+                                            <h4>İkinci olarak</h4>
+                                            <p>Eldivenleri aldıktan sonra belirlenen bölgede '/ekstaziara' komutu ile ekstazi toplamaya başlayabilirsiniz. (Gerekli bölgenin neresi olduğuna F11'den bakabilirsiniz.)</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="mu-book-overview-single">
+                                            <h4>Üçüncü olarak</h4>
+                                            <p>ekstazi toplamadaki şansınız %50'dir</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="mu-book-overview-single">
+                                            <h4>Dördüncü olarak</h4>
+                                            <p>Paketlenmemiş ekstazi bulduktan sonra paketleme işlemi yapabilmek için gerekli alandan paket alabilirsiniz (1.000₺) ya da şehirde çöp kutularını karıştırarak paket elde edebilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="mu-book-overview-single">
+                                            <h4>Beşinci olarak</h4>
+                                            <p>Paketlenmemiş ekstazii toplamanızın ardından gerekli bölgeye girerek '/ekstazipaketle' komutu ile paketleyebilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="mu-book-overview-single">
+                                            <h4>Altıncı olarak</h4>
+                                            <p>Paketlenmemiş ekstazi paketledikten sonra satabilirsiniz. Belirlenen bölgeye giderek '/ekstazisat' komutu ile satabilir, her paketlenmiş ekstazi için 3.500₺ kazanabilirsiniz.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="mu-book-overview-single">
+                                            <h4>Yedinci olarak</h4>
+                                            <p>Bu işelmi yapabilmek için bir il-legal birliğinde olmanız gerekmektedir.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="mu-book-overview-single">
+                                            <h4>Son olarak</h4>
+                                            <p>Farklı sistem önerileriniz için discord.gg/revalroleplay adresinden Discord sunucumuza katılabilir, "sistem-öneri" kanalından fikirlerinizi belirtebilirisiniz.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="mu-footer" role="contentinfo">
+        <div class="container">
+            <div class="mu-footer-area">
+                <p class="mu-copyright"><a rel="nofollow" onclick="mta.triggerEvent('ekstazi:kapat');">KAPAT</a></p>
+            </div>
+            <div class="mu-footer-area">
+                <p class="mu-copyright">| Sunucu - </a>Reval Roleplay V1</a> |</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="vlib/js/uikit.min.js"></script>
+    <script src="vlib/js/mtaevents.js"></script>
+  </body>
+</html>

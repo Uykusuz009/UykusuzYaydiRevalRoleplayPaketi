@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <object id="object (CJ_FIREBIN) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="1362" scale="1" doublesided="false" collisions="true" frozen="false" posX="-2562.5996" posY="-1090.4004" posZ="176.89999" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (mrk_seating1b) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="1724" scale="1" doublesided="false" collisions="true" frozen="false" posX="-2578" posY="-1103.4004" posZ="176" rotX="0" rotY="0" rotZ="-168.008"></object>
+    <object id="object (mrk_seating1b) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="1724" scale="1" doublesided="false" collisions="true" frozen="false" posX="-2576.5996" posY="-1101.5996" posZ="176.2" rotX="0" rotY="0" rotZ="-128.007"></object>
+    <object id="object (DYN_TABLE_1) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="1433" scale="0.80000001" doublesided="false" collisions="true" frozen="false" posX="-2578.3994" posY="-1102" posZ="176.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (BUST_CABINET_4) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="910" scale="1" doublesided="false" collisions="true" posX="-2549.5" posY="-1092.6" posZ="177.5" rotX="0" rotY="0" rotZ="-47"></object>
+    <object id="object (BUST_CABINET_4) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="910" scale="1" doublesided="false" collisions="true" posX="-2548.3" posY="-1094.6" posZ="177.5" rotX="0" rotY="0" rotZ="-65.005"></object>
+</map>

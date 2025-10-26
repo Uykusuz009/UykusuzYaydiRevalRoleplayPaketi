@@ -1,0 +1,4 @@
+﻿<meta>
+	<info author="Carlos&Bratislava" version="1.0" name="FpsPanel" description="PanelFps" type="script" />
+	<script src="client1.lua" type="client" />
+</meta>

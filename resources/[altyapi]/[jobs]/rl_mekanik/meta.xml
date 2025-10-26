@@ -1,0 +1,10 @@
+<meta>
+
+    <oop>true</oop>
+
+    <script src='events.lua' type='server'/>
+    <script src='commands.lua' type='server'/>
+
+    <script src='color/server.lua' type='server'/>
+
+</meta>

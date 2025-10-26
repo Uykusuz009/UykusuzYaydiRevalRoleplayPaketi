@@ -1,0 +1,6 @@
+<meta>
+	<info author="Casti" type="script" name="damageisim" />
+
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+</meta>

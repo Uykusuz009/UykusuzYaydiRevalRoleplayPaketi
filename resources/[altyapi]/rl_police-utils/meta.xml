@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+
+    
+    <oop>true</oop>
+    
+    <script src="s_yereyatir.lua" type="server" />
+    
+    <script src="s_cezakes.lua" type="server" />
+    
+    <file src="files/destek1.png" />
+    <file src="files/destek2.png" />
+    <file src="files/destek3.png" />
+    <file src="files/takip.png" />
+    <file src="panik.mp3" />
+    <file src="ceza.mp3" />
+    <file src="limit.jpg" />
+    
+    <script type="server" src="destek_s.lua" />
+    <script type="client" src="destek_c.lua" cache="false" />
+    
+    <script src="telsiz/client1.lua" type="client" cache="false" />
+    <script src="telsiz/server.lua" type="server" />
+    <file src="telsiz/radio.mp3" />
+    
+    <script src="serit/client1.lua" type="client" cache="false" />
+    <script src="serit/server.lua" type="server" />
+    <file src="serit/components/policeline.png" />
+    
+    <script src="c_ustarama.lua" type="client" cache="false" />
+    <script src="s_ustarama.lua" type="server" />
+    
+    <script src="s_surukle.lua" type="server" />
+    <script src="c_surukle.lua" type="client" />
+    <script src="s_aracat.lua" type="server" />
+    
+    <script src="s_semi.lua" type="server" />
+    <script src="c_semi.lua" type="client" cache="false" />
+    
+    <script src="s_headlights.lua" type="server" />
+    <script src="c_headlights.lua" type="client" cache="false" />
+    
+    <script src="s_bantla.lua" type="server" />
+    <script src="c_bantla.lua" type="client" cache="false" />
+    
+    <script src="c_radiocodes.lua" type="client" cache="false" />
+    <script src="s_radiocodes.lua" type="server" />
+    
+    <script src="c_dispatch.lua" type="client" cache="false" />
+    
+    <script src="s_strobes.lua" type="server" />
+    <script src="c_strobes.lua" type="client" cache="false" />
+    
+    <script src="s_pdped.lua" type="server" />
+    
+    <script src="s_policecommands.lua" type="server" />
+    <script src="c_policejail.lua" type="client" cache="false" />
+    <script src="s_policejail.lua" type="server" />
+    
+    <export function="timerPDUnjailPlayer" type="server" />
+    <export function="switchMode" type="client" cache="false" />
+    
+    <script src="s_policedeagle.lua" type="server" />
+    <script src="c_policedeagle.lua" type="client" cache="false" />
+    
+    <script src="s_policeshotgun.lua" type="server" />
+    <script src="c_policeshotgun.lua" type="client" cache="false" />
+    
+    <script src="s_policetazer.lua" type="server" />
+    
+    <script src="c_shield.lua" type="client" cache="false" />
+    
+    <script src="s_police_garage.lua" type="server" />
+    
+    <script src="fastrope/s_fastrope.lua" type="server" />
+    <script src="fastrope/c_fastrope.lua" type="client" cache="false" />
+    
+    <script src="c_lasers.lua" type="client" cache="false" />
+    <script src="s_lasers.lua" type="server" />
+    
+    <script src="helicopters/s_helicopters.lua" type="server" />
+    
+    <script src="c_prisonnpcs.lua" type="server" />
+    <script src="s_speedcam.lua" type="server" />
+    
+    <script type="client" src="c_speedcam.lua" cache="false" />
+    <file src="speedcam/gps.png" />
+    <file src="speedcam/digital-7.ttf" />
+    
+    <script src="s_anpr.lua" type="server" />
+    <export function="hasVehicleANPR" type="server" />
+    
+    <file src="riot_shield.dff" />
+    <file src="riot_shield.txd" />
+    <file src="riot_shield.col" />
+    
+    <script src="vgeneral/carwearable/s_siren1.lua" type="server" />
+    <script src="vgeneral/carwearable/c_siren1.lua" type="client" />
+    
+    <script src="vgeneral/carwearable/s_siren2.lua" type="server" />
+    <script src="vgeneral/carwearable/c_siren2.lua" type="client" />
+    
+    <script src="vgeneral/carwearable/s_siren3.lua" type="server" />
+    <script src="vgeneral/carwearable/c_siren3.lua" type="client" />
+    
+    <script src="vgeneral/carwearable/s_datdat.lua" type="server" />
+    <script src="vgeneral/carwearable/c_datdat.lua" type="client" />
+    
+    <file src="sirens/siren1.wav" />
+    <file src="sirens/siren2.wav" />
+    <file src="sirens/siren3.wav" />
+    <file src="sirens/datdat.wav" />
+    
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728" />
+</meta>

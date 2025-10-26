@@ -1,0 +1,7 @@
+<meta>
+  <info author="Reval Roleplay" version="1" type="script"/>
+    <oop>true</oop>
+    <script src="venom.lua" type="client" cache="false"/>   
+    <script src="arac.lua" type="client"/>   
+
+</meta>

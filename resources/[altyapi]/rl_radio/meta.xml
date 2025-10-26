@@ -1,0 +1,32 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+
+    <script src="radio_configs_g.lua" type="server" />
+    <script src="radio_configs_g.lua" type="client" cache="false" />
+    
+    <script src="stations_s.lua" type="server" />
+    <script src="stations_c.lua" type="client" cache="false" />
+    
+    <script src="s_radio.lua" type="server" />
+    <script src="c_radio.lua" type="client" cache="false" />
+    
+    <script src="g_debug.lua" type="server" />
+    <script src="g_debug.lua" type="client" cache="false" />
+    
+    <script src="radio_manager_s.lua" type="server" />
+    <script src="radio_manager_c.lua" type="client" cache="false" />
+    
+    <script src="radio_manager_g.lua" type="server" />
+    <script src="radio_manager_g.lua" type="client" cache="false" />
+    
+    <export function="getStreams" type="server" />
+    <export function="getStreams" type="client" />
+    
+    <export function="canAccessManager" type="server" />
+    <export function="canAccessManager" type="client" />
+    
+    <export function="showMP3GUI" type="client" />
+</meta>

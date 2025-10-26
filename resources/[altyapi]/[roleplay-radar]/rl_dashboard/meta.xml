@@ -1,0 +1,14 @@
+<meta>
+    <oop>true</oop>
+
+    <script src = "animalsC.lua" type = "client" cache = "false" />
+    <script src = "groupsC.lua" type = "client" cache = "false" />
+    <script src = "interiorsC.lua" type = "client" cache = "false" />
+    <script src = "newsC.lua" type = "client" cache = "false" />
+    <script src = "ppshopC_v4.lua" type = "client" cache = "false" />
+    <script src = "ppshopG.lua" type = "client" cache = "false" />
+    <script src = "settingsC_v4.lua" type = "client" cache = "false" />
+    <script src = "sourceC_v4.lua" type = "client" cache = "false" />
+    <script src = "sourceG.lua" type = "client" cache = "false" />
+    <script src = "vehiclesC_v4.lua" type = "client" cache = "false" />
+</meta>

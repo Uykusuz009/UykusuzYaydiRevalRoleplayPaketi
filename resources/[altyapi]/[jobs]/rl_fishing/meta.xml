@@ -1,0 +1,10 @@
+<meta>
+
+    <oop>true</oop>
+
+    <map src="balik-system-map/balik-system-map.map" dimension="0"></map>
+    <script src="balik-system-map/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="balik-system-map/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+    <script src="s_fishing_job.lua" type="server" />
+
+</meta>

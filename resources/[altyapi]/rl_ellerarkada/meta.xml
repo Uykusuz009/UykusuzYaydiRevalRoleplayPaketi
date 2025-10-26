@@ -1,0 +1,7 @@
+<meta>
+	<info author="SparroW"/>
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" />
+	<file src="anim.ifp"/>
+	<min_mta_version server="1.3.0-9.04570" client="1.3.0-9.04570" />
+</meta>

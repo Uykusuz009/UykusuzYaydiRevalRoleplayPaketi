@@ -1,0 +1,76 @@
+<meta>
+    <download_priority_group>1</download_priority_group>
+    <oop>true</oop>
+
+    <script src="client.lua" type="client" cache="false"></script>
+
+    <file src="files/breeze-bold.ttf"></file>
+    <file src="files/breeze-medium.ttf"></file>
+    <file src="files/breeze-regular.ttf"></file>
+    <file src="files/breeze-thin.ttf"></file>
+    <file src="files/breeze-light.ttf"></file>
+    <file src="files/Sweet.ttf"></file>
+	
+	<file src="files/avalon.ttf"></file>
+    <file src="files/avalon-bold.ttf"></file>
+	
+    <file src="files/ps-bold.ttf"></file>
+    <file src="files/ps-bolditalic.ttf"></file>
+    <file src="files/ps-regular.ttf"></file>
+    <file src="files/ps-italic.ttf"></file>
+    <file src="files/ps-thin.ttf"></file>
+    <file src="files/ps-thinitalic.ttf"></file>
+    <file src="files/ps-black.ttf"></file>
+    <file src="files/ps-blackitalic.ttf"></file>
+    <file src="files/ps-elight.ttf"></file>
+    <file src="files/ps-eligthitalic.ttf"></file>
+    <file src="files/ps-light.ttf"></file>
+    <file src="files/ps-lightitalic.ttf"></file>
+    <file src="files/ps-medium.ttf"></file>
+    <file src="files/ps-mediumitalic.ttf"></file>
+	
+	<file src="files/kf-bold.ttf"></file>
+    <file src="files/kf-bolditalic.ttf"></file>
+    <file src="files/kf-regular.ttf"></file>
+    <file src="files/kf-italic.ttf"></file>
+	
+	<file src="files/np-bold.ttf"></file>
+	<file src="files/np-extralight.ttf"></file>
+    <file src="files/np-light.ttf"></file>
+    <file src="files/np-regular.ttf"></file>
+    <file src="files/np-medium.ttf"></file>
+	
+	<file src="files/in-bold.ttf"></file>
+	<file src="files/in-elight.ttf"></file>
+    <file src="files/in-elightitalic.ttf"></file>
+    <file src="files/in-italic.ttf"></file>
+    <file src="files/in-light.ttf"></file>
+	<file src="files/in-lightitalic.ttf"></file>
+	<file src="files/in-regular.ttf"></file>
+    <file src="files/in-thin.ttf"></file>
+    <file src="files/in-thinitalic.ttf"></file>
+	<file src="files/in-medium.ttf"></file>
+	
+	<file src="files/Bebas.ttf"></file>
+    <file src="files/BoldFont.ttf"></file>
+    <file src="files/FontAwesome.ttf"></file>
+    <file src="files/FontAwesome2.ttf"></file>
+    <file src="files/FontAwesomeBrand.ttf"></file>
+    <file src="files/FontAwesomeRegular.otf"></file>
+    <file src="files/gotham_light.ttf"></file>
+    <file src="files/OpenSans.ttf"></file>
+    <file src="files/Roboto.ttf"></file>
+    <file src="files/RobotoB.ttf"></file>
+    <file src="files/RobotoL.ttf"></file>
+    <file src="files/TahomaBold.ttf"></file>
+
+    <file src="files/sf-black.ttf"></file>
+    <file src="files/sf-bold.ttf"></file>
+    <file src="files/sf-medium.ttf"></file>
+    <file src="files/sf-regular.ttf"></file>
+    <file src="files/sf-thin.ttf"></file>
+	<file src="files/sf-regular-italic.ttf"></file>
+    <file src="files/FontAwesomeSolid.otf"></file>
+    <export function="getFont" type="client"></export>
+
+</meta>

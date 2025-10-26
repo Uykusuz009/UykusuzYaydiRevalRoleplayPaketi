@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+
+    <script src="client1.lua" type="client" />
+    
+    <file src="teszt.txd" />
+    
+    <file src="teszt.dff" />
+    <file src="teszt.col" />
+	<file src="files/k.col" />
+    <file src="files/k.dff" />
+
+</meta>

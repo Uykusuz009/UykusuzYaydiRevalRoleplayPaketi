@@ -1,0 +1,54 @@
+sx , sy = guiGetScreenSize()
+local dgfont = dxCreateFont("fonts.ttf",10)
+function ebind()
+if getElementData(localPlayer, "cicek:e") then
+  dxDrawRoundedRectangle(sx*0.41, 4, sx*0.18, sy*0.03, tocolor(10,10,10, 235), { 0.4, 0.4, 0.4, 0.4 })
+dxDrawText(" Çiçek "..getElementData(localPlayer, "cicek:tur").." için [E] basınız." , 0,sy*0.011, sx, sy , tocolor(255,255,255) , 1 , dgfont, "center")
+end
+end
+setTimer(ebind, 0,0)
+
+local ciceksure
+function cicek_toplama(t)
+	ciceksure = 0
+    if ciceksure >= 10 then return end
+    setTimer ( function()
+        ciceksure = ciceksure + 0.02
+        cicekdurum()
+        if ciceksure >=10 then triggerServerEvent("cicek:ver", localPlayer, localPlayer) 
+		setElementData(localPlayer, "cicek:top", false)
+		setElementData(localPlayer, "bind:engel", false)	
+		end
+    end, 10, 501 )
+end
+addEvent("cicek:toplama", true)
+addEventHandler("cicek:toplama", getLocalPlayer(), cicek_toplama)
+
+function cicekdurum() 
+    if getElementData(localPlayer, "cicek:top") then
+      dxDrawRoundedRectangle(sx/2.6, sy*0.85, sx*25/100, sy*0.03, tocolor(0,0,0, 200), { 0.5, 0.5, 0.5, 0.5 })
+      dxDrawRoundedRectangle(sx/2.6, sy*0.85, sx*ciceksure/40, sy*0.03, tocolor(255,255,255, 100), { 0.5, 0.5, 0.5, 0.5 })
+    end
+end 
+setTimer(cicekdurum, 0,0)
+
+function roundedRectangle(x, y, w, h, borderColor, bgColor, postGUI)
+	if (x and y and w and h) then
+		if (not borderColor) then
+			borderColor = tocolor(0, 0, 0, 200);
+		end
+		
+		if (not bgColor) then
+			bgColor = borderColor;
+		end
+		
+		--> Background
+		dxDrawRectangle(x, y, w, h, bgColor, postGUI);
+		
+		--> Border
+		dxDrawRectangle(x + 2, y - 1, w - 4, 1, borderColor, postGUI); -- top
+		dxDrawRectangle(x + 2, y + h, w - 4, 1, borderColor, postGUI); -- bottom
+		dxDrawRectangle(x - 1, y + 2, 1, h - 4, borderColor, postGUI); -- left
+		dxDrawRectangle(x + w, y + 2, 1, h - 4, borderColor, postGUI); -- right
+	end
+end

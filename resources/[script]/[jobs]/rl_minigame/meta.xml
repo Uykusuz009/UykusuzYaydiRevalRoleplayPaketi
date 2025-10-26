@@ -1,0 +1,11 @@
+<meta>
+    <script src="sourceC.lua" type="client" />
+    <script src="sourceG.lua" type="shared" />
+    <script src="sourceS.lua" type="server" />
+    
+    <file src="files/arrow.png" />
+    <file src="files/circle.png" />
+    <file src="files/picture.png" />
+    
+    <export function="startMinigame" type="client" />
+</meta>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+	<info author="FurkanOzulus" type="script" version="1.0" />
+	<script src="client1.lua" type="client" />
+	<file src="firehouse_sfse.txd" />
+</meta>

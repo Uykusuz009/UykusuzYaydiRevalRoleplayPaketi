@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+	<info name="Antilag FPS Fix System" author="ExEr" version="1.0" type="script" />
+	<script src="panel.lua" type="client" cache="false" />
+	<script src="client1.lua" type="client" cache="false" />
+</meta>

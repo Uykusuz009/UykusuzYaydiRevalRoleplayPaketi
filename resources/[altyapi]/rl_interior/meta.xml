@@ -1,0 +1,50 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+	
+    <script src="shared/shared.lua" type="shared" cache="false" />
+    <script src="shared/activity.lua" type="shared" cache="false" />
+    <script src="shared/debug.lua" type="shared" cache="false" />
+
+    <script src="server/admin.lua" type="server" />
+	
+    <script src="server/interior.lua" type="server" />
+    <script src="client/interior.lua" type="client" cache="false" />
+    
+    <script src="server/settings.lua" type="server" />
+    <script src="client/settings.lua" type="client" cache="false" />
+	
+    <script src="client/ui.lua" type="client" cache="false" />
+    
+	<file src="public/sounds/knocking.mp3" />
+    <file src="public/sounds/doorUnlockSound.mp3" />
+    <file src="public/sounds/doorLockSound.mp3" />
+    <file src="public/sounds/doorGoThru.mp3" />
+	
+    <export function="addSafeAtPosition" type="server" />
+    <export function="publicSellProperty" type="server" />
+    <export function="cleanupProperty" type="server" />
+    <export function="findProperty" type="server" />
+    <export function="findParent" type="server" />
+    <export function="lockUnlockHouseEvent" type="server" />
+    <export function="reloadInterior" type="server" />
+    <export function="realReloadInterior" type="server" />
+    
+    <export function="findProperty" type="client" />
+    <export function="findParent" type="client" />
+    <export function="canEnterInterior" type="client" />
+    <export function="setPlayerInsideInterior" type="server" />
+    
+    <export function="canPlayerKnowInteriorOwner" type="client" />
+    <export function="canPlayerSeeInteriorID" type="client" />
+    
+    <export function="isActive" type="client" />
+    <export function="isActive" type="server" />
+    
+    <export function="isProtected" type="client" />
+    <export function="isProtected" type="server" />
+    
+    <export function="unownProperty" type="server" />
+</meta>

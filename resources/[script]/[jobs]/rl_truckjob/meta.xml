@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+<info author="#Chef" type="script" name="system-lojistik" />
+<script src="file-shared.lua" type="shared" cache="false" />
+<script src="file-client1.lua" type="client" cache="false" />
+<script src="file-server.lua" type="server" />
+<file src="files/logo_audi.png" />
+<file src="files/logo_lays.png" />
+<file src="files/logo_pepsi.png" />
+<file src="files/logo_shell.png" />
+</meta>

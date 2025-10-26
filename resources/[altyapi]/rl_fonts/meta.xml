@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+    <oop>true</oop>
+    <script src="client1.lua" type="client" cache="false" />
+    <script src="icons.lua" type="client" cache="false" />
+    <min_mta_version client="1.5.5" server="1.5.5" />
+    <file src="files/Modern.ttf" />
+    <file src="files/Rubik-Bold.ttf" />
+    <file src="files/Rubik-Regular.ttf" />
+    <file src="files/Rubik-Light.ttf" />
+    <file src="files/gotham_light.ttf" />
+    <file src="files/Roboto.ttf" />
+    <file src="files/RobotoB.ttf" />
+    <file src="files/SARP.ttf" />
+    <file src="files/Raleway.ttf" />
+    <file src="files/RobotoL.ttf" />
+    <file src="files/OpenSans.ttf" />
+    <file src="files/ArialRegular.ttf" />
+    <file src="files/regularFont.ttf" />
+    <file src="files/FontAwesome.ttf" />
+    <file src="files/BoldFont.ttf" />
+    <file src="files/gtaFont.ttf" />
+    <file src="files/loginfont.ttf" />
+    <file src="files/Yantramanav-Black.ttf" />
+    <file src="files/Yantramanav-Regular.ttf" />
+    <file src="files/Azzardo-Regular.ttf" />
+    <file src="files/ArtegraSans-Black.otf" />
+    <file src="files/ArtegraSans-Bold.otf" />
+    <file src="files/ArtegraSans-Thin.otf" />
+    <file src="files/ArtegraSans-ExtraBold.otf" />
+    <file src="files/DeansGateB.ttf" />
+    <file src="files/FontAwesome5.ttf" />
+    <file src="files/FontAwesomeBrand.otf" />
+    <file src="files/FontAwesomeRegular.ttf" />
+    <file src="files/FontAwesomeRegular6.ttf" />
+    <file src="files/FontAwesomeSolid.otf" />
+    <file src="files/Roboto-Bold.ttf" />
+    <file src="files/Roboto-Black.ttf" />
+    <file src="files/Roboto-Regular.ttf" />
+    <file src="files/Roboto-Light.ttf" />
+    <file src="files/Roboto-Light-Italic.ttf" />
+    <file src="files/Lato-Bold.ttf" />
+    <file src="files/Lato-Regular.ttf" />
+	<file src="files/Bebas.ttf" />
+	<file src="files/FontAwesome2.ttf" />
+	<file src="files/Libertus.ttf" />
+	<file src="files/sf-black.otf" />
+	<file src="files/sf-bold.ttf" />
+	<file src="files/sf-medium.ttf" />
+	<file src="files/sf-regular.ttf" />
+	<file src="files/sf-thin.ttf" />
+	<file src="files/TahomaBold.ttf" />
+	<file src="files/whitney.otf" />
+	
+	<file src = "files/BebasNeue-Regular.otf" />
+	<file src = "files/BebasNeue-Regular.ttf" />
+	<file src = "files/Familiar Pro-Bold.otf" />
+	<file src = "files/FontAwesomeLight.ttf" />
+	<file src = "files/FontAwesomeSolid.ttf" />
+	<file src = "files/franklin-gothic-atf-bold.otf" />
+	<file src = "files/LinikSans-Medium.ttf" />
+	<file src = "files/Montserrat-Bold.otf" />
+	<file src = "files/Montserrat-Medium.otf" />
+	<file src = "files/Montserrat-Regular.otf" />
+	<file src = "files/Montserrat-SemiBold.otf" />
+	<file src = "files/Panton-BlackCaps.otf" />
+	<file src = "files/Panton-LightCaps.otf" />
+	<file src = "files/Poppins.ttf" />
+	<file src = "files/qozpurna.otf" />
+	<file src = "files/SweetSixteen.ttf" />
+	<file src = "files/URW DIN Arabic Bold.ttf" />
+    <export function="getFont" type="client" />
+    <export function="getIcon" type="client" />
+</meta>

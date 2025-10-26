@@ -1,0 +1,7 @@
+<meta>
+	<file src="files/bilgi31.png" />
+	<script src="server.lua" type="server"/>
+	<script src="client.lua" type="client"/>
+	<file src="files/sound.wav" />
+	<file src="files/cryder.m4a" />
+</meta>

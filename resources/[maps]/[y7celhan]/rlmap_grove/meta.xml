@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+	<info author="FrequenzMapper" name="Etraf-Düzen" type="script" version="1.0.0" />
+	<script src="client1.lua" type="client" />
+</meta>

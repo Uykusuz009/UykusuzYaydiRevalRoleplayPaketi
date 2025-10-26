@@ -1,0 +1,13 @@
+<meta>
+	<info author="Falke" type="script" version="2.0.0" name="Taser" />
+	
+	<!-- Client side files -->
+		<script src="ClientResource.lua" type="client" />
+		<script src="ClientWeapon.lua" type="client" />	
+	<!-- Server side Files -->
+		<script src="ServerWeapon.lua" type="server" />
+	<!-- Data Files -->	
+		<file src="data/taser.dff" />
+		<file src="data/taser.txd" />
+		<file src="data/Fire.wav" />
+</meta>

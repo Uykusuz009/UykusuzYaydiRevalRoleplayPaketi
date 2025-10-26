@@ -1,0 +1,5 @@
+addEvent("payday.playSound", true)
+addEventHandler("payday.playSound", root, function()
+	local sound = playSound("public/sounds/" .. math.random(9) .. ".mp3")   
+	setSoundVolume(sound, 0.5)
+end)

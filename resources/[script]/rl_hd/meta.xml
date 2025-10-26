@@ -1,0 +1,10 @@
+<meta>
+	<info author="Dutchman101/Ren_712" description="Vehicle reflection shader" type="misc" version="1.0" />
+	<!--This shader takes no single performance/FPS toll, achieved by unique FX techniques, and looks the closest to real ENB of all circulating shaders -->
+	<!--Start losing the idea ENB-like shaders will decrease your FPS ;) -->
+    <script src="client_carshader.lua" type="client" />
+    <script src="client_shaderinit.lua" type="client" />
+    <script src="client_switchmode.lua" type="client" />
+    <file src="fx/mta-helper.fx" type="client" />
+    <file src="images/smallnoise3d.dds" type="client" />
+</meta>

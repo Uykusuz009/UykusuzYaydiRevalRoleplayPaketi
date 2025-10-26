@@ -1,0 +1,15 @@
+<meta>
+<oop>true</oop>
+
+<script src="config.lua" type="shared"/>
+<script src="client.lua" type="client" cache="false"/>
+<script src="html.lua" type="client" cache="false"/>
+<script src="server.lua" type="server"/>
+
+<file src="index.html"/>
+<file src="files/1.mp3"/>
+<file src="files/2.mp3"/>
+<file src="files/3.mp3"/>
+<file src="files/4.mp3"/>
+
+</meta>

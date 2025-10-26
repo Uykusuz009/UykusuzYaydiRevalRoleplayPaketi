@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+	<oop>true</oop>
+    <file src="bg.png" />
+    <file src="money.png" />
+    <script src="client1.lua" type="client" cache="false" />
+    <script src="global.lua" type="shared" cache="false" />
+    <script src="server.lua" type="server" />
+	<file src="rage.ttf" />
+</meta>

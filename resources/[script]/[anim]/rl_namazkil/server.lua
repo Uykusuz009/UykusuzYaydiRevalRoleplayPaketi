@@ -1,0 +1,44 @@
+﻿local animEnable = {}
+local syncPlayers = {}
+
+addCommandHandler("namazkil",
+	function(player)
+	x, y, z = getElementPosition(player)
+	if (x > 1919 and x < 1943) and (y > -2128 and y < -2104) and (z > 10 and z < 20) then
+		if (not animEnable[player]) then
+			animEnable[player] = true
+			triggerClientEvent(syncPlayers, "namaz", player, true)
+			outputChatBox("[!]#FFFFFF Namaz kılıyorsunuz. Bitirmek için komutu tekrarlayabilirsiniz.", player, 0, 255, 0, true)
+		else
+			animEnable[player] = false
+			triggerClientEvent(syncPlayers, "namaz", player, false)
+			outputChatBox("[!]#FFFFFF Artık namaz kılmıyorsunuz. Eğer bugda kaldıysanız komutu tekrarlayın.", player, 255, 0, 0, true)
+		end
+	else
+		outputChatBox("[!]#FFFFFF Bu komut yalnızca camide kullanılabilir.", player, 255, 0, 0, true)
+	end
+end)
+
+addEvent("onClientSync", true )
+addEventHandler("onClientSync", resourceRoot,
+    function()
+        table.insert(syncPlayers, client)
+		for player, enable in ipairs(animEnable) do
+			if (enable) then
+				triggerClientEvent(client, "namaz", player, true)
+			end
+		end
+    end 
+)
+
+addEventHandler("onPlayerQuit", root,
+    function()
+        for i, player in ipairs(syncPlayers) do
+            if source == player then 
+                table.remove(syncPlayers, i)
+                break
+            end 
+        end
+        if (animEnable[source] == true or animEnable[source] == false) then animEnable[source] = nil end
+    end
+)

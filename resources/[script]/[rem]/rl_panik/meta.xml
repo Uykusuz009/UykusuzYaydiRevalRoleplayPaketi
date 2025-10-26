@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+<script src="server.lua" type="server" />
+<script src="client1.lua" type="client" cache="false" />
+<file src="panik.mp3" />
+<file src="Roboto.ttf" />
+<file src="destek.png" />
+</meta>

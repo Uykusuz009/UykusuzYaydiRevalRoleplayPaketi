@@ -1,0 +1,95 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+
+    <script src="client/backup_bleepers.lua" type="client" cache="false" />
+    
+    <script src="client/realism.lua" type="client" cache="false" />
+    <script src="server/realism.lua" type="server" />
+
+    <script src="server/disable_vehicle_guns.lua" type="server" />
+    
+    <script src="client/reload.lua" type="client" cache="false" />
+    
+    <script src="server/peds.lua" type="server" />
+	<script src="client/peds.lua" type="client" cache="false" />
+    <script src="client/ped_look_at.lua" type="client" cache="false" />
+    
+    <script src="client/vehicle_crash.lua" type="client" cache="false" />
+    <script src="server/vehicle_crash.lua" type="server" />
+	
+    <script src="client/vehicle_damage.lua" type="client" cache="false" />
+    
+    <script src="server/glowstick.lua" type="server" />
+    <script src="client/glowstick.lua" type="client" cache="false" />
+    
+    <script src="client/metal_detectors.lua" type="client" cache="false" />
+	<script src="client/cruise_control.lua" type="client" cache="false" />
+    <export function="isCcEnabled" type="client" />
+    
+    <script src="server/engine_break.lua" type="server" />
+    
+    <script src="client/thermal_vision.lua" type="client" cache="false" />
+	
+    <script src="client/city_guide.lua" type="client" cache="false" />
+    
+    <script src="server/alarm.lua" type="server" />
+    <script src="client/alarm.lua" type="client" cache="false" />
+    
+    <script src="client/first_person_view.lua" type="client" cache="false" />
+
+    <script src="server/drunk.lua" type="server" />
+    
+    <script src="client/helicopter_rotors.lua" type="client" cache="false" />
+	
+    <script src="client/vehicle_realism.lua" type="client" cache="false" />
+    
+    <script src="server/cigar.lua" type="server" />
+    <script src="client/cigar.lua" type="client" cache="false" />
+    <export function="isLocalPlayerSmoking" type="client" />
+    
+    <script src="server/police_radar.lua" type="server" />
+    <script src="client/police_radar.lua" type="client" cache="false" />
+
+    <script src="client/traffic_lights.lua" type="client" cache="false" />
+	
+    <script src="client/wheel_models.lua" type="client" cache="false" />
+	
+    <script src="client/real_time.lua" type="client" cache="false" />
+	
+	<file src="public/images/guide/0.png" />
+    <file src="public/images/guide/1.png" />
+    <file src="public/images/guide/2.png" />
+    <file src="public/images/guide/3.png" />
+    <file src="public/images/guide/4.png" />
+    <file src="public/images/guide/5.png" />
+    <file src="public/images/guide/6.png" />
+    <file src="public/images/guide/7.png" />
+    <file src="public/images/guide/8.png" />
+
+    <file src="public/models/J2_wheels.txd" />
+    <file src="public/models/wheel_gn1.dff" />
+    <file src="public/models/wheel_gn2.dff" />
+    <file src="public/models/wheel_gn3.dff" />
+    <file src="public/models/wheel_gn4.dff" />
+    <file src="public/models/wheel_gn5.dff" />
+    <file src="public/models/wheel_lr1.dff" />
+    <file src="public/models/wheel_lr2.dff" />
+    <file src="public/models/wheel_lr3.dff" />
+    <file src="public/models/wheel_lr4.dff" />
+    <file src="public/models/wheel_lr5.dff" />
+    <file src="public/models/wheel_or1.dff" />
+    <file src="public/models/wheel_sr1.dff" />
+    <file src="public/models/wheel_sr2.dff" />
+    <file src="public/models/wheel_sr3.dff" />
+    <file src="public/models/wheel_sr4.dff" />
+    <file src="public/models/wheel_sr5.dff" />
+    <file src="public/models/wheel_sr6.dff" />
+	
+	<file src="public/sounds/reload.wav" />
+    <file src="public/sounds/horn.wav" />
+    <file src="public/sounds/police_beep.mp3" />
+	<file src="public/sounds/truck_backing_up_beep.mp3" />
+</meta>

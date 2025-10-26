@@ -1,0 +1,180 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+	<download_priority_group>997</download_priority_group>
+
+    <script src="client/enums.lua" type="client" cache="false" />
+    <script src="client/main.lua" type="client" cache="false" />
+    <export function="dxDrawShadowText" type="client" />
+    <export function="dxDrawFramedText" type="client" />
+    <export function="dxDrawBorderedText" type="client" />
+    <export function="dxDrawGradient" type="client" />
+    <export function="reMap" type="client" />
+    <export function="resp" type="client" />
+    <export function="respc" type="client" />
+    <export function="abs" type="client" />
+    <export function="absX" type="client" />
+    <export function="absY" type="client" />
+    <export function="conv" type="client" />
+    <export function="convY" type="client" />
+    
+    <script src="client/core/_test.lua" type="client" cache="false" />
+    <script src="client/core/componentWrapper.lua" type="client" cache="false" />
+    <script src="client/core/injector.lua" type="client" cache="false" />
+    
+    <script src="client/core/utils/animate.lua" type="client" cache="false" />
+    <export function="inArea" type="client" />
+    <export function="animate" type="client" />
+    <export function="resetAnimateData" type="client" />
+    <export function="resetAnimateKey" type="client" />
+    
+    <script src="client/core/utils/keyHandler.lua" type="client" cache="false" />
+    <export function="isKeyClicked" type="client" />
+    <export function="isKeyPressed" type="client" />
+    <export function="isMouseClicked" type="client" />
+    
+    <script src="client/core/utils/mergeTables.lua" type="client" cache="false" />
+    <export function="mergeTables" type="client" />
+    
+    <script src="client/core/utils/registerEnum.lua" type="client" cache="false" />
+    <export function="registerEnum" type="client" />
+    
+    <script src="client/core/utils/rgba.lua" type="client" cache="false" />
+    <export function="rgbaUnpack" type="client" />
+    <export function="rgba" type="client" />
+    <export function="RGBToHex" type="client" />
+    
+    <script src="client/core/utils/serverColor.lua" type="client" cache="false" />
+    <export function="getServerColor" type="client" />
+    
+    <script src="client/core/utils/specificTypeChecker.lua" type="client" cache="false" />
+    <export function="specificTypeChecker" type="client" />
+    
+    <script src="client/core/hooks/useColor.lua" type="client" cache="false" />
+    <export function="checkColor" type="client" />
+    <export function="useColor" type="client" />
+    <export function="useTheme" type="client" />
+    
+    <script src="client/core/hooks/useDisclosure.lua" type="client" />
+    <export function="useDisclosure" type="client" />
+    
+    <script src="client/core/hooks/useFonts.lua" type="client" cache="false" />
+    <export function="useFonts" type="client" />
+    
+    <script src="client/core/hooks/usePlacement.lua" type="client" cache="false" />
+    <export function="checkPlacement" type="client" />
+    
+    <script src="client/core/hooks/usePosition.lua" type="client" cache="false" />
+    <export function="usePosition" type="client" />
+    
+    <script src="client/core/hooks/useStore.lua" type="client" />
+    <export function="useStore" type="client" />
+    <export function="clearStore" type="client" />
+    
+    <script src="client/core/hooks/useVariant.lua" type="client" cache="false" />
+    <export function="checkVariant" type="client" />
+    
+    <script src="client/theme/_globals.lua" type="client" cache="false" />
+    
+    <script src="client/components/button.lua" type="client" cache="false" />
+    <export function="drawButton" type="client" />
+    
+    <script src="client/components/chart.lua" type="client" cache="false" />
+    <export function="drawLinesBackground" type="client" />
+    <export function="drawChart" type="client" />
+    
+    <script src="client/components/input.lua" type="client" cache="false" />
+    <export function="drawInput" type="client" />
+    
+    <script src="client/components/scrollbar.lua" type="client" cache="false" />
+    <export function="drawScrollBar" type="client" />
+    
+    <script src="client/components/spinner.lua" type="client" cache="false" />
+    <export function="drawSpinner" type="client" />
+    
+    <script src="client/components/textarea.lua" type="client" cache="false" />
+    <export function="fillStrToWidth" type="client" />
+    <export function="findCurrentLine" type="client" />
+    <export function="drawTextArea" type="client" />
+    
+    <script src="client/components/window.lua" type="client" cache="false" />
+    <export function="drawWindow" type="client" />
+    
+    <script src="client/components/__static/roundedRectangle.lua" type="client" cache="false" />
+    <export function="drawRoundedRectangle" type="client" />
+    
+    <script src="client/components/__static/staticImage.lua" type="client" cache="false" />
+    <export function="drawStaticImage" type="client" />
+    
+    <script src="client/components/__static/webview.lua" type="client" cache="false" />
+    <export function="emitView" type="client" />
+    <export function="drawWebView" type="client" />
+    
+    <script src="client/components/alert/alert.hooks.lua" type="client" cache="false" />
+    <script src="client/components/alert/alert.lua" type="client" cache="false" />
+    <export function="useAlertVariant" type="client" />
+    <export function="drawAlert" type="client" />
+    
+    <script src="client/components/checkbox/checkbox.hooks.lua" type="client" cache="false" />
+    <script src="client/components/checkbox/checkbox.lua" type="client" cache="false" />
+    <export function="useCheckboxVariant" type="client" />
+    <export function="drawCheckbox" type="client" />
+    
+    <script src="client/components/divider/divider.lua" type="client" cache="false" />
+    <export function="drawDivider" type="client" />
+    
+    <script src="client/components/list/list.hooks.lua" type="client" cache="false" />
+    <script src="client/components/list/list.lua" type="client" cache="false" />
+    <export function="useListVariant" type="client" />
+    <export function="drawList" type="client" />
+    
+    <script src="client/components/modal/modal.lua" type="client" cache="false" />
+    <export function="drawModal" type="client" />
+    
+    <script src="client/components/radio-group/radiogroup.hooks.lua" type="client" cache="false" />
+    <script src="client/components/radio-group/radiogroup.lua" type="client" cache="false" />
+    <export function="useRadioGroupVariant" type="client" />
+    <export function="drawRadio" type="client" />
+    <export function="drawRadioGroup" type="client" />
+    
+    <script src="client/components/table/table.hooks.lua" type="client" cache="false" />
+    <script src="client/components/table/table.lua" type="client" cache="false" />
+    <export function="useTableTheme" type="client" />
+    <export function="measureText" type="client" />
+    <export function="drawTable" type="client" />
+    
+    <script src="client/components/tabpanel/tabpanel.hooks.lua" type="client" cache="false" />
+    <script src="client/components/tabpanel/tabpanel.lua" type="client" cache="false" />
+    <export function="useTabPanelVariant" type="client" />
+    <export function="drawTab" type="client" />
+    <export function="drawTabPanel" type="client" />
+    
+    <script src="client/components/tooltip/tooltip.lua" type="client" cache="false" />
+    <export function="drawTooltip" type="client" />
+    
+    <script src="client/components/typography/typography.lua" type="client" cache="false" />
+    <export function="drawTypography" type="client" />
+    
+    <file src="public/fonts/BebasNeueBold.otf" />
+    <file src="public/fonts/BebasNeueLight.otf" />
+    <file src="public/fonts/BebasNeueRegular.otf" />
+    <file src="public/fonts/EsBuild.ttf" />
+    <file src="public/fonts/FontAwesome.ttf" />
+    <file src="public/fonts/IckyticketMono.ttf" />
+    <file src="public/fonts/Impact.ttf" />
+    <file src="public/fonts/Pixellari.ttf" />
+    <file src="public/fonts/SweetSixteen.ttf" />
+    <file src="public/fonts/UbuntuBold.ttf" />
+    <file src="public/fonts/UbuntuLight.ttf" />
+    <file src="public/fonts/UbuntuRegular.ttf" />
+    <file src="public/fonts/W95FA.otf" />
+    
+    <file src="public/images/logo.png" />
+    <file src="public/images/vignette.png" />
+    <file src="public/images/window_body.png" />
+    <file src="public/images/whitedot.jpg" />
+    
+    <file src="public/sounds/key.mp3" />
+</meta>

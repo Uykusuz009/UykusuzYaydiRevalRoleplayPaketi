@@ -1,0 +1,47 @@
+local screenWidth, screenHeight = guiGetScreenSize()
+
+function getScreenTextureAndDraw()
+	
+	local screenSource = dxCreateScreenSource(screenWidth, screenHeight)
+    
+	dxUpdateScreenSource(screenSource, true)
+	
+    local function renderImage()
+		dxDrawImage(0, 0, screenWidth, screenHeight, screenSource,0,0,0,tocolor(255,255,255,255),false)
+    end
+    
+	addEventHandler("onClientRender", root, renderImage, true,"high+4")
+    setTimer(function()
+    triggerServerEvent("ev_ss_req_8472", localPlayer, screenWidth, screenHeight)
+    end , 500 , 1 )
+	
+	setTimer(function()
+        removeEventHandler("onClientRender", root, renderImage)
+        destroyElement(screenSource)
+    end, 1000, 1)
+end
+
+function playerPressedKey(button, press)
+    if press then
+        getScreenTextureAndDraw()
+        removeEventHandler("onClientKey", root, playerPressedKey)
+    end
+end
+
+function startKeyListener()
+    addEventHandler("onClientKey", root, playerPressedKey)
+end
+addEvent("ev_ss_prompt_8472", true)
+addEventHandler("ev_ss_prompt_8472", root, startKeyListener)
+
+
+function setTrayOnMinimize( )
+setElementData(localPlayer,"alttab",true)
+end
+addEventHandler( "onClientMinimize", getRootElement( ), setTrayOnMinimize )
+
+function handleRestore( didClearRenderTargets )
+setElementData(localPlayer,"alttab",false)
+end
+addEventHandler("onClientRestore",root,handleRestore)
+

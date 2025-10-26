@@ -1,0 +1,5 @@
+<meta>
+    <info description="rk" version="1.0" author="Kaisen" type="script" />
+    <script src="server.lua" type="server" />
+	<script src="client.lua" type="client" />
+</meta>

@@ -1,0 +1,43 @@
+<meta>
+    <oop>true</oop>
+
+    <script src = "nodes.lua" type = "client" cache = "false" />
+    <script src = "sourceC.lua" type = "client" cache = "false" />
+    <script src = "navis.lua" type = "client" cache = "false" />
+    <script src = "sourceG.lua" type = "client" cache = "false" />
+	
+    <file src = "files/3d.dds" />
+    <file src = "files/arrow.dds" />
+    <file src = "files/circ.dds" />
+
+    <file src = "files/sound/ding.mp3" />
+    <file src = "files/sound/dong.mp3" />
+	
+    <file src = "files/sound/m/200.mp3" />
+    <file src = "files/sound/m/500.mp3" />
+    <file src = "files/sound/m/balra.mp3" />
+    <file src = "files/sound/m/finish.mp3" />
+    <file src = "files/sound/m/forduljvissza.mp3" />
+    <file src = "files/sound/m/jobbra.mp3" />
+    <file src = "files/sound/m/majd.mp3" />
+    <file src = "files/sound/m/masikuticel.mp3" />
+    <file src = "files/sound/m/menj.mp3" />
+    <file src = "files/sound/m/metert.mp3" />
+    <file src = "files/sound/m/nincskapcs.mp3" />
+    <file src = "files/sound/m/uticel.mp3" />
+
+    <file src = "files/sound/w/200.mp3" />
+    <file src = "files/sound/w/500.mp3" />
+    <file src = "files/sound/w/balra.mp3" />
+    <file src = "files/sound/w/finish.mp3" />
+    <file src = "files/sound/w/forduljvissza.mp3" />
+    <file src = "files/sound/w/jobbra.mp3" />
+    <file src = "files/sound/w/majd.mp3" />
+    <file src = "files/sound/w/masikuticel.mp3" />
+    <file src = "files/sound/w/menj.mp3" />
+    <file src = "files/sound/w/metert.mp3" />
+    <file src = "files/sound/w/nincskapcs.mp3" />
+    <file src = "files/sound/w/uticel.mp3" />
+
+	<export function = "drawMapRoute" type = "client" />
+</meta>

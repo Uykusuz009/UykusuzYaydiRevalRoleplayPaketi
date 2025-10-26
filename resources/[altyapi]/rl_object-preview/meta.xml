@@ -1,0 +1,45 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+	
+	<script src="c_main.lua" type="client" cache="false" />
+	<script src="c_exported_functions.lua" type="client" cache="false" />
+	<script src="c_helper_functions.lua" type="client" cache="false" />
+	
+	<file src="fx/fx_pre_vehicle.fx" type="client" />
+	<file src="fx/fx_pre_ped.fx" type="client" />
+	<file src="fx/fx_pre_object.fx" type="client" />
+	<file src="fx/fx_pre_vehicle_noMRT.fx" type="client" />
+	<file src="fx/fx_pre_ped_noMRT.fx" type="client" />
+	<file src="fx/fx_pre_object_noMRT.fx" type="client" />
+	<file src="fx/fx_pre_vehicle_replace.fx" type="client" />
+	<file src="fx/fx_pre_ped_replace.fx" type="client" />
+	<file src="fx/fx_pre_object_replace.fx" type="client" />
+	<file src="fx/fx_pre_vehicle_replace_noMRT.fx" type="client" />
+	<file src="fx/fx_pre_ped_replace_noMRT.fx" type="client" />
+	<file src="fx/fx_pre_object_replace_noMRT.fx" type="client" />
+	
+	<export function="createObjectPreview" type="client" />
+	<export function="createTextureReplace" type="client" />
+	<export function="destroyTextureReplace" type="client" />
+	<export function="setTextureReplaceTexture" type="client" />
+	<export function="getRenderTarget" type="client" />
+	<export function="destroyObjectPreview" type="client" />
+	<export function="saveRTToFile" type="client" />
+	<export function="setRotation" type="client" />
+	<export function="setProjection" type="client" />
+	<export function="setDistanceSpread" type="client" />
+	<export function="setPositionOffsets" type="client" />
+	<export function="setRotationOffsets" type="client" />
+	<export function="setRenderPostGui" type="client" />
+	<export function="setAlpha" type="client" />
+	<export function="setColorFilter" type="client" />
+	<export function="setVisible" type="client" />
+	<export function="isVisible" type="client" />
+	<export function="setAttached" type="client" />
+	<export function="createTextureReplace" type="client" />
+	<export function="setTextureReplaceTexture" type="client" />
+	<export function="destroyTextureReplace" type="client" />
+</meta>

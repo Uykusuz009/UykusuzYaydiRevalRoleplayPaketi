@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<body>
+
+		oá teknológia:
+
+		<input type="text" onpaste="onPasteFunc()" id="input" value="">
+
+		<script>
+			let inp = document.getElementById("input");
+
+			inp.focus();
+
+			inp.onblur = function() {
+				inp.focus();
+			};
+
+			function onPasteFunc() {
+				inp.value = "";
+
+				setTimeout(
+					function () {
+						console.log("paste: " + inp.value)
+
+						mta.triggerEvent('returnClipBoardValue',inp.value);
+						
+						inp.value = "";
+					}, 10);
+				
+			}
+		</script>
+
+	</body>
+</html>

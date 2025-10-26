@@ -1,0 +1,8 @@
+<meta>
+	<file src="files/destekpd.png" />
+	<file src="files/destekmd.png" />
+	<file src="files/takip.png" />
+	<file src="files/Roboto.ttf" />
+	<script src="destek_s.lua" type="server"/>
+	<script src="destek_c.lua" type="client" cache="false"/>
+</meta>

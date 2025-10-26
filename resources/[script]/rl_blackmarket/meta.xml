@@ -1,0 +1,6 @@
+<meta>
+    <script src="main.lua" type="client" cache="false"/>
+    <script src="funcs.lua" type="client" cache="false"/>
+    <script src="event.lua" type="server"/>
+    <script src="config.lua" type="shared"/>
+</meta>

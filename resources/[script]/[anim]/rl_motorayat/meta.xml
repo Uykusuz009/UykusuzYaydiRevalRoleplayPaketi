@@ -1,0 +1,7 @@
+<meta>
+	<info author="SparroWMTA"description="https://sparrow-mta.blogspot.com"/>
+	<script src="server.lua" type="server" />
+	<script src="client1.lua" type="client" />
+	<file src="yat.ifp"/>
+	<min_mta_version server="1.3.0-9.04570" client="1.3.0-9.04570" />
+</meta>

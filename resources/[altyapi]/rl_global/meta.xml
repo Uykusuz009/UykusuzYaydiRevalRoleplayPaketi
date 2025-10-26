@@ -1,0 +1,121 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+	<download_priority_group>994</download_priority_group>
+    
+	<script src="shared/admin.lua" type="shared" cache="false" />
+    <export function="getLoggedInPlayers" type="shared" />
+    <export function="getAdmins" type="shared" />
+    <export function="getAdminTitles" type="shared" />
+    <export function="getAdminLevelTitle" type="shared" />
+    <export function="getPlayerAdminLevel" type="shared" />
+    <export function="getPlayerAdminTitle" type="shared" />
+    <export function="getPlayerFullAdminTitle" type="shared" />
+    <export function="isAdminOnDuty" type="shared" />
+
+	<script src="shared/functions.lua" type="shared" cache="false" />
+    <export function="explode" type="shared" />
+    <export function="generateSalt" type="shared" />
+
+    <script src="shared/server_settings.lua" type="shared" cache="false" />
+    <export function="getServerSettings" type="shared" />
+	
+    <script src="server/animation.lua" type="server" />
+    <script src="client/animation.lua" type="client" cache="false" />
+    <export function="applyAnimation" type="server" />
+    <export function="applyAnimation" type="client" />
+    <export function="removeAnimation" type="server" />
+    <export function="removeAnimation" type="client" />
+
+    <script src="server/nametag.lua" type="server" />
+    <export function="updateNametagColor" type="server" />
+
+    <script src="server/item.lua" type="server" />
+    <script src="client/item.lua" type="client" cache="false" />
+    <export function="hasSpaceForItem" type="server" />
+    <export function="hasSpaceForItem" type="client" />
+    <export function="hasItem" type="server" />
+    <export function="hasItem" type="client" />
+    <export function="giveItem" type="server" />
+    <export function="getItemName" type="client" />
+    <export function="takeItem" type="server" />
+    <export function="getPlayerMaskState" type="server" />
+    <export function="getPlayerMaskState" type="client" />
+
+    <script src="server/chat.lua" type="server" />
+    <script src="client/chat.lua" type="client" cache="false" />
+    <export function="sendMessageToAdmins" type="server" />
+    <export function="findPlayerByPartialNick" type="server" />
+    <export function="findPlayerByPartialNick" type="client" />
+    <export function="sendLocalText" type="server" />
+    <export function="sendLocalMeAction" type="server" />
+    <export function="sendLocalDoAction" type="server" />
+    <export function="getNearbyElements" type="server" />
+
+    <script src="server/weapon.lua" type="server" />
+    <export function="createWeaponSerial" type="server" />
+    <export function="retrieveWeaponDetails" type="server" />
+	
+	<script src="server/fadecam.lua" type="server" />
+    <script src="client/fadecam.lua" type="client" cache="false" />
+    <export function="fadeToBlack" type="server" />
+    <export function="fadeToBlack" type="client" />
+    <export function="fadeFromBlack" type="server" />
+    <export function="fadeFromBlack" type="client" />
+	
+	<script src="server/money.lua" type="server" />
+    <script src="client/money.lua" type="client" cache="false" />
+    <export function="giveMoney" type="server" />
+    <export function="takeMoney" type="server" />
+    <export function="setMoney" type="server" />
+    <export function="hasMoney" type="server" />
+    <export function="hasMoney" type="client" />
+    <export function="getMoney" type="server" />
+    <export function="getMoney" type="client" />
+    <export function="getTaxAmount" type="server" />
+    <export function="getIncomeTaxAmount" type="server" />
+    <export function="setTaxAmount" type="server" />
+    <export function="setIncomeTaxAmount" type="server" />
+    <export function="formatMoney" type="client" />
+    <export function="formatMoney" type="server" />
+	
+	<script src="server/vehicle.lua" type="server" />
+	<script src="shared/vehicle.lua" type="shared" cache="false" />
+    <export function="getVehicleName" type="shared" />
+    <export function="generatePlate" type="shared" />
+    <export function="getVehiclesOwnedByCharacter" type="server" />
+    <export function="canPlayerBuyVehicle" type="server" />
+    <export function="isVehicleEmpty" type="shared" />
+    <export function="getVehicleVelocity" type="shared" />
+	
+	<script src="server/zone.lua" type="server" />
+    <export function="getElementZoneName" type="server" />
+	
+	<script src="server/interior.lua" type="server" />
+    <export function="getInteriorsOwnedByCharacter" type="server" />
+    <export function="canPlayerBuyInterior" type="server" />
+    <export function="canPlayerFactionBuyInterior" type="server" />
+    <export function="canFactionBuyInterior" type="server" />
+	
+	<script src="client/gui.lua" type="client" cache="false" />
+    <export function="centerWindow" type="client" />
+    <export function="guiComboBoxAdjustHeight" type="client" />
+	
+	<script src="server/gametype.lua" type="server" />
+	
+	<script src="shared/ped.lua" type="shared" cache="false" />
+    <export function="getRandomSkin" type="shared" />
+    <export function="getRandomName" type="shared" />
+    <export function="getGenderFromSkin" type="shared" />
+    <export function="getSkinGender" type="shared" />
+    <export function="getSkinsMale" type="shared" />
+    <export function="getSkinsFemale" type="shared" />
+	
+	<script src="server/account.lua" type="server" />
+    <export function="getPlayerFromCharacterID" type="server" />
+    <export function="getPlayerFromSerial" type="server" />
+	
+	<script src="server/join_limit.lua" type="server" />
+</meta>

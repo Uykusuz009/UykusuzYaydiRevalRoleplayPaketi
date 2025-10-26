@@ -1,0 +1,31 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+	
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" cache="false" />
+    <script src="shared.lua" type="shared" cache="false" />
+    
+    <export function="formatTimeInterval" type="server" />
+    <export function="formatTimeInterval" type="client" />
+	
+    <export function="formatFutureTimeInterval" type="server" />
+    <export function="formatFutureTimeInterval" type="client" />
+    
+    <export function="formatSeconds" type="server" />
+    <export function="formatSeconds" type="client" />
+    
+    <export function="getNowTimestamp" type="server" />
+    <export function="getNowTimestamp" type="client" />
+	
+    <export function="getTimestamp" type="server" />
+    <export function="getTimestamp" type="client" />
+    
+    <export function="now" type="server" />
+    <export function="now" type="client" />
+    
+    <export function="secondsToTimeDesc" type="server" />
+    <export function="secondsToTimeDesc" type="client" />
+</meta>

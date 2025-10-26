@@ -1,0 +1,32 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" cache="false" />
+	
+    <file src="public/neons/neonCollision.col" />
+    <file src="public/neons/blue.dff" />
+    <file src="public/neons/green.dff" />
+    <file src="public/neons/pink.dff" />
+    <file src="public/neons/red.dff" />
+    <file src="public/neons/white.dff" />
+    <file src="public/neons/yellow.dff" />
+    <file src="public/neons/orange.dff" />
+    <file src="public/neons/lightblue.dff" />
+    <file src="public/neons/rasta.dff" />
+    <file src="public/neons/ice.dff" />
+	
+    <file src="public/images/neon1.jpg" />
+    <file src="public/images/neon2.jpg" />
+    <file src="public/images/neon3.jpg" />
+    <file src="public/images/neon4.jpg" />
+    <file src="public/images/neon5.jpg" />
+    <file src="public/images/neon6.jpg" />
+    <file src="public/images/neon7.jpg" />
+    <file src="public/images/neon8.jpg" />
+    <file src="public/images/neon9.jpg" />
+    <file src="public/images/neon10.jpg" />
+</meta>

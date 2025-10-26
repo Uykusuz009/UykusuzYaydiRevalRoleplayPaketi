@@ -1,0 +1,6 @@
+<meta>
+    <script src="targetc.lua" type="client"/>
+	
+	<file src="arrow.png" type="client"/>
+
+</meta>

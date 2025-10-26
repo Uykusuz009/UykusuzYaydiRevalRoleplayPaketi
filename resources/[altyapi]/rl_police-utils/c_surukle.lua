@@ -1,0 +1,5 @@
+addEvent("rl_policeutils:syncInteriorDimension", true)
+addEventHandler("rl_policeutils:syncInteriorDimension", localPlayer, function(interior, dimension)
+	setElementInterior(localPlayer, interior)
+	setElementDimension(localPlayer, dimension)
+end)

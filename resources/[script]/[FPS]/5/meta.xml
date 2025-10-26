@@ -1,0 +1,6 @@
+<meta>
+	<info author="Carlos&Bratislava" type="script" version="1.0" description="TrafikLambaKaldir" />
+	
+    <script src="c_script.lua" type="client"></script>
+    <min_mta_version server="1.2.0-9.03618" client="1.2.0-9.03618" />
+</meta>

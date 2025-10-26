@@ -1,0 +1,23 @@
+<meta>
+	<script src="other_s.lua" type="server" />
+
+	<!-- Kucak Script -->
+	<script src="pd/s_kucak.lua" type="server" />
+	<script src="pd/c_kucak.lua" type="client" cache="false" />
+	<!-- Callsign Script -->
+	<script src="pd/callsign_c.lua" type="client" cache="false" />
+	<script src="pd/callsign_s.lua" type="server" />
+	<!-- Tog soeed Script -->
+	<script src="pd/s_speedcam.lua" type="server" />
+	<!-- Aracat Script -->
+	<script src="pd/s_aracat.lua" type="server" />
+	<!-- District Script -->
+	<script src="pd/district_s.lua" type="server" />
+	<script src="pd/district_c.lua" type="client" cache="false" />
+	<!-- MD Script -->
+	<script src="md/telsiz_s.lua" type="server"></script>
+	<script src="md/server.lua" type="server" />
+	
+	<oop>true</oop>
+	<min_mta_version server="1.3.4-0.00000" client="1.3.4-0.00000"/>
+</meta>

@@ -1,0 +1,36 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+
+    <script src="server/weapon.lua" type="server" />
+    <script src="server/stats.lua" type="server" />
+    
+    <script src="client/attach.lua" type="client" cache="false" />
+    <script src="shared/attach.lua" type="shared" cache="false" />
+    <script src="server/attach.lua" type="server" />
+    
+    <script src="client/firemode.lua" type="client" cache="false" />
+    <script src="client/sound.lua" type="client" cache="false" />
+    
+    <script src="client/functions.lua" type="client" cache="false" />
+    <script src="shared/functions.lua" type="shared" cache="false" />
+    <script src="server/functions.lua" type="server" />
+    
+    <file src="public/sounds/headshot.mp3" />
+    <file src="public/sounds/no_ammo.mp3" />
+    <file src="public/sounds/weapons/ak47.wav" />
+    <file src="public/sounds/weapons/colt_45.wav" />
+    <file src="public/sounds/weapons/combat_shotgun.wav" />
+    <file src="public/sounds/weapons/deagle.wav" />
+    <file src="public/sounds/weapons/m4.wav" />
+    <file src="public/sounds/weapons/mp5.wav" />
+    <file src="public/sounds/weapons/rifle.wav" />
+    <file src="public/sounds/weapons/sawed-off.wav" />
+    <file src="public/sounds/weapons/shotgun.wav" />
+    <file src="public/sounds/weapons/silenced.wav" />
+    <file src="public/sounds/weapons/sniper.wav" />
+    <file src="public/sounds/weapons/tec-9.wav" />
+    <file src="public/sounds/weapons/uzi.wav" />
+</meta>

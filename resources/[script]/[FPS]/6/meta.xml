@@ -1,0 +1,10 @@
+﻿<meta>
+	<info author="AndreiSR" type="script" name="Anti-lag" version="1.0" />
+	
+	<!-- Client-side -->
+	<script src="toggle.lua" type="client" cache="false" />
+	
+	<!-- Texture -->
+	<file src="texture/invisible.png" />
+	<file src="texture/shader.fx" />
+</meta>

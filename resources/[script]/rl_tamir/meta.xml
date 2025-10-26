@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+	<info author="Fatih" description="Tamir Sistemi" version="1.2" type="script" />
+	
+	
+	
+    
+	
+	 <script src="server.lua" type="server" />
+	 <script src="client1.lua" type="client" cache="false" />
+	 <script src="lsct_client1.lua" type="client" cache="false" />
+	 <script src="lspd_client1.lua" type="client" cache="false" />
+	
+	 <file src="files/Font1.ttf" />
+	 <file src="files/Font2.otf" />
+   	 <file src="files/1.ttf" type="client" />
+	 <file src="files/2.ttf" type="client" />
+	 <file src="files/3.ttf" type="client" />
+	 <file src="files/4.ttf" type="client" />
+	 <file src="files/5.ttf" type="client" />
+	 <script src="files/drawGUI.lua" type="client" protected="true" />
+	 <script src="files/drawCore.lua" type="client" protected="true" />
+	 <script src="files/drawButton.lua" type="client" protected="true" />
+</meta>

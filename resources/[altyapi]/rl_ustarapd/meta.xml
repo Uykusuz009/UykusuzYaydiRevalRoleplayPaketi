@@ -1,0 +1,5 @@
+<meta> 
+<info author="Kaisen" description="Pd System" version="1.0" type="script" />
+	<script src="server.lua" type="server" /> 
+    <script src="client.lua" type="client" cache="false" /> 
+</meta>

@@ -1,0 +1,15 @@
+<meta>
+
+	<oop>true</oop>
+
+	<script src='g_taximeter.lua' type='server'/>
+	<script src='g_taximeter.lua' type='client' cache='false'/>
+	<script src='s_taximeter.lua' type='server'/>
+	<script src='c_taximeter.lua' type='client' cache='false'/>	
+	<file src='images/base_driver.png' />
+	<file src='images/base_pax.png' />
+	<file src='images/btn.png' />
+	<file src='images/btn_on.png' />
+	<file src='images/btn_active.png' />
+	
+</meta>

@@ -1,0 +1,10 @@
+<meta>
+
+    
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728" />
+    
+    <script src="rich_presence.lua" type="client" cache="false" />
+    <script src="server.lua" type="server" />
+    
+    <export function="sendMessage" type="server" />
+</meta>

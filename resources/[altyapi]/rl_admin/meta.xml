@@ -1,0 +1,89 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+
+    <script src="server/item.lua" type="server" />
+	
+    <script src="server/player.lua" type="server" />
+    <script src="client/player.lua" type="client" cache="false" />
+	
+    <script src="server/teleport.lua" type="server" />
+    <script src="client/teleport.lua" type="client" cache="false" />
+	
+    <script src="server/resource.lua" type="server" />
+	
+    <script src="server/fly.lua" type="server" />
+    <script src="client/fly.lua" type="client" cache="false" />
+	
+    <script src="server/watch.lua" type="server" />
+    <script src="client/watch.lua" type="client" cache="false" />
+	
+    <script src="server/ban.lua" type="server" />
+	
+    <script src="shared/staff.lua" type="shared" cache="false" />
+    <script src="server/staff.lua" type="server" />
+    <script src="client/staff.lua" type="client" cache="false" />
+	
+    <script src="shared/history.lua" type="shared" cache="false" />
+	
+    <script src="server/check.lua" type="server" />
+    <script src="client/check.lua" type="client" cache="false" />
+	
+    <script src="server/jail.lua" type="server" />
+    <script src="client/jail.lua" type="client" cache="false" />
+	
+    <script src="server/recon.lua" type="server" />
+    <script src="client/recon.lua" type="client" cache="false" />
+	
+    <script src="client/loungeMap.lua" type="client" cache="false" />
+
+    <script src="client/overlay.lua" type="client" cache="false" />
+	
+	<file src="public/sounds/nudge.wav" />
+	<file src="public/sounds/information.png" />
+	
+	<export function="addAdminHistory" type="server" />
+	
+	<settings>
+        <setting name="*fist" value="disabled" />
+        <setting name="*brassknuckle" value="2" />
+        <setting name="*golfclub" value="0" />
+        <setting name="*nightstick" value="0" />
+        <setting name="*knife" value="0" />
+        <setting name="*bat" value="0" />
+        <setting name="*shovel" value="0" />
+        <setting name="*poolstick" value="0" />
+        <setting name="*katana" value="2" />
+        <setting name="*chainsaw" value="0" />
+        <setting name="*dildo" value="2" />
+        <setting name="*dildo2" value="2" />
+        <setting name="*vibrator" value="2" />
+        <setting name="*vibrator2" value="2" />
+        <setting name="*flower" value="2" />
+        <setting name="*cane" value="0" />
+        <setting name="*grenade" value="2" />
+        <setting name="*teargas" value="2" />
+        <setting name="*molotov" value="2" />
+        <setting name="*colt45" value="17" />
+        <setting name="*silenced" value="17" />
+        <setting name="*deagle" value="7" />
+        <setting name="*shotgun" value="10" />
+        <setting name="*sawed-off" value="20" />
+        <setting name="*combatshotgun" value="30" />
+        <setting name="*uzi" value="50" />
+        <setting name="*mp5" value="30" />
+        <setting name="*ak-47" value="30" />
+        <setting name="*m4" value="50" />
+        <setting name="*tec-9" value="50" />
+        <setting name="*rifle" value="10" />
+        <setting name="*sniper" value="5" />
+        <setting name="*rocketlauncher" value="5" />
+        <setting name="*spraycan" value="0" />
+        <setting name="*fireextinguisher" value="0" />
+        <setting name="*camera" value="0" />
+        <setting name="*nightvision" value="2" />
+        <setting name="*infrared" value="2" />
+    </settings>
+</meta>

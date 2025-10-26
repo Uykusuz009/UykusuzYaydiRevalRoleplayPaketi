@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+<info author="*" description="www.sparrow-mta.blogspot.com" version="1.3" type="script" />
+<script src="client1.lua" type="client" />
+<file src="1.txd" type="client" />
+<file src="1.dff" type="client" />
+<file src="1.col" type="client" />
+</meta>

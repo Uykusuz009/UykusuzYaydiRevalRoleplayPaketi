@@ -1,0 +1,9 @@
+<meta>
+	<info author="LargeS" type="script" name="RL Turbo System" />
+	<script src="c_tuning.lua" type="client" cache="false" />
+	<script src="s_tuning.lua" type="server" />
+	<file src="turbo.mp3" />
+	<file src="egzoz.mp3" />
+	<file src="turbo2.mp3" />
+	<file src="egzoz2.mp3" />
+</meta>

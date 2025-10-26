@@ -1,0 +1,91 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+
+    <script src="client.lua" type="client" cache="false" />
+    
+    <file src="public/images/1.png" />
+	<file src="public/images/2.png" />
+	<file src="public/images/3.png" />
+	<file src="public/images/4.png" />
+	<file src="public/images/5.png" />
+	<file src="public/images/6.png" />
+	<file src="public/images/7.png" />
+	<file src="public/images/8.png" />
+	<file src="public/images/9.png" />
+	<file src="public/images/10.png" />
+	<file src="public/images/11.png" />
+	<file src="public/images/12.png" />
+	<file src="public/images/13.png" />
+	<file src="public/images/14.png" />
+	<file src="public/images/15.png" />
+	<file src="public/images/16.png" />
+	<file src="public/images/17.png" />
+	<file src="public/images/18.png" />
+	<file src="public/images/19.png" />
+	<file src="public/images/20.png" />
+	<file src="public/images/21.png" />
+	<file src="public/images/22.png" />
+	<file src="public/images/23.png" />
+	<file src="public/images/24.png" />
+	<file src="public/images/25.png" />
+	<file src="public/images/26.png" />
+	<file src="public/images/27.png" />
+	<file src="public/images/28.png" />
+	<file src="public/images/29.png" />
+	<file src="public/images/30.png" />
+	<file src="public/images/31.png" />
+	<file src="public/images/32.png" />
+	<file src="public/images/33.png" />
+	<file src="public/images/34.png" />
+	<file src="public/images/35.png" />
+	<file src="public/images/36.png" />
+	<file src="public/images/37.png" />
+	<file src="public/images/38.png" />
+	<file src="public/images/39.png" />
+	<file src="public/images/40.png" />
+	<file src="public/images/41.png" />
+	<file src="public/images/42.png" />
+	<file src="public/images/43.png" />
+	<file src="public/images/44.png" />
+	<file src="public/images/45.png" />
+	<file src="public/images/46.png" />
+	<file src="public/images/47.png" />
+	<file src="public/images/48.png" />
+	<file src="public/images/49.png" />
+	<file src="public/images/50.png" />
+	<file src="public/images/51.png" />
+	<file src="public/images/52.png" />
+	<file src="public/images/53.png" />
+	<file src="public/images/54.png" />
+	<file src="public/images/55.png" />
+	<file src="public/images/56.png" />
+	<file src="public/images/57.png" />
+	<file src="public/images/58.png" />
+	<file src="public/images/59.png" />
+	<file src="public/images/60.png" />
+	<file src="public/images/61.png" />
+	<file src="public/images/62.png" />
+	<file src="public/images/63.png" />
+	<file src="public/images/64.png" />
+	<file src="public/images/65.png" />
+	<file src="public/images/66.png" />
+	<file src="public/images/67.png" />
+	<file src="public/images/68.png" />
+	<file src="public/images/69.png" />
+	<file src="public/images/70.png" />
+	<file src="public/images/71.png" />
+	<file src="public/images/72.png" />
+	<file src="public/images/73.png" />
+	<file src="public/images/74.png" />
+	<file src="public/images/75.png" />
+	<file src="public/images/76.png" />
+	<file src="public/images/77.png" />
+	<file src="public/images/78.png" />
+	<file src="public/images/79.png" />
+	<file src="public/images/80.png" />
+    
+	<file src="public/shaders/texreplace.fx" />
+</meta>

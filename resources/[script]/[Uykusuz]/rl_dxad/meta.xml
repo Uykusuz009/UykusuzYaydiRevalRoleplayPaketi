@@ -1,0 +1,10 @@
+<meta>
+	<min_mta_version client="1.5.9" server="1.5.9" />
+	<script src="c_txad.lua" type="client" cache="false" />
+	<script src="dxlogc.lua" type="client" cache="false" />
+	<script src="watchc.lua" type="client" cache="false" />
+	<script src="s_txad.lua" type="server" />
+	<script src="watchs.lua" type="server" />
+	<script src="dxlogs.lua" type="server" />
+	<depend>cr_ui</depend>
+</meta>

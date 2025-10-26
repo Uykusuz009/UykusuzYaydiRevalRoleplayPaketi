@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<meta>
+<oop>true</oop>
+<script src="ayar.lua" type="shared" />
+<script src="kap.lua" type="server" />
+<script src="lastik.lua" type="server" />
+<script src="kaporta.lua" type="server" />
+<script src="sat.lua" type="server" />
+<script src="arac.lua" type="server" />
+<script src="client1.lua" type="client" cache="false" />
+<file src="drill.mp3" />
+</meta>

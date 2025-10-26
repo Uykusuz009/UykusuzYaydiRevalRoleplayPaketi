@@ -1,0 +1,23 @@
+<meta>
+    <script src="___generated___/bundle.lua" type="shared" cache="false" />
+    <script src="___generated___/checker.lua" type="client" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+
+    <script src="shared.lua" type="shared" cache="false" />
+    <script src="server.lua" type="server" />
+	
+    <script src="client/main.lua" type="client" cache="false" />
+    <script src="client/views/render.lua" type="client" cache="false" />
+    
+    <export function="getPlayerSetting" type="server" />
+    <export function="setPlayerSetting" type="server" />
+    <export function="getPlayerSettings" type="server" />
+    <export function="setPlayerSettings" type="server" />
+    <export function="getAllPlayersSettings" type="server" />
+	
+    <export function="initializeSettings" type="client" />
+    <export function="saveSettings" type="client" />
+    <export function="getPlayerSetting" type="client" />
+    <export function="setPlayerSetting" type="client" />
+</meta>

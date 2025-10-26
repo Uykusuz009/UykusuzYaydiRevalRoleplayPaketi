@@ -1,0 +1,61 @@
+<meta>
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+    <oop>true</oop>
+	<download_priority_group>998</download_priority_group>
+
+    <script src="client.lua" type="client" cache="false" />
+    
+    <file src="public/fonts/Bebas.ttf" />
+    <file src="public/fonts/BebasNeueBold.otf" />
+    <file src="public/fonts/BebasNeueLight.otf" />
+    <file src="public/fonts/BebasNeueRegular.otf" />
+    
+    <file src="public/fonts/license.ttf" />
+    <file src="public/fonts/Pricedown.ttf" />
+    <file src="public/fonts/Bankgothic.ttf" />
+    <file src="public/fonts/SignPainter.ttf" />
+    <file src="public/fonts/SweetSixteen.ttf" />
+    
+    <file src="public/fonts/Roboto-Medium.ttf" />
+    <file src="public/fonts/Roboto-Bold.ttf" />
+    <file src="public/fonts/Roboto-Black.ttf" />
+    <file src="public/fonts/Roboto-Regular.ttf" />
+    <file src="public/fonts/Roboto-Light-Italic.ttf" />
+    <file src="public/fonts/Roboto-Light.ttf" />
+    
+    <file src="public/fonts/in-bold.ttf" />
+    <file src="public/fonts/in-elight.ttf" />
+    <file src="public/fonts/in-elightitalic.ttf" />
+    <file src="public/fonts/in-italic.ttf" />
+    <file src="public/fonts/in-light.ttf" />
+    <file src="public/fonts/in-lightitalic.ttf" />
+    <file src="public/fonts/in-regular.ttf" />
+    <file src="public/fonts/in-thin.ttf" />
+    <file src="public/fonts/in-thinitalic.ttf" />
+    <file src="public/fonts/in-medium.ttf" />
+    
+    <file src="public/fonts/sf-bold.ttf" />
+    <file src="public/fonts/sf-bolditalic.ttf" />
+    <file src="public/fonts/sf-heavy.ttf" />
+    <file src="public/fonts/sf-heavyitalic.ttf" />
+    <file src="public/fonts/sf-italic.ttf" />
+    <file src="public/fonts/sf-light.ttf" />
+    <file src="public/fonts/sf-lightitalic.ttf" />
+    <file src="public/fonts/sf-medium.ttf" />
+    <file src="public/fonts/sf-mediumitalic.ttf" />
+    <file src="public/fonts/sf-regular.ttf" />
+    <file src="public/fonts/sf-semibold.ttf" />
+    <file src="public/fonts/sf-semibolditalic.ttf" />
+    
+    <file src="public/fonts/FontAwesome.ttf" />
+    <file src="public/fonts/FontAwesomeBrand.ttf" />
+    <file src="public/fonts/FontAwesomeRegular.otf" />
+    
+    <file src="public/fonts/UbuntuBold.ttf" />
+    <file src="public/fonts/UbuntuLight.ttf" />
+    <file src="public/fonts/UbuntuRegular.ttf" />
+
+    <file src="public/fonts/URW DIN Arabic Bold.ttf" />
+    
+    <export function="getFont" type="client" />
+</meta>

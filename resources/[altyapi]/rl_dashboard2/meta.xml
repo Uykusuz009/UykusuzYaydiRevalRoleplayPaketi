@@ -1,0 +1,29 @@
+<meta>
+	<oop>true</oop>
+	<script src = "roundedRect.lua" type = "client" cache = "false" />
+	<script src = "client.lua" type = "client" cache = "false" />
+	<script src = "client2.lua" type = "client" cache = "false" />
+
+	<script src = "server.lua" type = "server" />
+	
+	<file src = "assets/character.png" />
+	<file src = "assets/esc.png" />
+	<file src = "assets/faction.png" />
+	<file src = "assets/gamepass.png" />
+	<file src = "assets/market.png" />
+	<file src = "assets/mouse.png" />
+	<file src = "assets/pass.png" />
+	<file src = "assets/profile.png" />
+	<file src = "assets/ramoarka.png" />
+	<file src = "assets/report.png" />
+	<file src = "assets/settings.png" />
+	<file src = "assets/siyah.png" />
+	<file src = "assets/starisbg.png" />
+	<file src = "assets/tab.png" />
+	<file src = "assets/yesilalt.png" />
+
+	<file src = "dosyalar/dollar.png" />
+	<file src = "dosyalar/dollar2.png" />
+	<file src = "dosyalar/esc.png" />
+	<file src = "dosyalar/siyah.png" />
+</meta>

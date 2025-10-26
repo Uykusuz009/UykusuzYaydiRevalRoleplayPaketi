@@ -1,0 +1,8 @@
+<meta>
+	<info author="Kaisen" version="0.1" type="script" name="Çiçek" />
+	<oop>true</oop>
+	<script src="s-file.lua" type="server"/>
+	<script src="c-file.lua" type="client" cache="false"/>
+	<script src="roundedRect.lua" type="client" cache="false"/>
+	<file src="fonts.ttf"/>
+</meta>

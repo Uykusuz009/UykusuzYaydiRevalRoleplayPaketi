@@ -1,0 +1,4 @@
+<meta>
+	<info author="Kaisen" version="1.0" type="script" name="Damageproof vehicles" description="Ehehehehe" />
+	<script src="srv.lua" type="server" />
+</meta>
